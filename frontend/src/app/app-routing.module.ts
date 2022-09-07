@@ -5,7 +5,7 @@ import { PublicModule } from './public/public.module';
 import { PublicComponent } from './public/public/public.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'public', pathMatch: 'full'}
+  {path: '', redirectTo: 'public/home', pathMatch: 'full'}
 ];
 
 @NgModule({
