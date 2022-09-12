@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
   {path: 'public', component: PublicComponent , children: [
+    {path: 'home', component: HomepageComponent},
+    {path: 'nav', component: NavbarComponent}
   ]}
 ];
 
