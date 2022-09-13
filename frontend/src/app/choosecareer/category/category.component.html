@@ -3,9 +3,10 @@
       class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
       <div
         class="card card-compact w-96 bg-base-100 shadow-xl sh"
-        *ngFor="let item of hold"
+        *ngFor="let item of hold; let x = index"
+        (click)="sendId(x)"
       >
-        <div class="flex justify-center">
+        <div class="flex justify-center" >
             <div class="names">
               {{ item.name }}
             </div>
