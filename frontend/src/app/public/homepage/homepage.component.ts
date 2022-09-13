@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RoutingService } from 'src/app/services/routing.service';
 
 @Component({
   selector: 'app-homepage',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  constructor(public routing: RoutingService) { }
 
   ngOnInit(): void {
+    this.routing.home = 'active';
+    this.routing.search = '';
+    this.routing.category = '';
   }
+
 
 }

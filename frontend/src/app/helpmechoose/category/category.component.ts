@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoryService } from 'src/app/services/category.service';
 import { GetcategoryService } from 'src/app/services/getcategory.service';
+import { RoutingService } from 'src/app/services/routing.service';
 
 @Component({
   selector: 'app-category',
@@ -8,25 +9,21 @@ import { GetcategoryService } from 'src/app/services/getcategory.service';
   styleUrls: ['./category.component.scss']
 })
 export class CategoryComponent implements OnInit {
+  public category$!: Observable<Category[]>;
 
   constructor(private getCategory: GetcategoryService,public category: CategoryService) { }
 
-  hold: any;
+  constructor(private getCategory: GetcategoryService, public routing: RoutingService) { }
+
+ 
 
 
   ngOnInit(): void {
-    this.category.browse = ''
-    
-    this.getCategory.getCategory().subscribe(
-      {
-        next:(data: any)=>{
-          console.log(data);
-          this.hold = data;
-        }
+    this.category$ = this.getCategory.getCategory();
 
-        
-      }
-    );
+    this.routing.category = 'active';
+    this.routing.home = '';
+    this.routing.search = '';
   }
 
 }
