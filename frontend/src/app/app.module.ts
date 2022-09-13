@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { ChoosecareerModule } from './choosecareer/choosecareer.module';
 import { HelpmechooseModule } from './helpmechoose/helpmechoose.module';
 import { PublicModule } from './public/public.module';
+import {HttpClientModule } from '@angular/common/http'
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HelpmechooseModule,
     ChoosecareerModule,
-    PublicModule
+    PublicModule,
+    HttpClientModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
