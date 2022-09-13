@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Category } from 'src/app/model/category';
 import { GetcategoryService } from 'src/app/services/getcategory.service';
 
 @Component({
@@ -7,23 +9,16 @@ import { GetcategoryService } from 'src/app/services/getcategory.service';
   styleUrls: ['./category.component.scss']
 })
 export class CategoryComponent implements OnInit {
+  public category$!: Observable<Category[]>;
+
 
   constructor(private getCategory: GetcategoryService) { }
 
-  hold: any;
+ 
 
 
   ngOnInit(): void {
-    this.getCategory.getCategory().subscribe(
-      {
-        next:(data: any)=>{
-          console.log(data);
-          this.hold = data;
-        }
-
-        
-      }
-    );
+    this.category$ = this.getCategory.getCategory();
   }
 
 }
