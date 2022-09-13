@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GetcareerService } from 'src/app/services/getcareer.service';
 
 @Component({
   selector: 'app-career',
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CareerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private getcareer: GetcareerService) { }
+
+  hold: any;
+  categoryId: any;
 
   ngOnInit(): void {
+
+    this.categoryId = localStorage.getItem('careercategoryid')
+    // this.categoryId = '1'
+
+    this.getcareer.getcareerpath(this.categoryId).subscribe(
+      {
+        next:(data: any) =>{
+          console.log(data);
+          this.hold = data;
+        }
+      }
+    )
   }
 
 }

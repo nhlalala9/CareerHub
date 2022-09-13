@@ -7,7 +7,6 @@ import { CategoryComponent } from './category/category.component';
 import { CareerComponent } from './career/career.component';
 import { SummaryComponent } from './summary/summary.component';
 import { RequirementsComponent } from './requirements/requirements.component';
-import { summaryFileName } from '@angular/compiler/src/aot/util';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
