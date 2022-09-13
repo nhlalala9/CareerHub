@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CategoryService } from 'src/app/services/category.service';
 
 @Component({
   selector: 'app-category',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryComponent implements OnInit {
 
-  constructor() { }
+  constructor(private category: CategoryService) { }
+
+  hold: any;
 
   ngOnInit(): void {
+
+    this.category.browse = "Browse Category",
+
+   this.category.category().subscribe(
+     {
+     next:(data: any)=>{
+       console.log(data);
+       this.hold = data;
+     }
+   })
   }
 
 }

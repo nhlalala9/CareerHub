@@ -7,7 +7,7 @@ import { CategoryComponent } from './category/category.component';
 import { CareerComponent } from './career/career.component';
 import { SummaryComponent } from './summary/summary.component';
 import { RequirementsComponent } from './requirements/requirements.component';
-import { summaryFileName } from '@angular/compiler/src/aot/util';
+import { SharedModule } from '../shared/shared.module';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
@@ -29,7 +29,7 @@ const routes: Routes = [
     RequirementsComponent
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes)
+    CommonModule, RouterModule.forChild(routes), SharedModule
   ]
 })
 export class ChoosecareerModule { }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CategoryService } from 'src/app/services/category.service';
 import { GetcategoryService } from 'src/app/services/getcategory.service';
 
 @Component({
@@ -8,12 +9,14 @@ import { GetcategoryService } from 'src/app/services/getcategory.service';
 })
 export class CategoryComponent implements OnInit {
 
-  constructor(private getCategory: GetcategoryService) { }
+  constructor(private getCategory: GetcategoryService,public category: CategoryService) { }
 
   hold: any;
 
 
   ngOnInit(): void {
+    this.category.browse = ''
+    
     this.getCategory.getCategory().subscribe(
       {
         next:(data: any)=>{

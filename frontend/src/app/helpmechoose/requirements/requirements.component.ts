@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CategoryService } from 'src/app/services/category.service';
 
 @Component({
   selector: 'app-requirements',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RequirementsComponent implements OnInit {
 
-  constructor() { }
+  constructor(public category: CategoryService) { }
 
   ngOnInit(): void {
+    this.category.browse = ''
   }
 
 }
