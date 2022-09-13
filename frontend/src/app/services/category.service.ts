@@ -7,9 +7,8 @@ import { HttpClient } from '@angular/common/http';
 export class CategoryService {
 
   constructor(private http: HttpClient) { }
-
   browse = '';
-  
+
   category(){
     return this.http.get(` http://localhost:3000/careercategory`);
   }
