@@ -9,4 +9,6 @@ export class RoutingService {
   search = '';
   home = '';
   category = '';
+
+  dynamic = '';
 }

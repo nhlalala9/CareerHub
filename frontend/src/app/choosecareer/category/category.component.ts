@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoryService } from 'src/app/services/category.service';
+import { RoutingService } from 'src/app/services/routing.service';
 
 @Component({
   selector: 'app-category',
@@ -8,7 +9,7 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class CategoryComponent implements OnInit {
 
-  constructor(private category: CategoryService) { }
+  constructor(private category: CategoryService, public routing: RoutingService) { }
 
   hold: any;
 
@@ -23,5 +24,14 @@ export class CategoryComponent implements OnInit {
        this.hold = data;
      }
    })
+
+   this.routing.category = 'active';
+    this.routing.home = '';
+    this.routing.search = '';
+
+
+   this.routing.dynamic = 'choose'
   }
+
+
 }
