@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HelpmechooseComponent } from './helpmechoose/helpmechoose.component';
 import { CategoryComponent } from './category/category.component';
@@ -9,7 +9,8 @@ import { SuggestionComponent } from './suggestion/suggestion.component';
 import { SummaryComponent } from './summary/summary.component';
 import { RequirementsComponent } from './requirements/requirements.component';
 import { RouterModule, Routes } from '@angular/router';
-import { SearchComponent } from '../choosecareer/search/search.component';
+import { SharedModule } from '../shared/shared.module';
+import { TopnavComponent } from '../shared/topnav/topnav.component';
 
 const routes: Routes = [
   {path: 'help', component: HelpmechooseComponent, children:[
@@ -17,7 +18,7 @@ const routes: Routes = [
     {path: 'category', component: CategoryComponent},
     {path: 'requirements', component: RequirementsComponent},
     {path: 'summary', component: SummaryComponent},
-    {path: 'suggestion', component: SuggestionComponent}
+    {path: 'suggestion', component: SuggestionComponent},
   ]}
 ]
 
@@ -30,10 +31,13 @@ const routes: Routes = [
     SingleComponent,
     SuggestionComponent,
     SummaryComponent,
-    RequirementsComponent
+    RequirementsComponent,
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes)
+    CommonModule, 
+    RouterModule.forChild(routes),
+    SharedModule,
+  
   ]
 })
 export class HelpmechooseModule { }
