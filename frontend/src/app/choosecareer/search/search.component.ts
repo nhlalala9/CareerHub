@@ -15,6 +15,9 @@ export class SearchComponent implements OnInit {
     this.routing.search = 'active';
     this.routing.home = '';
     this.routing.category = '';
+
+    this.routing.dynamic = 'choose'
+
   }
 
 

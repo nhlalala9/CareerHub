@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CategoryService } from 'src/app/services/category.service';
+import { RoutingService } from 'src/app/services/routing.service';
 
 @Component({
   selector: 'app-category',
@@ -8,7 +9,8 @@ import { CategoryService } from 'src/app/services/category.service';
   styleUrls: ['./category.component.scss'],
 })
 export class CategoryComponent implements OnInit {
-  constructor(private category: CategoryService, private route: Router) {}
+
+  constructor(private category: CategoryService, public routing: RoutingService) { }
 
   hold: any;
 
@@ -33,6 +35,21 @@ export class CategoryComponent implements OnInit {
   sendId(num: any) {
    localStorage.setItem('careercategoryid', this.hold[num].id);
 
-    this.route.navigate(['/choose/career']);
+   this.category.category().subscribe(
+     {
+     next:(data: any)=>{
+       console.log(data);
+       this.hold = data;
+     }
+   })
+
+   this.routing.category = 'active';
+    this.routing.home = '';
+    this.routing.search = '';
+
+
+   this.routing.dynamic = 'choose'
   }
+
+
 }

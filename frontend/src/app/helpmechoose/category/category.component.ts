@@ -25,6 +25,8 @@ export class CategoryComponent implements OnInit {
     this.routing.category = 'active';
     this.routing.home = '';
     this.routing.search = '';
+
+    this.routing.dynamic = 'help'
   }
 
 }
