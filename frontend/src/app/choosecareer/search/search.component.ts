@@ -1,3 +1,4 @@
+import { RoutingService } from './../../services/routing.service';
 import { Component, OnInit } from '@angular/core';
 import { CategoryService } from 'src/app/services/category.service';
 
@@ -8,10 +9,13 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class SearchComponent implements OnInit {
 
-  constructor(public category: CategoryService) { }
+  constructor(public routing: RoutingService) { }
 
   ngOnInit(): void {
-    this.category.browse = ''
+    this.routing.search = 'active';
+    this.routing.home = '';
+    this.routing.category = '';
   }
+
 
 }
