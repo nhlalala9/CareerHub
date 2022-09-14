@@ -13,6 +13,7 @@ import { RoutingService } from 'src/app/services/routing.service';
 export class CategoryComponent implements OnInit {
   public category$!: Observable<Category[]>;
 
+
   constructor(private getCategory: GetcategoryService, public routing: RoutingService) { }
 
  
