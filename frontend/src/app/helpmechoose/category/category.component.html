@@ -1,5 +1,33 @@
-<h3>WOULD YOU LIKE TO WORK WITH:</h3>
+<h3 class="flex justify-center font-bold">WOULD YOU LIKE TO WORK WITH:</h3>
+
+<ng-container *ngIf="category$ else loading">
+  <div class="flex justify-center container mx-auto push">
+    <div
+      class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
+    >
+      <div
+        class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh"
+        *ngFor="let item of category$ | async"
+      >
+        <figure>
+          <img [src]="item.image" alt="Shoes" />
+        </figure>
+        <button class="btn btn-primary b">{{item.name}}</button>
+      </div>
+    </div>
+  </div>
+</ng-container>
+
+<ng-template #loading>
+  <div class="hero min-h-screen bg-base-200">
+    <div class="hero-content text-center">
+      <div class="max-w-sm">
+        <progress class="progress w-96"></progress>
+      </div>
+    </div>
+  </div>
+</ng-template>
 
 <app-topnav></app-topnav>
-   
+
 <app-navbar></app-navbar>
