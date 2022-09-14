@@ -30,7 +30,7 @@ export class CategoryComponent implements OnInit {
   }
 
   send(id: any){
-    console.log(id)
+    localStorage.setItem('categoryId', id);
   }
 
 }
