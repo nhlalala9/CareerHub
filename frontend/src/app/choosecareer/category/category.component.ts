@@ -34,14 +34,8 @@ export class CategoryComponent implements OnInit {
 
   sendId(num: any) {
    localStorage.setItem('careercategoryid', this.hold[num].id);
-
-   this.category.category().subscribe(
-     {
-     next:(data: any)=>{
-       console.log(data);
-       this.hold = data;
-     }
-   })
+    localStorage.setItem('categoryname',this.hold[num].name);
+   
 
    this.routing.category = 'active';
     this.routing.home = '';
