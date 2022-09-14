@@ -9,12 +9,19 @@ import { RoutingService } from 'src/app/services/routing.service';
   styleUrls: ['./category.component.scss'],
 })
 export class CategoryComponent implements OnInit {
-
-  constructor(private category: CategoryService, public routing: RoutingService) { }
+  constructor(
+    private category: CategoryService,
+    public routing: RoutingService,
+    private route: Router
+  ) {}
 
   hold: any;
 
   ngOnInit(): void {
+    this.routing.category = 'active';
+    this.routing.home = '';
+    this.routing.search = '';
+
     (this.category.browse = 'Browse Category'),
       this.category.category().subscribe({
         next: (data: any) => {
@@ -24,26 +31,11 @@ export class CategoryComponent implements OnInit {
       });
   }
 
-
-
-
-
-
-
-
-
   sendId(num: any) {
-   localStorage.setItem('careercategoryid', this.hold[num].id);
-    localStorage.setItem('categoryname',this.hold[num].name);
-   
+    localStorage.setItem('careercategoryid', this.hold[num].id);
+    localStorage.setItem('categoryname', this.hold[num].name);
 
-   this.routing.category = 'active';
-    this.routing.home = '';
-    this.routing.search = '';
-
-
-   this.routing.dynamic = 'choose'
+    this.routing.dynamic = 'choose';
+    this.route.navigate([`/choose/career`]);
   }
-
-
 }
