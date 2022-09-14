@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CategoryService } from 'src/app/services/category.service';
-import { RoutingService } from 'src/app/services/routing.service';
+import { SummaryService } from 'src/app/services/summary.service';
 
 @Component({
   selector: 'app-summary',
@@ -9,12 +8,29 @@ import { RoutingService } from 'src/app/services/routing.service';
 })
 export class SummaryComponent implements OnInit {
 
-  constructor(public category: CategoryService, public routing: RoutingService) { }
+  constructor(private summary:SummaryService) { }
+
+  //declaring 
+  hold:any;
+  image: any;
+  careerpathName:any;
 
   ngOnInit(): void {
-    this.category.browse = ''
-    this.routing.dynamic = 'choose'
+   this.careerpathName=localStorage.getItem('careername');
 
+    this.summary.summary(localStorage.getItem('careerpathid')).subscribe({
+      next:(data:any)=>{
+        console.log(data);
+        this.hold =  data;
+      }
+    })
+
+    this.summary.salary(localStorage.getItem('careerpathid')).subscribe({
+      next:(data:any)=>{
+        console.log(data);
+        this.image =  data;
+      }
+    })
   }
 
 }
