@@ -337,6 +337,10 @@
       "id": 14,
       "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858411993088140/unknown.png",
       "careerpathid": 10
+    },{
+      "id": 15,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1663148073/network%20engineer/Screenshot_2022-09-14_at_11.33.55_wth2d8.png",
+      "careerpathid": 8
     }
   ],
 
@@ -649,6 +653,9 @@
     }
 
 
+    
+
+
     ,
     {
       "id": 47,
@@ -673,6 +680,33 @@
       "description": "All in all business analyst is a middlepoint of customers and developers.",
       "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981446/business%20analyst/business_middlepoint_x4dt2f.jpg",
       "careerpathid": 10
+    }
+
+
+    ,
+    {
+      "id": 51,
+      "description": "Designing and implementing new network solutions and/or improving the efficiency of current networks.",
+      "image": "https://4sight.group/wp-content/uploads/2021/09/network-engineering.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 52,
+      "description": "Installing, configuring and supporting network equipment including routers, proxy servers, switches, WAN accelerators, DNS and DHCP.",
+      "image": "https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/resources/4afb0436-a998-11e9-81a4-00505692583a/images/32edc47f369e4f18beec1dc0e001a7b5_Opt-Bandwidth.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 53,
+      "description": "Arranging scheduled upgrades",
+      "image": "https://marketscale.com/wp-content/uploads/2021/04/shutterstock_1076953793.jpg",
+      "careerpathid": 8
+    },
+    {
+      "id": 53,
+      "description": "Investigating faults in the network",
+      "image": "https://www.splunk.com/content/dam/splunk2/images/data-insider/what-is-network-monitoring/network-monitoring-diagram.jpg",
+      "careerpathid": 8
     }
   ]
 }
