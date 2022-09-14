@@ -1,13 +1,14 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class RoutingService {
+  constructor() {}
 
-  constructor() { }
+  search = '';
+  home = '';
+  category = '';
 
-  search = ''
-  home = ''
-  category = ''
+  dynamic = '';
 }

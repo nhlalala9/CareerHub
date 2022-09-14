@@ -10,8 +10,6 @@ export class NavbarComponent implements OnInit {
 
   constructor(public routing: RoutingService) { }
 
-  active: string = "active";
-
   ngOnInit(): void {
 
   }
