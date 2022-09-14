@@ -1,18 +1,18 @@
+
+<div class="flex justify-center">
+  <div class="headernames">
+    <p>Career Paths in</p>
+    <p>{{categoryName}}</p>
+  </div>
+</div>
 <div class="flex justify-center container mx-auto push">
     <div class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
-
-        <div class="flex justify-center">
-                <div class="names">
-                  <p>Career Paths in</p>
-                  <p>{{categoryName}}</p>
-                </div>
-        </div>
 
       <div class="card card-compact w-96 bg-base-100 shadow-xl sh"
         *ngFor="let item of hold; let x = index" (click)="sendcareer(x)">
         <div class="flex justify-center">
             <div class="names">
-              {{ item.name }}
+              {{item.name}}
             </div>
          
         </div>
@@ -32,3 +32,5 @@
       </div>
     </ng-template>
   </div>
+  <app-topnav></app-topnav>
+  <app-navbar></app-navbar>

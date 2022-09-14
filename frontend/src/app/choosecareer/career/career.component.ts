@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { GetcareerService } from 'src/app/services/getcareer.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { GetcareerService } from 'src/app/services/getcareer.service';
 })
 export class CareerComponent implements OnInit {
 
-  constructor(private getcareer: GetcareerService) { }
+  constructor(private getcareer: GetcareerService, private route: Router) { }
 
   hold: any;
   categoryId: any;
@@ -32,6 +33,7 @@ export class CareerComponent implements OnInit {
   sendcareer(index: any){
     localStorage.setItem('careerpathid', this.hold[index].id);
     localStorage.setItem('careername', this.hold[index].name);
+    this.route.navigate(['/choose/summary'])
   }
 
 }
