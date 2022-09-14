@@ -180,9 +180,17 @@
       "isoutdoor": false,
       "careercategoryid": 1
     },
+    {
+      "id": 25,
+      "name": "User Experience (UX) Designer",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/004/580/539/small_2x/ui-ux-programmer-flat-design-illustration-vector.jpg",
+      "isoutdoor": false,
+      "careercategoryid": 1
+    },
 
 
 
+    
 
     {
       "id": 15,
