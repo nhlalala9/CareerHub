@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ChoosecareerComponent } from './choosecareer/choosecareer.component';
@@ -28,7 +29,7 @@ const routes: Routes = [
     RequirementsComponent
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes)
+    CommonModule, RouterModule.forChild(routes), SharedModule
   ]
 })
 export class ChoosecareerModule { }
