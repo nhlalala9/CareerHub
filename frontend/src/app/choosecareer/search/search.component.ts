@@ -9,12 +9,13 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class SearchComponent implements OnInit {
 
-  constructor(public routing: RoutingService) { }
+  constructor(public routing: RoutingService, private category: CategoryService) { }
 
   ngOnInit(): void {
     this.routing.search = 'active';
     this.routing.home = '';
     this.routing.category = '';
+    this.category.browse = '';
 
     this.routing.dynamic = 'choose'
 
