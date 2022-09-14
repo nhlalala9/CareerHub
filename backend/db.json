@@ -345,6 +345,15 @@
       "id": 14,
       "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858411993088140/unknown.png",
       "careerpathid": 10
+    },{
+      "id": 15,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1663148073/network%20engineer/Screenshot_2022-09-14_at_11.33.55_wth2d8.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 16,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1663151696/cloud%20engineer/Screenshot_2022-09-14_at_12.33.50_boiaxg.png",
+      "careerpathid": 9
     }
   ],
 
@@ -657,6 +666,9 @@
     }
 
 
+    
+
+
     ,
     {
       "id": 47,
@@ -682,5 +694,56 @@
       "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981446/business%20analyst/business_middlepoint_x4dt2f.jpg",
       "careerpathid": 10
     }
+
+
+    ,
+    {
+      "id": 51,
+      "description": "Designing and implementing new network solutions and/or improving the efficiency of current networks.",
+      "image": "https://4sight.group/wp-content/uploads/2021/09/network-engineering.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 52,
+      "description": "Installing, configuring and supporting network equipment including routers, proxy servers, switches, WAN accelerators, DNS and DHCP.",
+      "image": "https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/resources/4afb0436-a998-11e9-81a4-00505692583a/images/32edc47f369e4f18beec1dc0e001a7b5_Opt-Bandwidth.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 53,
+      "description": "Arranging scheduled upgrades",
+      "image": "https://marketscale.com/wp-content/uploads/2021/04/shutterstock_1076953793.jpg",
+      "careerpathid": 8
+    },
+    {
+      "id": 53,
+      "description": "Investigating faults in the network",
+      "image": "https://www.splunk.com/content/dam/splunk2/images/data-insider/what-is-network-monitoring/network-monitoring-diagram.jpg",
+      "careerpathid": 8
+    }
+
+
+
+    ,
+    {
+      "id": 54,
+      "description": "Collaborating with engineering and development teams to evaluate and identify optimal cloud solutions.",
+      "image": "https://content.waterbear.cloud/wp-content/uploads/image/png/crop-0-0-625-625-0-cloud-team.png",
+      "careerpathid": 9
+    },
+    {
+      "id": 55,
+      "description": "Modifying and improving existing systems.",
+      "image": "https://lh5.googleusercontent.com/wZymo9NpgmNC9HaFY12OZQiAkaPIOXgZLUxcBNZ_B4aHcEqWyVzNQ5Tabw_qd_gSL6DR_IYbCDkGGPLHg38ydL6K2JAKwJmzaEKaZIoPzKOXXJAYPqqb34fJH8XZrMEyeIwZrSoh",
+      "careerpathid": 9
+    },
+    {
+      "id": 56,
+      "description": "Identifying, analyzing, and resolving infrastructure vulnerabilities and application deployment issues.",
+      "image": "https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/03/vulnerability-assessment.png",
+      "careerpathid": 9
+    }
+
+    
   ]
 }
