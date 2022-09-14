@@ -7,7 +7,6 @@ import { CategoryComponent } from './category/category.component';
 import { CareerComponent } from './career/career.component';
 import { SummaryComponent } from './summary/summary.component';
 import { RequirementsComponent } from './requirements/requirements.component';
-import { SharedModule } from '../shared/shared.module';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
