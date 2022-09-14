@@ -29,4 +29,8 @@ export class CategoryComponent implements OnInit {
     this.routing.dynamic = 'help'
   }
 
+  send(id: any){
+    localStorage.setItem('categoryId', id);
+  }
+
 }
