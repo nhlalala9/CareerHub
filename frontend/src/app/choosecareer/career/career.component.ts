@@ -19,8 +19,6 @@ export class CareerComponent implements OnInit {
     this.categoryId = localStorage.getItem('careercategoryid');
     this.categoryName = localStorage.getItem('categoryname');
 
-    // this.categoryId = '1'
-
     this.getcareer.getcareerpath(this.categoryId).subscribe(
       {
         next:(data: any) =>{
@@ -29,6 +27,11 @@ export class CareerComponent implements OnInit {
         }
       }
     )
+  }
+
+  sendcareer(index: any){
+    localStorage.setItem('careerpathid', this.hold[index].id);
+    localStorage.setItem('careername', this.hold[index].name);
   }
 
 }
