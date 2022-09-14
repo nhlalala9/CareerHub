@@ -5,6 +5,8 @@
 
 img{
     border-radius: 10px 10px 10px 10px;
+    height: 250px !important;
+    width: 100% !important;
 }
 
 .sh{
@@ -24,8 +26,17 @@ img{
 .headernames{
     border: 2px solid #000;
     border-radius: 5px;
-    padding-left: 60px;
-    padding-right:60px;
+    padding: 30px;
     margin: 10px;
     margin-top: 70px;
+    display: flex;
+}
+
+.small{
+    max-width: 100% !important;
+}
+
+.move{
+    margin-top: 60px;
+    max-width: 100% !important;
 }
