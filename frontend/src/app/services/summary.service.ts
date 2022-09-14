@@ -8,7 +8,11 @@ export class SummaryService {
 
   constructor(private http:HttpClient) { }
 
-  summary(){
-    return this.http.get(`http://localhost:3000/summary`)
+  summary(careerpathId:any ){
+    return this.http.get(`http://localhost:3000/summary?careerpathid=${careerpathId}`)
+  }
+
+  salary(careerpathId:any){
+    return this.http.get(`http://localhost:3000/Salaryimage?careerpathid=${careerpathId}`)
   }
 }

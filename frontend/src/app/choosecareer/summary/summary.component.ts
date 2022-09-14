@@ -10,13 +10,25 @@ export class SummaryComponent implements OnInit {
 
   constructor(private summary:SummaryService) { }
 
+  //declaring 
   hold:any;
+  image: any;
+  careerpathName:any;
 
   ngOnInit(): void {
-    this.summary.summary().subscribe({
+   this.careerpathName=localStorage.getItem('careername');
+
+    this.summary.summary(localStorage.getItem('careerpathid')).subscribe({
       next:(data:any)=>{
         console.log(data);
         this.hold =  data;
+      }
+    })
+
+    this.summary.salary(localStorage.getItem('careerpathid')).subscribe({
+      next:(data:any)=>{
+        console.log(data);
+        this.image =  data;
       }
     })
   }

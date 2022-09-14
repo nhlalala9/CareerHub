@@ -1,15 +1,14 @@
 <!-- average salary code html -->
 <div class="flex justify-center container mx-auto push">
-    <div class="card card-compact w-96 bg-base-100 shadow-xl sh">
+    <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of image">
         <div class="flex justify-center">
             <div class="names">
                 AVERAGE SALARY
-
             </div>
 
         </div>
         <figure>
-            <img src="https://cdn.discordapp.com/attachments/988343560166338571/1018881629218930720/Screenshot_2022-09-12_at_15.49.43.png"
+            <img [src]="item.image"
                 alt="Shoes" />
         </figure>
     </div>
@@ -17,7 +16,7 @@
 <!-- heading of summary -->
 <div class="flex justify-center">
     <div class="font-bold named">
-        SUMMARY OF ART DESIGNER
+        SUMMARY OF {{careerpathName}}
     </div>
 </div>
 <!--end of summary heading-->
@@ -26,16 +25,16 @@
 <!-- card for description  -->
 
 <div class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
-    <div class="card card-compact w-96 bg-base-100 shadow-xl sh">
+    <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of hold">
         <div class="flex justify-center">
             <div class="names">
-                description
+                {{item.description}}
 
             </div>
 
         </div>
         <figure>
-            <img src="https://cdn.discordapp.com/attachments/988343560166338571/1018879298779762758/Screenshot_2022-09-12_at_15.42.02.png"
+            <img [src]="item.image"
                 alt="Shoes" />
         </figure>
     </div>
