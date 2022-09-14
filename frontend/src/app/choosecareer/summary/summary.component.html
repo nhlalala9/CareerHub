@@ -8,43 +8,43 @@
 
         </div>
         <figure>
-            <img [src]="item.image"
-                alt="Shoes" />
+            <img [src]="item.image" alt="Shoes" />
         </figure>
     </div>
 </div>
 <!-- heading of summary -->
 <div class="flex justify-center">
     <div class="font-bold named">
-        SUMMARY OF {{careerpathName}}
+        SUMMARY OF {{careerpathName | uppercase}} 
+        
     </div>
 </div>
 <!--end of summary heading-->
 
 
 <!-- card for description  -->
-
-<div class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
-    <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of hold">
-        <div class="flex justify-center">
-            <div class="names">
-                {{item.description}}
+<div class="flex justify-center container mx-auto pushed">
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
+        <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of hold">
+            <div class="flex justify-center">
+                <div class="names">
+                    {{item.description}}
+                </div>
 
             </div>
-
+            <figure>
+                <img [src]="item.image" class="img" alt="Shoes" />
+            </figure>
         </div>
-        <figure>
-            <img [src]="item.image"
-                alt="Shoes" />
-        </figure>
+
+
+
     </div>
-
-
-    <app-navbar></app-navbar>
-    <app-topnav></app-topnav>
 </div>
-
 <!-- button for requirements -->
 <div class="sep">
     <button class="btn btn-primary shadow-xl buttons">Requirements</button>
 </div>
+
+<app-navbar></app-navbar>
+<app-topnav></app-topnav>
