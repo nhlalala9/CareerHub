@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { RoutingService } from 'src/app/services/routing.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,11 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
-
-  active: string = "active";
+  constructor(public routing: RoutingService) { }
 
   ngOnInit(): void {
+
   }
 
 }
