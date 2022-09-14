@@ -12,10 +12,13 @@ export class CareerComponent implements OnInit {
 
   hold: any;
   categoryId: any;
+  categoryName: any;
 
   ngOnInit(): void {
 
-    this.categoryId = localStorage.getItem('careercategoryid')
+    this.categoryId = localStorage.getItem('careercategoryid');
+    this.categoryName = localStorage.getItem('categoryname');
+
     // this.categoryId = '1'
 
     this.getcareer.getcareerpath(this.categoryId).subscribe(
