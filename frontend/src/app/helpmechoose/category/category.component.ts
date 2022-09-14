@@ -29,4 +29,8 @@ export class CategoryComponent implements OnInit {
     this.routing.dynamic = 'help'
   }
 
+  send(id: any){
+    console.log(id)
+  }
+
 }
