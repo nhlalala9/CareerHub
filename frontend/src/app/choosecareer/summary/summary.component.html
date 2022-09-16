@@ -1,5 +1,5 @@
 <!-- average salary code html -->
-<ng-container *ngIf="hold.length != 0; else loading">
+<ng-container *ngIf="hold.length != 0; else loading">  
   <div class="flex justify-center container mx-auto push">
     <div
       class="card card-compact w-96 bg-base-100 shadow-xl sh"
@@ -57,7 +57,7 @@
         <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of hold">
             <div class="flex justify-center">
                 <div class="names">
-                    {{item.description}}
+                    {{item.description}} 
                 </div>
 
             </div>
@@ -73,7 +73,7 @@
     <button class="btn btn-primary shadow-xl buttons">Requirements</button>
   </div>
 </ng-container>
-
+<!-- for loading when there is nothing -->
 <ng-template #loading>
   <div class="max-w-lg move">
     <progress class="progress w-96 justify-center small"></progress>
