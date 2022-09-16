@@ -5,13 +5,13 @@
       <div
         class="card card-compact w-96 bg-base-100 shadow-xl sh"
         *ngFor="let item of hold; let x = index"
-        (click)="sendId(x)"
+        routerLink="/choose/career/{{item.id}}/{{item.name}}"
       >
         <div class="flex justify-center" >
             <div class="flex justify-center names">
               {{ item.name }}
             </div>
-         
+
         </div>
         <figure>
           <img [src]="item.image" alt="Shoes" />
@@ -20,7 +20,7 @@
     </div>
 
 
-  
+
     <app-navbar></app-navbar>
     <app-topnav></app-topnav>
   </div>
@@ -34,4 +34,3 @@
     Sorry, It is taking a while......
 </div>
 </ng-template>
-  
