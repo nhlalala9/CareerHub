@@ -10,7 +10,7 @@ export class GetcategoryService {
 
   constructor(private http: HttpClient) { }
 
-  getCategory(): Observable<any> {
+  getCategory(): Observable<Category[]> | any {
     return this.http.get(`http://localhost:3000/category`, {responseType: 'json'});
   }
 }
