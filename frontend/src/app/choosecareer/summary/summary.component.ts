@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { SummaryService } from 'src/app/services/summary.service';
 import { CategoryService } from 'src/app/services/category.service';
+import { RoutingService } from 'src/app/services/routing.service';
 
 @Component({
   selector: 'app-summary',
@@ -9,7 +10,7 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class SummaryComponent implements OnInit {
 
-  constructor(private summary:SummaryService, private category:CategoryService) { }
+  constructor(private summary:SummaryService, private category:CategoryService,public routing: RoutingService) { }
 
   //declaring 
   hold:any;
@@ -33,6 +34,12 @@ export class SummaryComponent implements OnInit {
         this.image =  data;
       }
     })
+
+    this.routing.search = 'active';
+    this.routing.home = '';
+    this.routing.category = '';
+
+    this.routing.dynamic = 'choose'
   }
 
 }
