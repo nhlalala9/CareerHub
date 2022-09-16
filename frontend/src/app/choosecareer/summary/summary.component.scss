@@ -25,8 +25,8 @@ img{
 .names{
     border: 1px solid #000;
     border-radius: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    min-width: 350px;
+    padding: 5px 7px 5px 7px;
     margin: 10px;
 }
 
@@ -43,4 +43,12 @@ img{
 .img{
     height: 290px !important;
     width: 100% !important;
+}
+
+.small{
+    width: 100% !important;
+}
+
+.move{
+    margin-top: 55px;
 }

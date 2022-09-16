@@ -153,8 +153,8 @@
 
     {
       "id": 11,
-      "name": "Art Designer",
-      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018845112496832552/Screenshot_2022-09-12_at_13.26.29.png",
+      "name": "Art Graphic Designer",
+      "image": "https://media.istockphoto.com/photos/creativity-takes-courage-picture-id520438705?b=1&k=20&m=520438705&s=170667a&w=0&h=WTRCUo2OyO77AsdQ95oi6sQ2fdOkWNPFVHwOeq3E-8M=",
       "isoutdoor": true,
       "careercategoryid": 1
     },
@@ -181,13 +181,11 @@
     },
     {
       "id": 25,
-      "name": "User Experience (UX) Designer",
+      "name": "User Exprience Designer",
       "image": "https://static.vecteezy.com/system/resources/thumbnails/004/580/539/small_2x/ui-ux-programmer-flat-design-illustration-vector.jpg",
       "isoutdoor": false,
       "careercategoryid": 1
     },
-
-
 
 
 
@@ -272,22 +270,22 @@
   "Salaryimage": [
     {
       "id": 1,
-      "image": "",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019591357515448390/Screenshot_2022-09-14_at_14.51.18.png",
       "careerpathid": 11
     },
     {
       "id": 2,
-      "image": "",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019593047463440434/Screenshot_2022-09-14_at_14.58.30.png",
       "careerpathid": 12
     },
     {
       "id": 3,
-      "image": "",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019592249761333278/Screenshot_2022-09-14_at_14.55.20.png",
       "careerpathid": 13
     },
     {
       "id": 4,
-      "image": "",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019592646261477536/Screenshot_2022-09-14_at_14.56.01.png",
       "careerpathid": 14
     },
     {
@@ -328,7 +326,7 @@
     {
       "id": 12,
       "image": "",
-      "careerpathid": 20
+      "careerpathid": -1
     },
     {
       "id": 12,
@@ -353,6 +351,27 @@
       "id": 16,
       "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1663151696/cloud%20engineer/Screenshot_2022-09-14_at_12.33.50_boiaxg.png",
       "careerpathid": 9
+    },
+    {
+      "id": 17,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019593964006948904/Screenshot_2022-09-14_at_15.02.10.png",
+      "careerpathid": 25
+    },
+    {
+      "id": 18,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019603722856312882/Screenshot_2022-09-14_at_15.40.28.png",
+      "careerpathid": 18
+    }
+    ,
+    {
+      "id": 20,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019605435138977813/Screenshot_2022-09-14_at_15.47.37.png",
+      "careerpathid": 19
+    },
+    {
+      "id": 12,
+      "image": "",
+      "careerpathid": 20
     }
   ],
 
@@ -543,25 +562,25 @@
     {
       "id": 28,
       "description": "Testing, evaluating, modifying and re-testing products.",
-      "image": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9TQaaM1Y2wDl1Uonpd7EAUQ3l-uS87bqlkzoePuSQVqfe4C4J1eScbmNhRQneF8Cwx-s&usqp=CAU",
       "careerpathid": 16
     },
     {
       "id": 30,
       "description": "Undertaking relevant research.",
-      "image": 1,
+      "image": "https://i0.wp.com/trustidea.org/wp-content/uploads/2021/04/Webp.net-compress-image-4.jpg?fit=660%2C418&ssl=1",
       "careerpathid": 16
     },
     {
       "id": 31,
       "description": "Analysing and interpreting data.",
-      "image": 1,
+      "image": "https://study.com/cimages/videopreview/videopreview-full/65krh9r1vn.jpg",
       "careerpathid": 16
     },
     {
       "id": 32,
       "description": "Mechanical engineers can work on components and equipment for many industries including healthcare, power, transport and water.",
-      "image": 1,
+      "image": "https://www.careerindia.com/img/2015/07/31-1438340729-mechanicalengineering.jpg",
       "careerpathid": 16
     }
 
@@ -571,25 +590,25 @@
     {
       "id": 33,
       "description": "Designing systems and products using computer software.",
-      "image": 1,
+      "image": "https://thumbs.dreamstime.com/z/vector-illustration-technology-design-concept-worker-designing-programming-pc-flat-cartoon-style-metaphor-int-139727069.jpg",
       "careerpathid": 17
     },
     {
       "id": 34,
       "description": "Managing power generation, transmission and distribution.",
-      "image": 1,
+      "image": "https://i.pinimg.com/550x/d3/a7/77/d3a777a4fda1f715e12e1cdc92d7b05a.jpg",
       "careerpathid": 17
     },
     {
       "id": 35,
       "description": "Managing maintenance programmes.",
-      "image": 1,
+      "image": "https://media.noria.com/sites/Uploads/2020/2/25/SME_Header_MaintenanceManagement.jpg",
       "careerpathid": 17
     },
     {
       "id": 36,
       "description": "Testing installations and systems.",
-      "image": 1,
+      "image": "https://media.istockphoto.com/photos/electrician-engineer-uses-a-multimeter-to-test-the-electrical-and-picture-id1345962789?b=1&k=20&m=1345962789&s=170667a&w=0&h=zDGHjQnJ7Wu5TaMK4b4hoj9rb_uSMV8XConI1F_FiuE=",
       "careerpathid": 17
     }
 
@@ -743,6 +762,129 @@
       "careerpathid": 9
     }
 
+
+
+
+    ,
+    {
+      "id": 57,
+      "description": "Illustrate design ideas using storyboards, process flows and sitemaps.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019594469231833108/experi_ux.jpeg",
+      "careerpathid": 25
+    },
+    {
+      "id": 58,
+      "description": "Develop UI mockups and prototypes that clearly illustrate how sites function and look like.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019594468988571648/ux.png",
+      "careerpathid": 25
+    },
+    {
+      "id": 59,
+      "description": "Gather and evaluate user requirements in collaboration with product managers and engineers.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019594468707549275/user_ux.jpeg",
+      "careerpathid": 25
+    }
+
+
+
+    ,
+    {
+      "id": 60,
+      "description": "Create production sketches for development packages.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019597642558341212/designerr.jpeg",
+      "careerpathid": 12
+    },
+    {
+      "id": 61,
+      "description": "Collaborate with a technical designer to ensure development packages are accurate",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019597139812307034/designers.webp",
+      "careerpathid": 12
+    },
+    {
+      "id": 62,
+      "description": "Collaborate with team members to select seasonal   themes, make edits to lines and create new concepts",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019597140516933722/fashion-designer.jpeg",
+      "careerpathid": 12
+    }
     
+
+    ,
+    {
+      "id": 63,
+      "description": "Creating a wide range of graphics and layouts for product  and websites with software such as photoshop.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019598073925730405/arts_design.jpeg",
+      "careerpathid": 11
+    }
+
+    ,
+    {
+      "id": 64,
+      "description": "Gathering the necessary measurements, dimensions, and other routine calculations for design layouts.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019599225388023828/Architectural-Design-Software-Technical-Diploma.jpeg",
+      "careerpathid": 13
+    }
+
+    ,
+    {
+      "id": 65,
+      "description": "Research and decide on materials and products sourcing.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019599629177856080/interior_design.jpeg",
+      "careerpathid": 14
+    }
+
+
+
+    ,
+    {
+      "id": 66,
+      "description": "Using scientific, mathematical, and engineering principles to solve problems and improve processes.",
+      "image": "https://cdn.mos.cms.futurecdn.net/HFUAjfbamNhbM8dsNSQW3D.jpg",
+      "careerpathid": 18
+    } ,
+    {
+      "id": 67,
+      "description": "Establishing safety and waste management procedures.",
+      "image": "https://hsseworld.com/wp-content/uploads/2019/08/waste-mangement.jpg",
+      "careerpathid": 18
+    },
+    {
+      "id": 68,
+      "description": "Traveling to work sites and locations to learn about project needs and design, implement, troubleshoot, test, and improve processes, equipment, and facilities.",
+      "image": "https://qubstudio.com/wp-content/uploads/2019/08/product-design-banner.png",
+      "careerpathid": 18
+    },
+    {
+      "id": 69,
+      "description": "Assisting with establishing budgets and timelines.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019150373858070538/unknown.png",
+      "careerpathid": 18
+    },
+
+
+
+
+
+    {
+      "id": 70,
+      "description": "Evelop design and production standards in cooperation with management and user personnel.",
+      "image": "https://uxstudioteam.com/ux-blog/wp-content/uploads/2020/06/UX-product-design-process.png",
+      "careerpathid": 19
+    },{
+      "id": 71,
+      "description": "Industrial engineering is the branch of engineering that concerns the development.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018885924442087526/Screenshot_2022-09-12_at_16.07.25.png",
+      "careerpathid": 19
+    },{
+      "id": 72,
+      "description": "Industrial engineering function is in charge of developing better ways to perform work",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018884830617927720/indu.jpeg",
+      "careerpathid": 19
+    },{
+      "id": 73,
+      "description": "You are one step closer to obtaining lucrative industrial engineering jobs ",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018884830924132452/industrial-engi.webp",
+      "careerpathid": 19
+    }
+
   ]
 }

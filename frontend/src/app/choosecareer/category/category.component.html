@@ -1,34 +1,36 @@
+<ng-container *ngIf="hold.length != 0; else loading">
 <div class="flex justify-center container mx-auto push">
     <div
       class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
       <div
         class="card card-compact w-96 bg-base-100 shadow-xl sh"
         *ngFor="let item of hold; let x = index"
-        (click)="sendId(x)"
+        routerLink="/choose/career/{{item.id}}/{{item.name}}"
       >
         <div class="flex justify-center" >
-            <div class="names">
+            <div class="flex justify-center names">
               {{ item.name }}
             </div>
-         
+
         </div>
         <figure>
           <img [src]="item.image" alt="Shoes" />
         </figure>
       </div>
     </div>
-  
-    <ng-template #loading>
-      <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content text-center">
-          <div class="max-w-sm">
-            <progress class="progress w-96"></progress>
-          </div>
-        </div>
-      </div>
-    </ng-template>
-  
+
+
+
     <app-navbar></app-navbar>
     <app-topnav></app-topnav>
   </div>
-  
+</ng-container>
+
+<ng-template #loading>
+  <div class="max-w-lg move">
+    <progress class="progress w-96 justify-center small"></progress>
+  </div>
+  <div class="flex justify-center">
+    Sorry, It is taking a while......
+</div>
+</ng-template>
