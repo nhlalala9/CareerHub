@@ -8,7 +8,7 @@ export class NotificationService {
 
   constructor(private toastr: ToastrService) { }
 
-  showSuccess() {
-    this.toastr.error('We are facing problems','Error');
+  showError(ErrorMessage: any) {
+    this.toastr.error(ErrorMessage,'Error').title = 'error';
   }
 }
