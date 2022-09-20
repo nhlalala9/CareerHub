@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { CategoryService } from 'src/app/services/category.service';
 
 @Component({
@@ -8,9 +9,13 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class TopnavComponent implements OnInit {
 
-  constructor(public category: CategoryService) { }
+  constructor(public category: CategoryService, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+
+  }
+
+  back(){
 
   }
 
