@@ -36,10 +36,10 @@ export class SummaryComponent implements OnInit {
   ngOnInit(): void {
     this.category.browse = '';
 
-
-    this.routing.search = 'active';
-    this.routing.home = '';
     this.routing.category = '';
+    this.routing.home = 'active';
+    this.routing.search = '';
+
 
     this.routing.dynamic = 'choose';
   }
