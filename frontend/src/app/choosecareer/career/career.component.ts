@@ -20,7 +20,6 @@ export class CareerComponent implements OnInit {
 
   constructor(
     private getcareer: GetcareerService,
-    private route: Router,
     private category: CategoryService,
     public routing: RoutingService,
     private router: ActivatedRoute

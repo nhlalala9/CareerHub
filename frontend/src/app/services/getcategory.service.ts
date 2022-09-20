@@ -11,7 +11,7 @@ export class GetcategoryService {
 
   constructor(private http: HttpClient) { }
 
-  getCategory():Observable<Career[]> {
-    return this.http.get<Career[]>(`http://localhost:3000/category`, {responseType: 'json'});
+  getCategory():Observable<Category[]> {
+    return this.http.get<Category[]>(`http://localhost:3000/category`, {responseType: 'json'});
   }
 }

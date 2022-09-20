@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Career } from '../model/career';
 
 @Injectable({
   providedIn: 'root'
@@ -9,12 +10,12 @@ export class GetcareerService {
 
   constructor(private http: HttpClient) { }
 
-  getcareerpath(categoryId: any): Observable<any>{
-    return this.http.get(`http://localhost:3000/careerpath?careercategoryid=${categoryId}`)
+  getcareerpath(categoryId: any): Observable<Career[]>{
+    return this.http.get<Career[]>(`http://localhost:3000/careerpath?careercategoryid=${categoryId}`)
   }
 
-  getcareer(): Observable<any>{
-    return this.http.get(`http://localhost:3000/careerpath`)
+  getcareer(): Observable<Career[]>{
+    return this.http.get<Career[]>(`http://localhost:3000/careerpath`)
   }
 
 }
