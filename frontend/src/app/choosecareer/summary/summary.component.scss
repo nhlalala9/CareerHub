@@ -25,9 +25,10 @@ img{
 .names{
     border: 1px solid #000;
     border-radius: 5px;
-    min-width: 350px;
-    padding: 5px 7px 5px 7px;
+    padding: 5px;
     margin: 10px;
+    min-height: 100px;
+    min-width: 350px;
 }
 
 .named{
@@ -51,4 +52,13 @@ img{
 
 .move{
     margin-top: 55px;
+    width: 100% !important;
+}
+
+.salary{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 350px;
 }
