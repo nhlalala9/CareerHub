@@ -13,4 +13,9 @@ export class GetcareerService {
   getcareerpath(categoryId: any): Observable<Career[]>{
     return this.http.get<Career[]>(`http://localhost:3000/careerpath?careercategoryid=${categoryId}`)
   }
+
+  getcareer(): Observable<Career[]>{
+    return this.http.get<Career[]>(`http://localhost:3000/careerpath`)
+  }
+
 }
