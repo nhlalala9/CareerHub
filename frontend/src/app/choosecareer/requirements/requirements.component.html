@@ -1,12 +1,51 @@
+<ng-container *ngIf="career$ | async; else loading">
+  <div class="flex justify-center">
+    <div class="font-bold bg-base-200 headernames">
+      <p>This are the minimum requirements</p>
+    </div>
+  </div>
+  <div class="flex justify-center container mx-auto push">
+    <div
+      class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
+    >
+      <div
+        class="card card-compact w-96 bg-base-100 shadow-xl sh"
+        *ngFor="let item of career$ | async"
+        routerLink="/choose/summary/{{ item.id }}/{{ item.name }}"
+      >
+        <div class="flex justify-center">
+          <div class="flex justify-center names">
+            <p>Minimum Requirements</p>
+          </div>
+        </div>
+        <figure>
+          {{ item.requirements }}
+        </figure>
+      </div>
+    </div>
+  </div>
 
+  <div>
+    <div
+      tabindex="0"
+      class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box"
+    >
+      <div class="collapse-title text-xl font-medium">
+        Diploma
+      </div>
+      <div class="collapse-content">
+        <p>tabindex="0" attribute is necessary to make the div focusable</p>
+      </div>
+    </div>
+  </div>
+</ng-container>
 
-
-
-
-
-
-
-
+<ng-template #loading>
+  <div class="max-w-full move">
+    <progress class="progress w-96 justify-center small"></progress>
+  </div>
+  <div class="flex justify-center">Sorry, It is taking a while......</div>
+</ng-template>
 
 <app-topnav></app-topnav>
 <app-navbar></app-navbar>
