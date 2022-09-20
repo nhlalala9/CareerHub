@@ -8,6 +8,7 @@ import { HelpmechooseModule } from './helpmechoose/helpmechoose.module';
 import { PublicModule } from './public/public.module';
 import {HttpClientModule } from '@angular/common/http'
 import { SharedModule } from './shared/shared.module';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SharedModule } from './shared/shared.module';
     ChoosecareerModule,
     PublicModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
