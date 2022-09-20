@@ -12,7 +12,7 @@ export class CategoryService {
   browse = '';
 
   category(): Observable<Careercategory[]>{
-    return this.http.get<Careercategory[]> (' http://localhost:3000/careercategoryz',{responseType: 'json'});
+    return this.http.get<Careercategory[]> (' http://localhost:3000/careercategory',{responseType: 'json'});
   }
  
 }
