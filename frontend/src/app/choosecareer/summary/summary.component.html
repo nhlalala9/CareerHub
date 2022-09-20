@@ -1,10 +1,7 @@
 <!-- average salary code html -->
-<ng-container *ngIf="hold.length != 0; else loading">
+<ng-container *ngIf="summary$ | async; else loading">
   <div class="flex justify-center container mx-auto push">
-    <div
-      class="card card-compact w-96 bg-base-100 shadow-xl sh"
-      *ngFor="let item of image"
-    >
+    <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of salary$ | async">
       <div class="flex justify-center">
         <div class="flex justify-center font-bold bg-base-200 names">AVERAGE SALARY</div>
       </div>
@@ -23,13 +20,8 @@
 
   <!-- card for description  -->
   <div class="flex justify-center container mx-auto pushed">
-    <div
-      class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
-    >
-      <div
-        class="card card-compact w-96 bg-base-100 shadow-xl sh"
-        *ngFor="let item of hold"
-      >
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
+      <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of summary$ | async">
         <div class="flex justify-center">
           <div class="flex justify-center names">
             {{ item.description }}
@@ -41,18 +33,21 @@
       </div>
     </div>
   </div>
+  <!-- heading of summary -->
+  <!--end of summary heading-->
+
   <!-- button for requirements -->
-  <div class="sep">
+  <div class="flex justify-center sep">
     <button class="btn btn-primary shadow-xl buttons">Requirements</button>
   </div>
 </ng-container>
-
+<!-- for loading when there is nothing -->
 <ng-template #loading>
-  <div class="max-w-lg move">
-    <progress class="progress w-96 justify-center small"></progress>
+  <div class="max-w-full move">
+    <progress class="progress w-full justify-center small"></progress>
   </div>
   <div class="flex justify-center">
-      Sorry, It is taking a while......
+    Sorry, It is taking a while......
   </div>
 </ng-template>
 

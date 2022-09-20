@@ -12,7 +12,6 @@ import { SearchfilterPipe } from '../pipes/searchfilter.pipe';
 import { FormsModule } from '@angular/forms';
 
 
-
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
     {path: 'career/:id/:name', component: CareerComponent},

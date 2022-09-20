@@ -3,6 +3,7 @@ import { SummaryService } from 'src/app/services/summary.service';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
 import { ActivatedRoute } from '@angular/router';
+import { switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-summary',
@@ -10,6 +11,13 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./summary.component.scss'],
 })
 export class SummaryComponent implements OnInit {
+  public summary$= this.route.paramMap.pipe(
+    switchMap((params)=>this.summary.summary([params.get('id')]))
+  );
+
+  public salary$ = this.route.paramMap.pipe(
+    switchMap((params)=>this.summary.salary([params.get('id')]))
+  )
   constructor(
     private summary: SummaryService,
     private category: CategoryService,
@@ -17,39 +25,21 @@ export class SummaryComponent implements OnInit {
     private route: ActivatedRoute
   ) { route.params.subscribe({
     next: (params) =>{
-      this.careerId = params["id"]
       this.careerpathName = params['name']
     }
   })}
 
   //declaring
-  careerId: any;
-  hold: any;
-  image: any;
+
   careerpathName: any;
 
   ngOnInit(): void {
     this.category.browse = '';
 
-    this.summary.summary(this.careerId).subscribe({
-      next: (data: any) => {
-        console.log(data);
-        this.hold = data;
-
-
-      },
-    });
-
-    this.summary.salary(this.careerId).subscribe({
-      next: (data: any) => {
-        console.log(data);
-        this.image = data;
-      },
-    });
-
-    this.routing.search = 'active';
-    this.routing.home = '';
     this.routing.category = '';
+    this.routing.home = 'active';
+    this.routing.search = '';
+
 
     this.routing.dynamic = 'choose';
   }
