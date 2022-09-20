@@ -1,29 +1,27 @@
-<ng-container *ngIf="category$ | async; else loading">
-  <h3 class="flex justify-center font-bold">WOULD YOU LIKE TO WORK WITH:</h3>
+<ng-container *ngIf="(category$ | async)?.length != 0; else loading">
+    <h3 class="flex justify-center font-bold">WOULD YOU LIKE TO WORK WITH:</h3>
 
-  <div class="flex justify-center container mx-auto push">
-    <div
-      class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
-    >
+    <div class="flex justify-center container mx-auto push">
       <div
-        class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh"
-        *ngFor="let item of category$ | async"
+        class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
       >
-        <figure>
-          <img [src]="item.image" alt="Shoes" />
-        </figure>
-        <button class="btn btn-primary b" (click)="send(item.id)">
-          {{ item.name }}
-        </button>
+        <div
+          class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh"
+          *ngFor="let item of category$ | async"
+        >
+          <figure>
+            <img [src]="item.image" alt="Shoes" />
+          </figure>
+          <button class="btn btn-primary b" (click)="send(item.id)">
+            {{ item.name }}
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 </ng-container>
 
 <ng-template #loading>
-  <div class="max-w-full move">
-    <progress class="progress w-96 justify-center small"></progress>
-  </div>
+  <app-nodata></app-nodata>
 </ng-template>
 
 <app-topnav></app-topnav>
