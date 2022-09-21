@@ -19,7 +19,8 @@ const routes: Routes = [
     {path: 'requirements', component: RequirementsComponent},
     {path: 'search', component: SearchComponent},
     {path: 'summary', component: SummaryComponent},
-    {path: 'summary/:id/:name', component: SummaryComponent}
+    {path: 'summary/:id/:name', component: SummaryComponent},
+    {path: 'career', component: CareerComponent}
   ]}
 ]
 

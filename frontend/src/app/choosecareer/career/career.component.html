@@ -1,4 +1,4 @@
-<ng-container *ngIf="career$ | async;else loading">
+<ng-container *ngIf="(career$ | async)?.length != 0;else loading">
 <div class="flex justify-center">
   <div class="font-bold bg-base-200 headernames">
     <p>CAREER PATH IN {{categoryName | uppercase}}</p>
@@ -24,12 +24,7 @@
   </ng-container>
 
   <ng-template #loading>
-    <div class="max-w-full move">
-      <progress class="progress w-96 justify-center small"></progress>
-    </div>
-    <div class="flex justify-center">
-      Sorry, It is taking a while......
-  </div>
+    <app-nodata></app-nodata>
   </ng-template>
 
   <app-topnav></app-topnav>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { switchMap } from 'rxjs';
+import { shareReplay, switchMap } from 'rxjs';
 import { CategoryService } from 'src/app/services/category.service';
 import { GetcareerService } from 'src/app/services/getcareer.service';
 import { RoutingService } from 'src/app/services/routing.service';
@@ -14,7 +14,7 @@ export class CareerComponent implements OnInit {
 
   public career$ = this.router.paramMap.pipe(
     switchMap((params)=>
-      this.getcareer.getcareerpath(params.get('id'))
+      this.getcareer.getcareerpath(params.get('id')).pipe(shareReplay(1))
     )
   );
 
