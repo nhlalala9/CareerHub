@@ -4,8 +4,7 @@ const app = express(); //Initialize express
 
 const client = require("./app/configs/db.config");
  
-require("./app/configs/dotenv"); //Import your environmental configs
-
+require ("./app/configs/dotenv");//Import your environmental configs
 
 app.use(express.json());
 app.use(cors());
