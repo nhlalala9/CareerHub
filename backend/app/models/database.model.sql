@@ -45,3 +45,18 @@ CREATE TABLE question(
     foreign key(categoryId) references category(id),
     foreign key (careerpathId) references category(id)
 );
+
+CREATE TABLE requirements(
+    id serial not null primary key,
+	requirements text,
+	careerpathId int,
+	foreign key(careerpathId) references careerpath(id)
+ );
+ 
+CREATE TABLE qualifications(
+	 id serial not null primary key,
+	 qualification varchar(255),
+	 description text,
+	 requirementsId int,
+	 foreign key (requirementsId) references requirements(id)
+ );
