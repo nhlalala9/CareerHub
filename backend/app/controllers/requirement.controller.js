@@ -12,14 +12,14 @@ exports.createRequirements = (req, res) => {
       [requirements,careerpathId],
       (err) => {
         if (err) {
-          res.status(400).json({ error: "sorry,we are sytill fixing technical issues" });
+          res.status(400).json({ error: "sorry,we are still fixing technical issues" });
         } 
-          res.status(201).json({ success: "successfull added" });
+          res.status(201).json({ success: "successful" });
         
       }
     );
   } catch (error) {
-    res.status(500).json({ error: "database error" });
+    res.status(500).json({ error: "sorry,we are still fixing technical issues" });
   }
 };
 
