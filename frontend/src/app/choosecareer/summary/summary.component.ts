@@ -3,7 +3,7 @@ import { SummaryService } from 'src/app/services/summary.service';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
 import { ActivatedRoute } from '@angular/router';
-import { switchMap } from 'rxjs';
+import { shareReplay, switchMap } from 'rxjs';
 
 @Component({
   selector: 'app-summary',
@@ -12,11 +12,11 @@ import { switchMap } from 'rxjs';
 })
 export class SummaryComponent implements OnInit {
   public summary$= this.route.paramMap.pipe(
-    switchMap((params)=>this.summary.summary([params.get('id')]))
+    switchMap((params)=>this.summary.summary([params.get('id')]).pipe(shareReplay(1)))
   );
 
   public salary$ = this.route.paramMap.pipe(
-    switchMap((params)=>this.summary.salary([params.get('id')]))
+    switchMap((params)=>this.summary.salary([params.get('id')]).pipe(shareReplay(1)))
   )
   constructor(
     private summary: SummaryService,
