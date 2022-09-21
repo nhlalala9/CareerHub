@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
 import { Careercategory } from 'src/app/model/careercategory';
-import { Observable } from 'rxjs';
+import { Observable, shareReplay } from 'rxjs';
 
 @Component({
   selector: 'app-category',
@@ -11,7 +11,6 @@ import { Observable } from 'rxjs';
   styleUrls: ['./category.component.scss'],
 })
 export class CategoryComponent implements OnInit {
-
   public careercategory$!: Observable<Careercategory[]>;
 
   constructor(
@@ -20,16 +19,11 @@ export class CategoryComponent implements OnInit {
     private route: Router
   ) {}
 
-
-
   ngOnInit(): void {
     this.routing.category = 'active';
     this.routing.home = '';
     this.routing.search = '';
 
-     
-  this.careercategory$ =this.category.category();
+    this.careercategory$ = this.category.category().pipe(shareReplay(1));
   }
-
-
 }
