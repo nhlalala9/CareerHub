@@ -22,7 +22,7 @@ exports.createcareerpath = (req, res) => {
 };
 
 exports.getcareerpath = (req, res) => {
-    const careercategoryId = re.params.id;
+    const careercategoryId = req.params.id;
 
     db.query("SELECT * FROM careerpath WHERE careercategoryid  =  $1 ORDER BY careercategoryid DESC", 
     [careercategoryId],(err, results)=>{
