@@ -5,10 +5,11 @@ exports.createCategory = (req, res) => {
   const { name, image } = req.body;
 
   try {
-    db.query("INSERT INTO category VALUES ($1, $2)", [name, image], (error) => {
-      if (error) {
-        res.status(400).json({ error: "couldnt add" });
-      }
+    db.query('INSERT INTO category(name, image) VALUES($1, $2)', [name, image], (err) => {
+      if (err) {
+        
+        return res.status(400).json({ error: err });;
+      } 
       res.status(201).json({ success: "successfull added" });
     });
   } catch (error) {
@@ -21,6 +22,7 @@ exports.getCategory = (req, res)=>{
     db.query("SELECT * FROM category", (error, results) => {
       if (error) {
         res.status(400).json({ error: "Sorry we are facing technical error." });
+        return err;
       }
       res.status(201).json(results.rows);
     });
