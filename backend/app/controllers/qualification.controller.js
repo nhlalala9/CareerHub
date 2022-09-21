@@ -22,5 +22,10 @@ exports.createQualification = (req, res) => {
 exports.getQualifications = (req, res) =>{
     const requirementsId = req.params,id;
     
-    db.query('SELECT * FROM qualifications WHERE id = $1', [requirementsId])
+    db.query('SELECT * FROM qualifications WHERE id = $1', [requirementsId], (err, results)=> {
+        if(err){
+            res.status(400).json({error: 'Sorry we facing Technical issues'});
+        }
+        res.status(200).josn(results.row)
+    })
 }
