@@ -13,3 +13,5 @@ const controller = require("../controllers/salaryImage.controller");
 
 app.use("/createSalary",controller.createSalary);
 app.use("/getSalary",controller.getAllSalary);
+
+module.exports = app;
