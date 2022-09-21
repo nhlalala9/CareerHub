@@ -10,7 +10,8 @@ import { RequirementsComponent } from './requirements/requirements.component';
 import { SharedModule } from '../shared/shared.module';
 import { SearchfilterPipe } from '../pipes/searchfilter.pipe';
 import { FormsModule } from '@angular/forms';
-
+import { NgHttpLoaderModule } from 'ng-http-loader';
+import { LoaderComponent } from './loader/loader.component';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
@@ -32,10 +33,12 @@ const routes: Routes = [
     CareerComponent,
     SummaryComponent,
     RequirementsComponent,
-    SearchfilterPipe
+    SearchfilterPipe,
+    LoaderComponent
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes),SharedModule,FormsModule
+    CommonModule, RouterModule.forChild(routes),SharedModule,FormsModule,
+    NgHttpLoaderModule.forRoot()
   ]
 })
 export class ChoosecareerModule { }
