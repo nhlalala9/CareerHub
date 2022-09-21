@@ -32,12 +32,34 @@ img{
 }
 
 .buttons{
-  width: 88%;
+  width: 100%;
   margin-top: 40px;
   margin-bottom: 80px;
 }
 
 .push{
-    margin-top: 50px;
+    margin-top: 60px;
     margin-bottom: 50px;
+}
+
+.sh{
+  box-shadow: 3px 3px 3px 3px rgba(77, 188, 184, 0.286);
+}
+
+
+
+#image{
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.sep{
+  margin-bottom: 15px;
+}
+
+.hub{
+  color: #56aca8;
 }

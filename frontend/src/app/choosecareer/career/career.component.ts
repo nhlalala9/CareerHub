@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { shareReplay, switchMap } from 'rxjs';
 import { CategoryService } from 'src/app/services/category.service';
 import { GetcareerService } from 'src/app/services/getcareer.service';
 import { RoutingService } from 'src/app/services/routing.service';
@@ -10,45 +11,36 @@ import { RoutingService } from 'src/app/services/routing.service';
   styleUrls: ['./career.component.scss'],
 })
 export class CareerComponent implements OnInit {
+
+  public career$ = this.router.paramMap.pipe(
+    switchMap((params)=>
+      this.getcareer.getcareerpath(params.get('id')).pipe(shareReplay(1))
+    )
+  );
+
   constructor(
     private getcareer: GetcareerService,
-    private route: Router,
     private category: CategoryService,
     public routing: RoutingService,
     private router: ActivatedRoute
   ) {
-    router.params.subscribe(
-      {
-        next: (params)=>{
-          this.categoryId = params['id'];
-          this.categoryName = params['name']
-        }
+    router.params.subscribe({
+      next: (params) =>{
+        this.categoryName = params['name']
       }
-    )
+    })
   }
 
-  hold: any;
   categoryId: any;
   categoryName: any;
 
   ngOnInit(): void {
 
-    this.getcareer.getcareerpath(this.categoryId).subscribe({
-      next: (data: any) => {
-        console.log(data);
-        this.hold = data;
-      },
-    });
+    
     this.category.browse = '';
     this.routing.dynamic = 'choose';
     this.routing.category = '';
     this.routing.home = 'active';
     this.routing.search = '';
-  }
-
-  sendcareer(index: any) {
-    localStorage.setItem('careerpathid', this.hold[index].id);
-    localStorage.setItem('careername', this.hold[index].name);
-    this.route.navigate(['/choose/summary']);
   }
 }

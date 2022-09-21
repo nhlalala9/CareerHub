@@ -1,55 +1,70 @@
 <ng-container>
-  <div class="form-control m">
-    <div class="centered">
-      <div class="input-group">
-        <input
-          type="text"
-          placeholder="Search…"
-          class="input input-bordered search"
-          [(ngModel)]="this.term"
-          (input)="this.searching(this.term)"
-        />
-        <button class="btn btn-primary shadow">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="icon icon-tabler icon-tabler-search"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+  <div class="hero min-h-screen bg-base-200">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <div class="flex justify-center input-group push">
+          <input
+            type="text"
+            placeholder="Search…"
+            class="input input-bordered search"
+            [(ngModel)]="this.term"
+            (input)="this.searching(this.term)"
+          />
+          <button class="btn btn-primary shadow">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-search"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="10" cy="10" r="7"></circle>
+              <line x1="21" y1="21" x2="15" y2="15"></line>
+            </svg>
+          </button>
+        </div>
+
+        <div class="card card-compact w-96 bg-base-100 shadow-xl" id="image" *ngIf="show == false; else searches">
+          <figure class="flex justify-center">
+            <img
+              src="https://media.discordapp.net/attachments/1019131152814059570/1019163476003930112/person-searching.jpeg?width=528&height=529"
+            />
+          </figure>
+        </div>
+
+        <div class="flex justify-center">
+          <button
+            class="btn btn-primary shadow-xl buttons"
+            routerLink="/choose/category"
           >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <circle cx="10" cy="10" r="7"></circle>
-            <line x1="21" y1="21" x2="15" y2="15"></line>
-          </svg>
-        </button>
+            Browse Careers
+          </button>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="flex justify-center" *ngIf="show == false; else searches">
-    <figure class="m">
-      <img
-        src="https://media.discordapp.net/attachments/1019131152814059570/1019163476003930112/person-searching.jpeg?width=528&height=529"
-      />
-    </figure>
-  </div>
+  
 </ng-container>
 
 <ng-template #searches>
   <div class="flex justify-center container mx-auto push">
     <div
-      class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
+      class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
     >
-      <div *ngFor="let item of careers"  routerLink="/choose/summary/{{item.id}}/{{item.name}}">
-        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <div
+        *ngFor="let item of careers"
+        routerLink="/choose/summary/{{ item.id }}/{{ item.name }}"
+      >
+        <div class="card card-compact w-96 bg-base-100 shadow-xl sh">
           <div class="card-body">
             <h2 class="flex justify-center card-title">{{ item.name }}</h2>
-
           </div>
         </div>
       </div>
@@ -57,13 +72,5 @@
   </div>
 </ng-template>
 
-<div class="flex justify-center">
-  <button
-    class="btn btn-primary shadow-xl buttons"
-    routerLink="/choose/category"
-  >
-    Browse Careers
-  </button>
-</div>
 <app-topnav></app-topnav>
 <app-navbar></app-navbar>

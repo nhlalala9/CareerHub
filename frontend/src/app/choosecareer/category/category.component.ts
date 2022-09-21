@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
+import { Careercategory } from 'src/app/model/careercategory';
+import { Observable, shareReplay } from 'rxjs';
 
 @Component({
   selector: 'app-category',
@@ -9,33 +11,19 @@ import { RoutingService } from 'src/app/services/routing.service';
   styleUrls: ['./category.component.scss'],
 })
 export class CategoryComponent implements OnInit {
+  public careercategory$!: Observable<Careercategory[]>;
+
   constructor(
     private category: CategoryService,
     public routing: RoutingService,
     private route: Router
   ) {}
 
-  hold: any;
-
   ngOnInit(): void {
     this.routing.category = 'active';
     this.routing.home = '';
     this.routing.search = '';
 
-    (this.category.browse = 'Browse Category'),
-      this.category.category().subscribe({
-        next: (data: any) => {
-          console.log(data);
-          this.hold = data;
-        },
-      });
-  }
-
-  sendId(num: any) {
-    localStorage.setItem('careercategoryid', this.hold[num].id);
-    localStorage.setItem('categoryname', this.hold[num].name);
-
-    this.routing.dynamic = 'choose';
-    this.route.navigate([`/choose/career`]);
+    this.careercategory$ = this.category.category().pipe(shareReplay(1));
   }
 }

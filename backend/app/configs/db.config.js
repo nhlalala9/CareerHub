@@ -1,7 +1,7 @@
 const Pool = require("pg").Pool;
 
 DB_URL =
-  "postgres://cvounyikeceirs:9465bcc3ceb3a5452062b14fb89ce84bb6af84aea829d1b74f103f20faff6658@ec2-44-207-133-100.compute-1.amazonaws.com:5432/d3upi6rplg899c";
+  "postgres://kbbhbatzjgmemj:c659674f5c56fdb6a31e10ca62c21c11a5037ebfdb16e2cf4cc6adbfe9d8baeb@ec2-3-219-135-162.compute-1.amazonaws.com:5432/dl2ct75pd33i2";
 //Connecting to heroku database
 const pool = new Pool({
   connectionString: DB_URL,
