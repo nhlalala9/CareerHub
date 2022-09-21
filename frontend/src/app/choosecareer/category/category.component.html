@@ -1,7 +1,7 @@
 <ng-container *ngIf="(careercategory$ | async)?.length != 0; else loading">
 <div class="flex justify-center container mx-auto push">
     <div
-      class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
+      class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
     >
       <div
         class="card card-compact w-96 bg-base-100 shadow-xl sh"
@@ -29,5 +29,5 @@
   <app-nodata></app-nodata>
 </ng-template>
 
-
+<app-loader></app-loader>
 

@@ -29,7 +29,6 @@ export class SearchComponent implements OnInit {
 
     this.career.getcareer().subscribe({
       next: (data: any) => {
-        console.log(data);
         this.careers = data;
         this.careerHold = data;
       },
