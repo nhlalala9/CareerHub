@@ -6,11 +6,12 @@ exports.createSummary = (req, res) => {
   const {description,image,careerpathId} = req.body;
   try {
     db.query(
-      "INSERT INTO summary (description,image,careerpathId) VALUES($1,$2,s$)",
+      "INSERT INTO summary (description,image,careerpathId) VALUES($1,$2,$3)",
       [description,image,careerpathId ],
       (err) => {
         if (err) {
-          res.status(400).json({ error: "couldnt add" });
+         
+          return  res.status(400).json({ error:err});
         } 
           res.status(201).json({ success: "successfull added" });
         
