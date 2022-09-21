@@ -29,7 +29,7 @@ exports.getOneRequirement= (req, res) =>{
 
     db.query('SELECT * FROM requirements WHERE id = $1',[careerpathId],(err, results)=>{
         if(err){
-            res.status(400).json({error: 'failed to delete post'});
+            res.status(400).json({error: 'sorry,we are still fixing technical issues'});
         }
         res.status(200).json(results.rows)
     })
