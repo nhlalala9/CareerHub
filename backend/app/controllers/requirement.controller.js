@@ -23,17 +23,11 @@ exports.createRequirements = (req, res) => {
   }
 };
 
-
-
-
-
-const db = require("../configs/db.config");
-
 exports.getOneRequirement= (req, res) =>{
-    // const {user_id} = req.body;
-    const id = req.params.id;
 
-    db.query('SELECT * FROM notes WHERE id = $1',[id],(err, results)=>{
+    const careerpathId = req.params.id;
+
+    db.query('SELECT * FROM requirements WHERE id = $1',[id],(err, results)=>{
         if(err){
             res.status(400).json({error: 'failed to delete post'});
         }
