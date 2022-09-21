@@ -13,6 +13,6 @@ export class GetcategoryService {
   constructor(private http: HttpClient) { }
 
   getCategory():Observable<Category[]> {
-    return this.http.get<Category[]>(`${environment.baseUrl}`, {responseType: 'json'});
+    return this.http.get<Category[]>(`${environment.baseUrl}/getcategory`, {responseType: 'json'});
   }
 }
