@@ -1,3 +1,5 @@
+//creating routes for getting requirements 
+
 const express = require("express");
 const app = express();
 
@@ -13,6 +15,7 @@ app.use(bodyparser.json());
 const controller = require("../controllers/requirement.controller");
 
 app.post("/createRequirements", controller.createRequirements);
-app.get('/getone/:careerpathId', controller.getOneRequirement);
+
+app.get('/getoneRequirement/:careerpathId', controller.getOneRequirement);
 
 module.exports = app;
