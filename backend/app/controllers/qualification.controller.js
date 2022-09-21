@@ -5,7 +5,7 @@ exports.createQualification = (req, res) => {
 
     try {
         db.query(
-          "INSERT INTO qualification (qualification, description, requirementsId) VALUES($1,$2,$3)",
+          "INSERT INTO qualifications (qualification, description, requirementsId) VALUES($1,$2,$3)",
           [qualification, description,requirementsId],
           (err) => {
             if (err) {
@@ -18,4 +18,9 @@ exports.createQualification = (req, res) => {
         res.status(500).json({ error: "database error" });
       }
     
+}
+exports.getQualifications = (req, res) =>{
+    const requirementsId = req.params,id;
+    
+    db.query('SELECT * FROM qualifications WHERE id = $1', [requirementsId])
 }
