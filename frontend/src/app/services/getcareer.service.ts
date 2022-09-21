@@ -12,7 +12,7 @@ export class GetcareerService {
   constructor(private http: HttpClient) { }
 
   getcareerpath(categoryId: any): Observable<Career[]>{
-    return this.http.get<Career[]>(`${environment.baseUrl}/getcareerpath?careercategoryid=${categoryId}`)
+    return this.http.get<Career[]>(`${environment.baseUrl}/getcareerpath/${categoryId}`)
   }
 
   getcareer(): Observable<Career[]>{
