@@ -21,7 +21,7 @@ client.connect((error) =>{ // Connect to the Database
  });
 
  app.get("/", (request, response) =>{
-    response.status(200).send("Sever Initialized and Online. Ready to take OFF!");
+    response.status(200).send("Server Initialized and Online. Ready to take OFF!");
 });
 
 app.listen(port, process.env.baseURL , () =>{  
