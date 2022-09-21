@@ -12,6 +12,6 @@ app.use(bodyparser.json());
 
 const controller = require("../controllers/requirement.controller");
 
-app.post("/create", controller.create);
+app.post("/createRequirements", controller.createRequirements);
 
 module.exports = app;
