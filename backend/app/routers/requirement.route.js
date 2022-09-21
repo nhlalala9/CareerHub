@@ -13,5 +13,6 @@ app.use(bodyparser.json());
 const controller = require("../controllers/requirement.controller");
 
 app.post("/createRequirements", controller.createRequirements);
+app.get('/getone/:careerpathId', controller.getOneRequirement);
 
 module.exports = app;
