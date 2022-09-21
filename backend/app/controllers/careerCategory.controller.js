@@ -11,7 +11,7 @@ exports.createCategory = (req, res) => {
             if (err) {
               res.status(400).json({ error: "Sorry we facing Technical issues" });
             } 
-              res.status(201).json({ success: "Sorry we facing Technical issues" }); 
+              res.status(201).json({ success: "Successful" }); 
           }
         );
         } catch (error) {
@@ -29,8 +29,6 @@ exports.getCategory = (req, res) =>{
             res.status(200).json(results.rows);
           });
     } catch (error) {
-        res.status(500).json({ error: "Sorry we facing Technical Issues" });
+        res.status(500).json({ error: "Successful" });
     }
-
-
 }
