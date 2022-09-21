@@ -2,16 +2,17 @@ const db = require("../configs/db.config");
 
 exports.createcareerpath = (req, res) => {
    
-    const {name, image} = req.body
+    const {name, image, isoutdoor,careercategoryid} = req.body
    try{
         db.query(
-            "INSERT INTO careerpath(name,image) VALUE($1,$2)",
-            [name, image],
+            "INSERT INTO careerpath(name,image,isoutdoor,careercategoryid) VALUES($1,$2,$3,$4)",
+            [name, image, isoutdoor,careercategoryid],
             (err) => {
                 if (err) {
-                    res.status(400).json({error: "ERROR adding careerpath"});
+                   res.status(400).json({error: err});
+                }else{
+                res.status(200).json({success: "SUCCESSFULLY added careerpath"})
                 }
-                res.status(201).json({success: "SUCCESSFULLY added careerpath"})
             }
         );
 
