@@ -27,7 +27,7 @@ exports.getOneRequirement= (req, res) =>{
 
     const careerpathId = req.params.id;
 
-    db.query('SELECT * FROM requirements WHERE id = $1',[id],(err, results)=>{
+    db.query('SELECT * FROM requirements WHERE id = $1',[careerpathId],(err, results)=>{
         if(err){
             res.status(400).json({error: 'failed to delete post'});
         }
