@@ -15,6 +15,13 @@ const port = process.env.PORT || 5050;
 
 const careerCategory = require("./app/routers/careerCategory.route");
 const careerpath = require ("./app/routers/careerpath.route");
+const category =require ("./app/routers/category.route");
+const qualification =require("./app/routers/qualification.route");
+// const question =require("./app/routers/question.route");
+// const requirements =require("./app/routers/requirements.route");
+// const salaryimage =require("./app/routers/salaryimage.route");
+// const summary =require("./app/routers/summary.route");
+
 
 
 
@@ -22,6 +29,14 @@ const careerpath = require ("./app/routers/careerpath.route");
 
 app.use('/api' ,careerCategory);
 app.use('/api',careerpath);
+app.use('/api',category);
+app.use('/api',qualification);
+// app.use('/api',question);
+// app.use('/api',requirements);
+// app.use('/api',salaryimage);
+// app.use('/api',summary);
+
+
 
 
 client.connect((error) =>{ // Connect to the Database
