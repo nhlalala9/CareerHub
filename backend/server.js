@@ -11,6 +11,19 @@ app.use(cors());
 
 const port = process.env.PORT || 5050;
 
+// const routename = require("routeFilepath");
+
+const careerCategory = require("./app/routers/careerCategory.route");
+const careerpath = require ("./app/routers/careerpath.route");
+
+
+
+// app.use('/api', routename);
+
+app.use('/api' ,careerCategory);
+app.use('/api',careerpath);
+
+
 client.connect((error) =>{ // Connect to the Database
     if (error) {
       }
