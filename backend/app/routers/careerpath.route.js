@@ -11,6 +11,7 @@ app.use(
 const controller = require("../controllers/careerpath.controller");
 
 app.post("/createcareerpath", controller.createcareerpath);
-app.get("/getcareerpath", controller.getcareerpath);
+app.get("/getcareerpath/:id", controller.getcareerpath);
+app.get('/getallcareerpath', controller.getallcareerpath);
 
 module.exports = app;
