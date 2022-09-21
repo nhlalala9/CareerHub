@@ -20,7 +20,7 @@ exports.createQualification = (req, res) => {
     
 }
 exports.getQualifications = (req, res) =>{
-    const requirementsId = req.params,id;
+    const requirementsId = req.params.id;
     
     db.query('SELECT * FROM qualifications WHERE id = $1', [requirementsId], (err, results)=> {
         if(err){
