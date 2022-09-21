@@ -24,8 +24,18 @@ exports.createcareerpath = (req, res) => {
 exports.getcareerpath = (req, res) => {
     const careercategoryId = re.params.id;
 
-    db.query("SELECT * FROM careerpath WHERE careercategoryId  =  $1 ORDER BY careercategoryId DESC", 
+    db.query("SELECT * FROM careerpath WHERE careercategoryid  =  $1 ORDER BY careercategoryid DESC", 
     [careercategoryId],(err, results)=>{
+        if (err){
+            res.status(400).json({error: "Could not retrieve careerpaths"})
+        }
+        res.status(200).json(results.rows)
+    })
+}
+
+exports.getallcareerpath = (req, res) => {
+
+    db.query("SELECT * FROM careerpath",(err, results)=>{
         if (err){
             res.status(400).json({error: "Could not retrieve careerpaths"})
         }
