@@ -12,6 +12,6 @@ app.use(bodyparser.json());
 const controller = require("../controllers/salaryImage.controller");
 
 app.use("/createSalary",controller.createSalary);
-app.use("/getSalary",controller.getAllSalary);
+app.use("/getSalary/:id",controller.getAllSalary);
 
 module.exports = app;

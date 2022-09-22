@@ -14,6 +14,6 @@ app.use(bodyparser.json());
 const controller = require("../controllers/summary.controller");
 
 app.post("/createSummary",controller.createSummary);
-app.get("/getSummary",controller.getAllSummary);
+app.get("/getsummary/:id",controller.getAllSummary);
 
 module.exports = app;
