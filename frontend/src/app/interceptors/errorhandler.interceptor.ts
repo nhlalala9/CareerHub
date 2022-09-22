@@ -32,11 +32,13 @@ export class ErrorhandlerInterceptor implements HttpInterceptor {
 
     if (error.error instanceof ErrorEvent) {
       //client side
-      ErrorMessage = error.error.message;
+      ErrorMessage = error.error.error;
     } else {
       //server side
       if (error.status != 0 && error.status != 404) {
-        ErrorMessage = error.error;
+        ErrorMessage = error.error.error;
+      }else if(error.status === 0){
+        return ErrorMessage
       }
     }
     return ErrorMessage;
