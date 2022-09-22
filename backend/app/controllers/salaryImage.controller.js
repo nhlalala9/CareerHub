@@ -24,9 +24,9 @@ exports.createSalary = (req, res) => {
 //getting all summary  
 exports.getAllSalary = (req, res) => {
 
-  const careerpathId = req.params.id;
+  const careerpathid = req.params.id;
 
-  db.query('SELECT * FROM salaryimage WHERE careerpathId = $1 ORDER BY careerpathId DESC', [careerpathId], (err, results) => {
+  db.query('SELECT * FROM salaryimage WHERE careerpathId = $1 ORDER BY careerpathId DESC', [careerpathid], (err, results) => {
     if (err) {
       res.status(400).json({ error: 'Sorry we are facing technical error' });
     }
