@@ -9,9 +9,9 @@ exports.createCategory = (req, res) => {
           [name, image],
           (err) => {
             if (err) {
-              res.status(400).json({ error: "Sorry we facing Technical issues" });
+              res.status(400).json({ error: "Sorry career category is not added." });
             } 
-              res.status(201).json({ success: "Successful" }); 
+              res.status(201).json({ success: "The career category has been added." }); 
           }
         );
         } catch (error) {
@@ -24,7 +24,7 @@ exports.getCategory = (req, res) =>{
     try {
         db.query("SELECT * FROM careercategory", (err, results) => {
             if (err) {
-              res.status(400).json({ error: "Sorry we facing technical issues" });
+              res.status(400).json({ error: "Sorry it's taking });
             }
             res.status(200).json(results.rows);
           });

@@ -31,7 +31,7 @@ CREATE TABLE summary(
 
 CREATE TABLE salaryimage(
     id serial not null primary key,
-    image text[],
+    image text,
     careerpathId int not null,
     foreign key(careerpathId) references careerpath(id)
 );
