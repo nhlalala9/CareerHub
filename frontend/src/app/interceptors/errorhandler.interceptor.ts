@@ -35,7 +35,7 @@ export class ErrorhandlerInterceptor implements HttpInterceptor {
       ErrorMessage = error.error.message;
     } else {
       //server side
-      if (error.status != 0) {
+      if (error.status != 0 && error.status != 404) {
         ErrorMessage = error.error;
       }
     }

@@ -12,6 +12,7 @@ import { SearchfilterPipe } from '../pipes/searchfilter.pipe';
 import { FormsModule } from '@angular/forms';
 import { NgHttpLoaderModule } from 'ng-http-loader';
 import { LoaderComponent } from './loader/loader.component';
+import { NotfoundComponent } from '../shared/notfound/notfound.component';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
@@ -21,7 +22,8 @@ const routes: Routes = [
     {path: 'search', component: SearchComponent},
     {path: 'summary', component: SummaryComponent},
     {path: 'summary/:id/:name', component: SummaryComponent},
-    {path: 'career', component: CareerComponent}
+    {path: 'career', component: CareerComponent},
+    {path: '**', component: NotfoundComponent}
   ]}
 ]
 
