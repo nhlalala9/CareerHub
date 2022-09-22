@@ -24,7 +24,7 @@ exports.getCategory = (req, res) =>{
     try {
         db.query("SELECT * FROM careercategory", (err, results) => {
             if (err) {
-              res.status(400).json({ error: "Sorry it's taking });
+              res.status(400).json({ error: "Sorry we facing technical issues" });
             }
             res.status(200).json(results.rows);
           });
