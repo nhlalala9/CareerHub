@@ -12,6 +12,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { NgHttpLoaderModule } from 'ng-http-loader';
 import { LoaderComponent } from './loader/loader.component';
+import { NotfoundComponent } from '../shared/notfound/notfound.component';
 
 const routes: Routes = [
   {path: 'help', component: HelpmechooseComponent, children:[
@@ -20,6 +21,7 @@ const routes: Routes = [
     {path: 'requirements', component: RequirementsComponent},
     {path: 'summary', component: SummaryComponent},
     {path: 'suggestion', component: SuggestionComponent},
+    {path: '**', component: NotfoundComponent}
   ]}
 ]
 
