@@ -1,3 +1,4 @@
+import { LocationStrategy } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { CategoryService } from 'src/app/services/category.service';
@@ -9,14 +10,16 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class TopnavComponent implements OnInit {
 
-  constructor(public category: CategoryService, private route: ActivatedRoute) { }
+  constructor(public category: CategoryService, private route: ActivatedRoute, private location: LocationStrategy) {
+  
+  }
 
   ngOnInit(): void {
 
   }
 
   back(){
-
+    history.back();
   }
 
 }
