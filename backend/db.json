@@ -1194,6 +1194,156 @@
       "qualification":"Masters",
       "description":"Applicable Master’s degree with minimum average of 65% Suitable research topic",
       "requirementsid": 10
+    },
+    {
+      "id": 39,
+      "qualification":"Diploma",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score Online entrance selection process A minimum APS of 20 with Mathematics or 21 with Mathematical Literacy is required to apply for the programme English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 11
+    },
+    {
+      "id": 40,
+      "qualification":"Bachelor",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programme.",
+      "requirementsid": 11
+    },
+    {
+      "id": 41,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelors degree with a recommended minimum of 60% for all final year modules. Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 11
+    },
+    {
+      "id": 42,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional”  Bachelor’s Degree, or relevant  Postgraduate Diploma,with sufficient preparation to conduct research witha recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Fashion degree, with an average mark of at least 65% combined with a research methodology short learning component as recommended by a Status Committee and approved by the Faculty Board.",
+      "requirementsid": 11
+    },
+    {
+      "id": 43,
+      "qualification":"Doctrate",
+      "description":"n appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 11
+    },
+    {
+      "id": 44,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 12
+    },
+    {
+      "id": 45,
+      "qualification":"Bachelor",
+      "description":"A minimum APS of 28 is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 12
+    },
+    {
+      "id": 46,
+      "qualification":"Honours",
+      "description":"A BTech (Architectural Technology) Applied Design degree that carries SACAP ‘Part 1’ and accreditation, with an average mark of 60% and at least 60% for the modules Applied Design 4 and Theory of Design 4. For internal (UJ) candidates who have achieved the minimum admission requirements, no interview is required, although this may be requested",
+      "requirementsid": 12
+    },
+    {
+      "id": 47,
+      "qualification":"Masters",
+      "description":"A Bachelor of Architecture Honours (BArchHons) degree, or Bachelor of Architectural Studies Honours (BASHons) degree, or an equivalent qualification at an equivalent standard, as recommended by a Status Committee and approved by the Faculty Board and who meet the selection criteria described below",
+      "requirementsid": 12
+    },
+    {
+      "id": 48,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 12
+    },
+    {
+      "id": 49,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 13
+    },
+    {
+      "id": 50,
+      "qualification":"Bachelor",
+      "description":"A National Senior Certificate with requirements as outlined below orAn equivalent qualification at an equivalent standard as determined by a Status Committee. A National Certificate (Vocational) would not be considered.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programmeLanguage of teaching and learning *: 4 Other recognised language **: 4 Mathematics (Maths) only: 4 OR Mathematical Literacy: 5",
+      "requirementsid": 13
+    },
+    {
+      "id": 51,
+      "qualification":"Honours",
+      "description":"An accredited Bachelor’s degree or equivalent in Interior Design, with a recommended average mark of 60% for all final year modules.Minimum duration: one year full-time or two years part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 52,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional” Bachelor’s Degree, or relevant Postgraduate Diploma, with sufficient preparation to conduct research with a recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Interior Design degree, with an average mark of at least 65% Minimum duration: One year full-time/two years part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 53,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 54,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 14
+    },
+    {
+      "id": 55,
+      "qualification":"Bachelor",
+      "description":"A Bachelor of Arts in Digital Media Design prepares students to meet the needs of the digital age as designers of content, systems and products, where text, image, video, audio, graphics and animation converge. Starting from a generalised approach, students learn specialisations in interaction design or digital video",
+      "requirementsid": 14
+    },
+    {
+      "id": 56,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelor’s degree with a recommended minimum of 60% for all final year modules.  Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 14
+    },
+    {
+      "id": 57,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional” Bachelor’s Degree, or relevant Postgraduate Diploma, with sufficient preparation to conduct research with a recommended minimum of 60% for all final-year modules. A relevant Baccalaureus degree in Design, with an average mark of at least 65% Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 14
+    },
+    {
+      "id": 58,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 14
+    },
+    {
+      "id": 59,
+      "qualification":"Diploma",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score Online entrance selection process A minimum APS of 20 with Mathematics or 21 with Mathematical Literacy is required to apply for the programme English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 15
+    },
+    {
+      "id": 60,
+      "qualification":"Bachelor",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programme.",
+      "requirementsid": 15
+    },
+    {
+      "id": 61,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelors degree with a recommended minimum of 60% for all final year modules. Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 15
+    },
+    {
+      "id": 62,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional”  Bachelor’s Degree, or relevant  Postgraduate Diploma,with sufficient preparation to conduct research witha recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Fashion degree, with an average mark of at least 65% combined with a research methodology short learning component as recommended by a Status Committee and approved by the Faculty Board.",
+      "requirementsid": 15
+    },
+    {
+      "id": 63,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 15
     }
   ]
 }
