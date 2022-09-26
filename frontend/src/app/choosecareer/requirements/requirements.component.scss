@@ -5,7 +5,7 @@
   width: 90%;
 }
 .push{
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .pushed{
@@ -17,7 +17,7 @@ img{
 }
 
 .sh{
-  box-shadow: 3px 3px 3px 3px rgba(77, 188, 184, 0.286);
+  box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
   margin-bottom: 30px !important;
   background-color: white !important;
 }
@@ -67,6 +67,21 @@ img{
 
 .ff{
 background-color: white;
-box-shadow: 3px 3px 3px 3px rgba(77, 188, 184, 0.286);
+box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
 
+}
+
+
+.space{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.heading{
+  margin-top: 80px;
+  padding: 10px;
+}
+
+.ppa{
+  margin-bottom: 90px;
 }
