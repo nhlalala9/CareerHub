@@ -24,6 +24,8 @@ export class CategoryComponent implements OnInit {
     this.routing.home = '';
     this.routing.search = '';
 
+    this.category.browse = 'Browse Category';
+
     this.careercategory$ = this.category.category().pipe(shareReplay(1));
   }
 }
