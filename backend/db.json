@@ -909,6 +909,56 @@
       "id": 5,
       "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
       "careerpathid": 5
+    },
+    {
+      "id": 6,
+      "requirements":"A minimum mark of 50% on standard grade or 40% on higher grade in both Physical Sciences, Mathematics and English. ",
+      "careerpathid": 6
+    },
+    {
+      "id": 7,
+      "requirements":"Admission to the BEng degree in Mechanical Engineering requires full matriculation exemption, with an APS count of at least 31, Mathematics level 6 (70–79%) and Physical Sciences level 5 (60–69%).",
+      "careerpathid": 7
+    },
+    {
+      "id": 8,
+      "requirements":"A Grade 12 National Senior Certificate (NSC) and a minimum score of 32 points on the CUT scoring scale, plus a minimum mark of 50% to 59% (Level 4) in both Mathematics and Physical Sciences.",
+      "careerpathid": 8
+    },
+    {
+      "id": 9,
+      "requirements":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 9
+    },
+    {
+      "id": 10,
+      "requirements":"A National Senior Certificate (NSC) (Diploma endorsement) with a rating of 4 in Mathematics or Technical Mathematics (not Mathematical Literacy), English, Physical Science or Technical Science, or N4 Mathematics and Engineering Science with minimum mark of 50%.",
+      "careerpathid": 10
+    },
+    {
+      "id": 11,
+      "requirements": "National Senior Certificate or equivalent qualification An Admission Point Score (APS) of at least 30 Art as a school subject is NOT a requirement.At least 60% for English language (home or first additional).",
+      "careerpathid": 11
+    },
+    {
+      "id": 12,
+      "requirements": "National Senior Certificate with a bachelor's degree an achievement level of 5 for English or Afrikaans, 6 for Mathematics and 5 for Physical Science",
+      "careerpathid": 12
+    },
+    {
+      "id": 13,
+      "requirements": "A Diploma in Interior Design (or a recognised equivalent qualification) with a 60% average pass mark in the final year of the Diploma, is required. Applicants must also obtain a minimum of 60% for the subjects Interior Design 3 and Interior Technology 3.",
+      "careerpathid": 13
+    },
+    {
+      "id": 14,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 14
+    },
+    {
+      "id": 15,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, English Home Language or First Additional Language 4 Mathematics 3 or Technical Maths 4 or Maths Literacy 5",
+      "careerpathid": 15
     }
   ],
 
@@ -1038,6 +1088,262 @@
       "qualification": "Masters",
       "description": "an undergraduate and postgraduate degree or diploma (NQF Level 8). A minimum of four years work experience, preferably some in management. A demonstrated level of mathematics literacy: an NQF Level 4 matriculation pass in maths or equivalent",
       "requirementsid": 5
+    },
+    {
+      "id": 22,
+      "qualification":"Diploma",
+      "description": "Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 6
+    },
+    {
+      "id": 23,
+      "qualification":"Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics or at least 5 (60-69%) for Technical Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science or at least 4 (50-59%) for Technical Sciences. Applicants with an Admission Points Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme. Applicants who have passed Technical Mathematics with the required level as indicated may be referred to the Centre for Access Assessment and Research (CAAR) for testing before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 6
+    },
+    {
+      "id": 24,
+      "qualification": "Masters",
+      "description": "Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 6
+    },
+    {
+      "id": 25,
+      "qualification": "Doctrate",
+      "description": "Master of Technology: Engineering: Electrical or an equivalent qualification. A detailed CV must be presented in the case of equivalent qualifications",
+      "requirementsid": 6
+    },
+    {
+      "id": 26,
+      "qualification": "Diploma",
+      "description": "Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 7
+    },
+    {
+      "id": 27,
+      "qualification":"Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least a level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science. Applicants with an Admissions Point Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 28,
+      "qualification":"Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 29,
+      "qualification":"Doctrate",
+      "description":"Master of Technology: Engineering: Mechanical or an equivalent qualification.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 30,
+      "qualification":"Diploma",
+      "description":"Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 8
+    }
+    ,
+    {
+      "id": 31,
+      "qualification":"Bachelor",
+      "description":"Admissions Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least a level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science. Applicants with an Admissions Point Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 8
+    },
+    {
+      "id": 32,
+      "qualification":"Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 8
+    },
+    {
+      "id": 33,
+      "qualification": "Diploma",
+      "description":"Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 9
+    },
+    {
+      "id": 34,
+      "qualification": "Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics or at least 5 (60-69%) for Technical Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science or at least 4 (50-59%) for Technical Sciences. Applicants with an Admission Points Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme. Applicants who have passed Technical Mathematics with the required level as indicated may be referred to the Centre for Access Assessment and Research (CAAR) for testing before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 9
+    },
+    {
+      "id": 35,
+      "qualification": "Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 9
+    },
+    {
+      "id": 36,
+      "qualification":"Diploma",
+      "description":"Qualifications Applicable three-year BSc degree Applicable BTech degree Minimum academic requirements SA candidates with BSc qualification: 60% average for degree completed in three years, 65% average for degree completed in more than three years, although preference will be given to candidates with an average of 70% and above. SA candidates with a BTech qualification: 65% average. Preference will be given to applicants with average of 70% and above. International candidates: 65% average / Second Class Upper Division pass for an applicable degree completed in minimum time. Preference will be given to applicants with a First Class pass.",
+      "requirementsid": 10
+    },
+    {
+      "id": 37,
+      "qualification":"Bachelor",
+      "description":" SA candidates with BSc qualification: 60% average for degree completed in three years, 65% average for degree completed in more than three years, although preference will be given to candidates with an average of 70% and above. SA candidates with a BTech qualification: 65% average. Preference will be given to applicants with average of 70% and above. International candidates: 65% average / Second Class Upper Division pass for an applicable degree completed in minimum time. Preference will be given to applicants with a First Class pass.",
+      "requirementsid": 10
+    },
+    {
+      "id": 38,
+      "qualification":"Masters",
+      "description":"Applicable Master’s degree with minimum average of 65% Suitable research topic",
+      "requirementsid": 10
+    },
+    {
+      "id": 39,
+      "qualification":"Diploma",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score Online entrance selection process A minimum APS of 20 with Mathematics or 21 with Mathematical Literacy is required to apply for the programme English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 11
+    },
+    {
+      "id": 40,
+      "qualification":"Bachelor",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programme.",
+      "requirementsid": 11
+    },
+    {
+      "id": 41,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelors degree with a recommended minimum of 60% for all final year modules. Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 11
+    },
+    {
+      "id": 42,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional”  Bachelor’s Degree, or relevant  Postgraduate Diploma,with sufficient preparation to conduct research witha recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Fashion degree, with an average mark of at least 65% combined with a research methodology short learning component as recommended by a Status Committee and approved by the Faculty Board.",
+      "requirementsid": 11
+    },
+    {
+      "id": 43,
+      "qualification":"Doctrate",
+      "description":"n appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 11
+    },
+    {
+      "id": 44,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 12
+    },
+    {
+      "id": 45,
+      "qualification":"Bachelor",
+      "description":"A minimum APS of 28 is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 12
+    },
+    {
+      "id": 46,
+      "qualification":"Honours",
+      "description":"A BTech (Architectural Technology) Applied Design degree that carries SACAP ‘Part 1’ and accreditation, with an average mark of 60% and at least 60% for the modules Applied Design 4 and Theory of Design 4. For internal (UJ) candidates who have achieved the minimum admission requirements, no interview is required, although this may be requested",
+      "requirementsid": 12
+    },
+    {
+      "id": 47,
+      "qualification":"Masters",
+      "description":"A Bachelor of Architecture Honours (BArchHons) degree, or Bachelor of Architectural Studies Honours (BASHons) degree, or an equivalent qualification at an equivalent standard, as recommended by a Status Committee and approved by the Faculty Board and who meet the selection criteria described below",
+      "requirementsid": 12
+    },
+    {
+      "id": 48,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 12
+    },
+    {
+      "id": 49,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 13
+    },
+    {
+      "id": 50,
+      "qualification":"Bachelor",
+      "description":"A National Senior Certificate with requirements as outlined below orAn equivalent qualification at an equivalent standard as determined by a Status Committee. A National Certificate (Vocational) would not be considered.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programmeLanguage of teaching and learning *: 4 Other recognised language **: 4 Mathematics (Maths) only: 4 OR Mathematical Literacy: 5",
+      "requirementsid": 13
+    },
+    {
+      "id": 51,
+      "qualification":"Honours",
+      "description":"An accredited Bachelor’s degree or equivalent in Interior Design, with a recommended average mark of 60% for all final year modules.Minimum duration: one year full-time or two years part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 52,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional” Bachelor’s Degree, or relevant Postgraduate Diploma, with sufficient preparation to conduct research with a recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Interior Design degree, with an average mark of at least 65% Minimum duration: One year full-time/two years part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 53,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 54,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 14
+    },
+    {
+      "id": 55,
+      "qualification":"Bachelor",
+      "description":"A Bachelor of Arts in Digital Media Design prepares students to meet the needs of the digital age as designers of content, systems and products, where text, image, video, audio, graphics and animation converge. Starting from a generalised approach, students learn specialisations in interaction design or digital video",
+      "requirementsid": 14
+    },
+    {
+      "id": 56,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelor’s degree with a recommended minimum of 60% for all final year modules.  Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 14
+    },
+    {
+      "id": 57,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional” Bachelor’s Degree, or relevant Postgraduate Diploma, with sufficient preparation to conduct research with a recommended minimum of 60% for all final-year modules. A relevant Baccalaureus degree in Design, with an average mark of at least 65% Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 14
+    },
+    {
+      "id": 58,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 14
+    },
+    {
+      "id": 59,
+      "qualification":"Diploma",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score Online entrance selection process A minimum APS of 20 with Mathematics or 21 with Mathematical Literacy is required to apply for the programme English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 15
+    },
+    {
+      "id": 60,
+      "qualification":"Bachelor",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programme.",
+      "requirementsid": 15
+    },
+    {
+      "id": 61,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelors degree with a recommended minimum of 60% for all final year modules. Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 15
+    },
+    {
+      "id": 62,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional”  Bachelor’s Degree, or relevant  Postgraduate Diploma,with sufficient preparation to conduct research witha recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Fashion degree, with an average mark of at least 65% combined with a research methodology short learning component as recommended by a Status Committee and approved by the Faculty Board.",
+      "requirementsid": 15
+    },
+    {
+      "id": 63,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 15
     }
   ]
 }
