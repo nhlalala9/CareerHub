@@ -959,6 +959,36 @@
       "id": 15,
       "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, English Home Language or First Additional Language 4 Mathematics 3 or Technical Maths 4 or Maths Literacy 5",
       "careerpathid": 15
+    },
+
+
+
+
+
+    {
+      "id": 16,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 6
+    },
+    {
+      "id": 17,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 7
+    },
+    {
+      "id": 18,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 8
+    },
+    {
+      "id": 19,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 9
+    },
+    {
+      "id": 20,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 10
     }
   ],
 
@@ -1344,6 +1374,189 @@
       "qualification":"Doctrate",
       "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
       "requirementsid": 15
+    }
+
+
+
+
+
+
+
+    ,
+    {
+      "id": 64,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 16
+    },
+    {
+      "id": 65,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 16
+    },
+    {
+      "id": 66,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 16
+    },
+    {
+      "id": 67,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 16
+    },
+    {
+      "id": 68,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 16
+    }
+
+
+
+
+
+    ,
+    {
+      "id": 69,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 17
+    },
+    {
+      "id": 70,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 17
+    },
+    {
+      "id": 71,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 17
+    },
+    {
+      "id": 72,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 17
+    },
+    {
+      "id": 73,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 17
+    }
+
+
+
+
+
+
+    ,
+    {
+      "id": 74,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 18
+    },
+    {
+      "id": 75,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 18
+    },
+    {
+      "id": 76,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 18
+    },
+    {
+      "id": 77,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 18
+    },
+    {
+      "id": 78,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 18
+    }
+
+
+
+
+
+    ,
+    {
+      "id": 79,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 19
+    },
+    {
+      "id": 80,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 19
+    },
+    {
+      "id": 81,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 19
+    },
+    {
+      "id": 82,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 19
+    },
+    {
+      "id": 83,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 19
+    }
+
+
+
+
+
+    ,
+    {
+      "id": 84,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 20
+    },
+    {
+      "id": 85,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 20
+    },
+    {
+      "id": 86,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 20
+    },
+    {
+      "id": 87,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 20
+    },
+    {
+      "id": 88,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 20
     }
   ]
 }

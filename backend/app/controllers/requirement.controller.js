@@ -29,7 +29,7 @@ exports.getOneRequirement = (req, res) => {
   const careerpathId = req.params.id;
   try {
     db.query(
-      "SELECT * FROM requirements WHERE id = $1",
+      "SELECT * FROM requirements WHERE careerpathid = $1",
       [careerpathId],
       (err, results) => {
         if (err) {
