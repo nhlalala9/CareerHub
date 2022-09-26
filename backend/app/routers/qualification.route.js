@@ -13,6 +13,6 @@ app.use(
   const controller = require("../controllers/qualification.controller")
 
   app.post("/createQualification", controller.createQualification)
-  app.get("/getQualifications/requirementsId:", controller.getQualifications)
+  app.get("/getQualifications/:id", controller.getQualifications)
 
   module.exports = app;

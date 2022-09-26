@@ -25,13 +25,16 @@ export class SummaryComponent implements OnInit {
     private route: ActivatedRoute
   ) { route.params.subscribe({
     next: (params) =>{
-      this.careerpathName = params['name']
+      this.careerpathName = params['name'],
+      this.careerpathId = params['id']
+
     }
   })}
 
   //declaring
 
   careerpathName: any;
+  careerpathId!: number;
 
   ngOnInit(): void {
     this.category.browse = '';
