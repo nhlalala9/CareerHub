@@ -1158,6 +1158,42 @@
       "qualification":"Masters",
       "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
       "requirementsid": 8
+    },
+    {
+      "id": 33,
+      "qualification": "Diploma",
+      "description":"Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 9
+    },
+    {
+      "id": 34,
+      "qualification": "Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics or at least 5 (60-69%) for Technical Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science or at least 4 (50-59%) for Technical Sciences. Applicants with an Admission Points Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme. Applicants who have passed Technical Mathematics with the required level as indicated may be referred to the Centre for Access Assessment and Research (CAAR) for testing before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 9
+    },
+    {
+      "id": 35,
+      "qualification": "Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 9
+    },
+    {
+      "id": 36,
+      "qualification":"Diploma",
+      "description":"Qualifications Applicable three-year BSc degree Applicable BTech degree Minimum academic requirements SA candidates with BSc qualification: 60% average for degree completed in three years, 65% average for degree completed in more than three years, although preference will be given to candidates with an average of 70% and above. SA candidates with a BTech qualification: 65% average. Preference will be given to applicants with average of 70% and above. International candidates: 65% average / Second Class Upper Division pass for an applicable degree completed in minimum time. Preference will be given to applicants with a First Class pass.",
+      "requirementsid": 10
+    },
+    {
+      "id": 37,
+      "qualification":"Bachelor",
+      "description":" SA candidates with BSc qualification: 60% average for degree completed in three years, 65% average for degree completed in more than three years, although preference will be given to candidates with an average of 70% and above. SA candidates with a BTech qualification: 65% average. Preference will be given to applicants with average of 70% and above. International candidates: 65% average / Second Class Upper Division pass for an applicable degree completed in minimum time. Preference will be given to applicants with a First Class pass.",
+      "requirementsid": 10
+    },
+    {
+      "id": 38,
+      "qualification":"Masters",
+      "description":"Applicable Master’s degree with minimum average of 65% Suitable research topic",
+      "requirementsid": 10
     }
   ]
 }
