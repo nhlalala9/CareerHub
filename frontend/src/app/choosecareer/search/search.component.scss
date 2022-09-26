@@ -43,10 +43,13 @@ img{
 }
 
 .sh{
-  box-shadow: 3px 3px 3px 3px rgba(77, 188, 184, 0.286);
+  box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
 }
 
-
+.sh:hover{
+  color: #56aca8;
+  cursor: pointer;
+}
 
 #image{
   display: flex;

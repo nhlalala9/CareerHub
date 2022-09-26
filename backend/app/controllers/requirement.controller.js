@@ -1,36 +1,48 @@
 //the crud function of requirements
 
-const db=require("../configs/db.config")
+const db = require("../configs/db.config");
 
 exports.createRequirements = (req, res) => {
-  const {requirements,careerpathId } = req.body;
-
+  const { requirements, careerpathId } = req.body;
 
   try {
     db.query(
       "INSERT INTO requirements (requirements,careerpathId) VALUES($1,$2)",
-      [requirements,careerpathId],
+      [requirements, careerpathId],
       (err) => {
         if (err) {
-          res.status(400).json({ error: "sorry,we are still fixing technical issues" });
-        } 
-          res.status(201).json({ success: "successful" });
-        
+          res
+            .status(400)
+            .json({ error: "sorry,we are still fixing technical issues" });
+        }
+        res.status(201).json({ success: "successful" });
       }
     );
   } catch (error) {
-    res.status(500).json({ error: "sorry,we are still fixing technical issues" });
+    res
+      .status(500)
+      .json({ error: "sorry,we are still fixing technical issues" });
   }
 };
 
-exports.getOneRequirement= (req, res) =>{
-
-    const careerpathId = req.params.id;
-
-    db.query('SELECT * FROM requirements WHERE id = $1',[careerpathId],(err, results)=>{
-        if(err){
-            res.status(400).json({error: 'sorry,we are still fixing technical issues'});
+exports.getOneRequirement = (req, res) => {
+  const careerpathId = req.params.id;
+  try {
+    db.query(
+      "SELECT * FROM requirements WHERE id = $1",
+      [careerpathId],
+      (err, results) => {
+        if (err) {
+          res
+            .status(400)
+            .json({ error: "sorry,we are still fixing technical issues" });
         }
-        res.status(200).json(results.rows)
-    })
-}
+        res.status(200).json(results.rows);
+      }
+    );
+  } catch (error) {
+    res
+      .status(500)
+      .json({ error: "sorry,we are still fixing technical issues" });
+  }
+};

@@ -26,10 +26,14 @@ exports.getAllSalary = (req, res) => {
 
   const careerpathid = req.params.id;
 
+  try{
   db.query('SELECT * FROM salaryimage WHERE careerpathId = $1 ORDER BY careerpathId DESC', [careerpathid], (err, results) => {
     if (err) {
       res.status(400).json({ error: 'Sorry we are facing technical error' });
     }
     res.status(200).json(results.rows)
   })
+}catch(error){
+  res.status(500).json({ error: "sorry,we are still fixing technical issues" });
+}
 }
