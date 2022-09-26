@@ -1,28 +1,28 @@
-.sep{
+.sep {
   margin-bottom: 80px;
 }
-.buttons{
+.buttons {
   width: 90%;
 }
-.push{
+.push {
   margin-top: 20px;
 }
 
-.pushed{
+.pushed {
   margin-top: 10px;
 }
 
-img{
+img {
   border-radius: 10px 10px 10px 10px;
 }
 
-.sh{
+.sh {
   box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
   margin-bottom: 30px !important;
   background-color: white !important;
 }
 
-.names{
+.names {
   border: 1px solid #000;
   border-radius: 5px;
   padding: 5px;
@@ -30,58 +30,62 @@ img{
   min-width: 350px;
 }
 
-.named{
+.named {
   border: 1px solid #000;
   border-radius: 5px;
   padding: 50px;
   margin: 11px;
 }
 
-.sp{
+.sp {
   margin-top: 22px;
 }
-.img{
+.img {
   height: 290px !important;
   width: 100% !important;
 }
 
-.small{
+.small {
   width: 100% !important;
 }
 
-.move{
+.move {
   margin-top: 55px;
   width: 100% !important;
 }
 
-.salary{
+.salary {
   border: 1px solid #000;
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
   min-width: 350px;
 }
-.ad{
+.ad {
   padding: 20px;
 }
 
-.ff{
-background-color: white;
-box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
-
+.ff {
+  background-color: white;
+  box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
+  padding: 8px;
 }
 
-
-.space{
+.space {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.heading{
+.space:hover{
+  color: #56aca8;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.heading {
   margin-top: 80px;
   padding: 10px;
 }
 
-.ppa{
+.ppa {
   margin-bottom: 90px;
 }
