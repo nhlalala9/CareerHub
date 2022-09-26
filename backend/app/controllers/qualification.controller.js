@@ -1,12 +1,12 @@
 const db = require("../configs/db.config");
 
 exports.createQualification = (req, res) => {
-  const { name, image } = req.body;
+  const { qualification, description,requirementsid } = req.body;
 
   try {
     db.query(
-      "INSERT INTO qualifications (qualification, description, requirementsId) VALUES($1,$2,$3)",
-      [qualification, description, requirementsId],
+      "INSERT INTO qualifications (qualification, description, requirementsid) VALUES($1,$2,$3)",
+      [qualification, description, parseInt(requirementsid)],
       (err) => {
         if (err) {
           res.status(400).json({ error: "Sorry we facing Technical issues" });
