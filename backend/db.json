@@ -882,5 +882,162 @@
       "careerpathid": 19
     }
 
+  ],
+
+  "requirements":[
+    {
+      "id": 1,
+      "requirements": "Matric with Exemption Minimum APS score of 28 English level 4, Mathematics level 4,Mathematical Literacy is Not Accepted,Technical Mathematics is Not Accepted",
+      "careerpathid": 1
+    },
+    {
+      "id": 2,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 2
+    },
+    {
+      "id": 3,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 3
+    },
+    {
+      "id": 4,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 4
+    },
+    {
+      "id": 5,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 5
+    }
+  ],
+
+  "qualification":[
+    {
+      "id": 1,
+      "qualification": "Diploma",
+      "description": "Matric with Exemption Minimum APS score of 28 English level 4,Mathematics level 4,Mathematical Literacy is Not Accepted,Technical Mathematics is Not Accepted",
+      "requirementsid": 1
+    },
+    {
+      "id": 2,
+      "qualification": "Bachelor",
+      "description": "A National Senior Certificate with a bachelors degree or a diploma endorsement, or an equivalent qualification. an achievement  English level 4,Mathematics level 4,Mathematical Literacy is Not Accepted,Technical Mathematics is Not Accepted",
+      "requirementsid": 1
+    },
+    {
+      "id": 3,
+      "qualification": "Honours",
+      "description": "A BCom degree with Financial Risk Management,Financial Mathematics and Mathematical Statistics as third-year subjects.• An average mark of at least 60% for Financial Risk Management 314 and 344.",
+      "requirementsid": 1
+    },
+    {
+      "id": 4,
+      "qualification": "Masters",
+      "description": "A BComHons in Financial Risk Management from Stellenbosch University or an equivalent qualification from another recognised university.",
+      "requirementsid": 1
+    },
+    {
+      "id": 5,
+      "qualification": "Diploma",
+      "description": "A Senior Certificate or an equivalent qualification, with at least a D symbol at Higher Grade for English and a C symbol at Standard Grade for Mathematics.",
+      "requirementsid": 2
+    },
+    {
+      "id": 6,
+      "qualification": "Bachelor",
+      "description": "a SAQA Certificate of Equivalence, if they want to enrol for a Higher Certificate, Advanced Certificate, Diploma or Postgraduate qualification",
+      "requirementsid": 2
+    },
+    {
+      "id": 7,
+      "qualification": "Honours",
+      "description": "A potential student must be in possession of one of the following: NQF level 7 qualification with a minimum average of 65% obtained in the final year modules including appropriate knowledge of Financial Planning (assessed at a NQF level 7); or NQF level 7 qualification with 3 years relevant work experience, as deemed acceptable by the Department of Finance and Investment Management,in Financial Planning. Final admission requirements will from time to time be set by the department.",
+      "requirementsid": 2
+    },
+    {
+      "id": 8,
+      "qualification": "Diploma",
+      "description": "A National Senior Certificate (NSC) (Diploma endorsement) with at least 50% in the language of teaching and learning and at least 40% in Mathematics,",
+      "requirementsid": 3
+    },
+    {
+      "id": 9,
+      "qualification": "Bachelor",
+      "description": "A minimum Admissions Point Score (APS) of 28 is required for admission into this degree,with the following specifications: English with an APS of 4 Maths with an APS of 4 Mathematical Literacy is not accepted",
+      "requirementsid": 3
+    },
+    {
+      "id": 10,
+      "qualification": "Honours",
+      "description": "BCom Accounting Sciences or equivalent with an average of 57% for Auditing, Financial Accounting, Financial Management and Taxation on 3rd year level, and At least 53% for Auditing Financial Accounting Financial Management and Taxation on 3rd year level.",
+      "requirementsid": 3
+    },
+    {
+      "id": 11,
+      "qualification": "Masters",
+      "description": "A three-year undergraduate degree with a major in Accounting; A one-year Higher Diploma in Accounting or BAccSc (Honours) – only postgraduate degrees which are in the field of Accounting will be considered (At least 3 of the following subjects requirements are necessary: accounting, management accounting, auditing, finance); Professional Membership of the SAICA (or equivalent body);",
+      "requirementsid": 3
+    },
+    {
+      "id": 12,
+      "qualification": "Doctrate",
+      "description": "A candidate who is in possession of an accounting orientated masters qualification on NQF level 9 may apply for admission to this qualification",
+      "requirementsid": 3
+    },
+    {
+      "id": 13,
+      "qualification": "Diploma",
+      "description": "A minimum APS of 22 with Mathematics or 24 with Mathematical Literacy. English 4 (50%) Mathematics or Technical Mathematics 3 (40%) or Mathematical Literacy 5 (60%).",
+      "requirementsid": 4
+    },
+    {
+      "id": 14,
+      "qualification": "Bachelor",
+      "description": "A minimum APS of 25 with Mathematics or 28 with Mathematical Literacy. English 4 (50%), Mathematics or Technical Mathematics 4 (50%) or Mathematical Literacy 6 (70%).",
+      "requirementsid": 4
+    },
+    {
+      "id": 15,
+      "qualification": "Honours",
+      "description": "a Bachelors degree in Economics or an Advanced Diploma in Economics, with an average of 65% for Economics 3 (NQF level 7) and an average of 65% for either Econometrics 3 (NQF level 7) or Statistics 3 (NQF level 7), to be considered for entrance into the honours programme.",
+      "requirementsid": 4
+    },
+    {
+      "id": 16,
+      "qualification": "Masters",
+      "description": "a cognate qualification on NQF Level 8/Old NQF level 7, which is deemed applicable by the School of Economics.",
+      "requirementsid": 4
+    },
+    {
+      "id": 17,
+      "qualification": "Doctrate",
+      "description": "a relevant Masters qualification (NQF Level 9),relevance of prior experience, internal supervision constraints, the outcome of selection interviews, as well as evaluations and defences of draft research proposals",
+      "requirementsid": 4
+    },
+    {
+      "id": 18,
+      "qualification": "Diploma",
+      "description": "A National Senior Certificate with a bachelors degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language) and 5 for Mathematics or Technical Mathematics or 7 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 5
+    },
+    {
+      "id": 19,
+      "qualification": "Bachelor",
+      "description": "A National Senior Certificate with a bachelors degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language) and 5 for Mathematics or Technical Mathematics or 7 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 5
+    },
+    {
+      "id": 20,
+      "qualification": "Honours",
+      "description": "a BCom, Advanced Diploma or equivalent qualification on NQF LEVEL 7, with Business Management related modules as major modules of which Strategic Management on NQF LEVEL 7 must have been a module.",
+      "requirementsid": 5
+    },
+    {
+      "id": 21,
+      "qualification": "Masters",
+      "description": "an undergraduate and postgraduate degree or diploma (NQF Level 8). A minimum of four years work experience, preferably some in management. A demonstrated level of mathematics literacy: an NQF Level 4 matriculation pass in maths or equivalent",
+      "requirementsid": 5
+    }
   ]
 }
