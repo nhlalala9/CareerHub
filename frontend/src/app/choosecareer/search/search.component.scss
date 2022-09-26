@@ -37,6 +37,12 @@ img{
   margin-bottom: 80px;
 }
 
+.buttons:hover{
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .push{
     margin-top: 60px;
     margin-bottom: 50px;
