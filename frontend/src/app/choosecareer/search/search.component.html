@@ -8,7 +8,7 @@
             placeholder="Search…"
             class="input input-bordered search"
             [(ngModel)]="this.term"
-            (input)="this.searching(this.term)"
+            (input)="this.showOrDont()"
           />
           <button class="btn btn-primary shadow">
             <svg
@@ -59,7 +59,7 @@
       class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
     >
       <div
-        *ngFor="let item of careers"
+        *ngFor="let item of careers | searchfilter: this.term"
         routerLink="/choose/summary/{{ item.id }}/{{ item.name }}"
       >
         <div class="card card-compact w-96 bg-base-100 shadow-xl sh">
