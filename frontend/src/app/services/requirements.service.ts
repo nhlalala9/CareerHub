@@ -12,7 +12,9 @@ export class RequirementsService {
 
   //getting data from the backend ro frontend
 
-  getRequirements(careerpathId: number): Observable<Requirements[]> {
+  getRequirements(careerpathId: any): Observable<Requirements[]> {
     return this.http.get<Requirements[]>(`${environment.baseUrl}/getoneRequirement/${careerpathId}`);
   }
+
+
 }
