@@ -1088,6 +1088,76 @@
       "qualification": "Masters",
       "description": "an undergraduate and postgraduate degree or diploma (NQF Level 8). A minimum of four years work experience, preferably some in management. A demonstrated level of mathematics literacy: an NQF Level 4 matriculation pass in maths or equivalent",
       "requirementsid": 5
+    },
+    {
+      "id": 22,
+      "qualification":"Diploma",
+      "description": "Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 6
+    },
+    {
+      "id": 23,
+      "qualification":"Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics or at least 5 (60-69%) for Technical Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science or at least 4 (50-59%) for Technical Sciences. Applicants with an Admission Points Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme. Applicants who have passed Technical Mathematics with the required level as indicated may be referred to the Centre for Access Assessment and Research (CAAR) for testing before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 6
+    },
+    {
+      "id": 24,
+      "qualification": "Masters",
+      "description": "Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 6
+    },
+    {
+      "id": 25,
+      "qualification": "Doctrate",
+      "description": "Master of Technology: Engineering: Electrical or an equivalent qualification. A detailed CV must be presented in the case of equivalent qualifications",
+      "requirementsid": 6
+    },
+    {
+      "id": 26,
+      "qualification": "Diploma",
+      "description": "Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 7
+    },
+    {
+      "id": 27,
+      "qualification":"Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least a level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science. Applicants with an Admissions Point Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 28,
+      "qualification":"Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 29,
+      "qualification":"Doctrate",
+      "description":"Master of Technology: Engineering: Mechanical or an equivalent qualification.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 30,
+      "qualification":"Diploma",
+      "description":"Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 8
+    }
+    ,
+    {
+      "id": 31,
+      "qualification":"Bachelor",
+      "description":"Admissions Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least a level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science. Applicants with an Admissions Point Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 8
+    },
+    {
+      "id": 32,
+      "qualification":"Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 8
     }
   ]
 }
