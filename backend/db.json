@@ -909,6 +909,31 @@
       "id": 5,
       "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
       "careerpathid": 5
+    },
+    {
+      "id": 6,
+      "requirements":"A minimum mark of 50% on standard grade or 40% on higher grade in both Physical Sciences, Mathematics and English. ",
+      "careerpathid": 6
+    },
+    {
+      "id": 7,
+      "requirements":"Admission to the BEng degree in Mechanical Engineering requires full matriculation exemption, with an APS count of at least 31, Mathematics level 6 (70–79%) and Physical Sciences level 5 (60–69%).",
+      "careerpathid": 7
+    },
+    {
+      "id": 8,
+      "requirements":"A Grade 12 National Senior Certificate (NSC) and a minimum score of 32 points on the CUT scoring scale, plus a minimum mark of 50% to 59% (Level 4) in both Mathematics and Physical Sciences.",
+      "careerpathid": 8
+    },
+    {
+      "id": 9,
+      "requirements":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 9
+    },
+    {
+      "id": 10,
+      "requirements":"A National Senior Certificate (NSC) (Diploma endorsement) with a rating of 4 in Mathematics or Technical Mathematics (not Mathematical Literacy), English, Physical Science or Technical Science, or N4 Mathematics and Engineering Science with minimum mark of 50%.",
+      "careerpathid": 10
     }
   ],
 
