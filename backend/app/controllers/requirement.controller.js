@@ -3,19 +3,19 @@
 const db = require("../configs/db.config");
 
 exports.createRequirements = (req, res) => {
-  const { requirements, careerpathId } = req.body;
+  const { requirements, careerpathid } = req.body;
 
   try {
     db.query(
-      "INSERT INTO requirements (requirements,careerpathId) VALUES($1,$2)",
-      [requirements, careerpathId],
+      "INSERT INTO requirements (requirements,careerpathid) VALUES($1,$2)",
+      [requirements,parseInt(careerpathid)],
       (err) => {
         if (err) {
-          res
+          return res
             .status(400)
-            .json({ error: "sorry,we are still fixing technical issues" });
+            .json({ error: err });
         }
-        res.status(201).json({ success: "successful" });
+        return res.status(201).json({ success: "successful" });
       }
     );
   } catch (error) {
