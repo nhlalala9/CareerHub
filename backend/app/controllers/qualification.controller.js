@@ -23,16 +23,16 @@ exports.getQualifications = (req, res) => {
   
   try {
     db.query(
-      "SELECT * FROM qualifications WHERE id = $1",
-      [requirementsId],
+      "SELECT * FROM qualifications WHERE requirementsid = $1",
+      [parseInt(requirementsId)],
       (err, results) => {
         if (err) {
-          res.status(400).json({ error: "Sorry we facing Technical issues" });
+          return res.status(400).json({ error: err });
         }
-        res.status(200).josn(results.row);
+        return res.status(200).json(results.rows);
       }
     );
   } catch (error) {
-    return res.status(500).json({ error: "database error" });
+    return res.status(500).json({ error: error });
   }
 };
