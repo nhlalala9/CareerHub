@@ -1,9 +1,14 @@
 <!-- average salary code html -->
 <ng-container *ngIf="(summary$ | async)?.length != 0; else loading">
   <div class="flex justify-center container mx-auto push">
-    <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of salary$ | async">
+    <div
+      class="card card-compact w-96 bg-base-100 shadow-xl sh"
+      *ngFor="let item of salary$ | async"
+    >
       <div class="flex justify-center">
-        <div class="flex justify-center font-bold bg-base-200 names">AVERAGE SALARY</div>
+        <div class="flex justify-center font-bold bg-base-200 names">
+          AVERAGE SALARY
+        </div>
       </div>
       <figure>
         <img [src]="item.image" alt="Shoes" />
@@ -20,8 +25,13 @@
 
   <!-- card for description  -->
   <div class="flex justify-center container mx-auto pushed">
-    <div class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp">
-      <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of summary$ | async">
+    <div
+      class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
+    >
+      <div
+        class="card card-compact w-96 bg-base-100 shadow-xl sh"
+        *ngFor="let item of summary$ | async"
+      >
         <div class="flex justify-center">
           <div class="flex justify-center names">
             {{ item.description }}
@@ -37,7 +47,12 @@
 
   <!-- button for requirements -->
   <div class="flex justify-center sep">
-    <button class="btn btn-primary shadow-xl buttons"routerLink="/choose/requirements/{{ careerpathId }}/{{careerpathName}}">Requirements</button>
+    <button
+      class="btn btn-primary shadow-xl w-96 buttons"
+      routerLink="/choose/requirements/{{ careerpathId }}/{{ careerpathName }}"
+    >
+      Requirements
+    </button>
   </div>
 </ng-container>
 <!-- for loading when there is nothing -->
