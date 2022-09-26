@@ -1,12 +1,12 @@
 const db = require("../configs/db.config");
 
 exports.createQualification = (req, res) => {
-  const { name, image } = req.body;
+  const { qualification, description,requirementsid } = req.body;
 
   try {
     db.query(
-      "INSERT INTO qualifications (qualification, description, requirementsId) VALUES($1,$2,$3)",
-      [qualification, description, requirementsId],
+      "INSERT INTO qualifications (qualification, description, requirementsid) VALUES($1,$2,$3)",
+      [qualification, description, parseInt(requirementsid)],
       (err) => {
         if (err) {
           res.status(400).json({ error: "Sorry we facing Technical issues" });
@@ -23,16 +23,16 @@ exports.getQualifications = (req, res) => {
   
   try {
     db.query(
-      "SELECT * FROM qualifications WHERE id = $1",
-      [requirementsId],
+      "SELECT * FROM qualifications WHERE requirementsid = $1",
+      [parseInt(requirementsId)],
       (err, results) => {
         if (err) {
-          res.status(400).json({ error: "Sorry we facing Technical issues" });
+          return res.status(400).json({ error: err });
         }
-        res.status(200).josn(results.row);
+        return res.status(200).json(results.rows);
       }
     );
   } catch (error) {
-    return res.status(500).json({ error: "database error" });
+    return res.status(500).json({ error: error });
   }
 };

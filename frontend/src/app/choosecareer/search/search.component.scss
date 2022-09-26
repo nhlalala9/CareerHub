@@ -44,11 +44,13 @@ img{
 
 .sh{
   box-shadow: 3px 3px 0px 0px rgba(77, 188, 184, 0.286);
+  transition: all .2s ease-in-out; 
 }
 
 .sh:hover{
   color: #56aca8;
   cursor: pointer;
+  transform: scale(1.1); 
 }
 
 #image{
