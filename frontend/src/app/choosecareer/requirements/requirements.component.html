@@ -1,52 +1,58 @@
-<div class="flex justify-center container mx-auto push">
-  <div class="card card-compact w-96 bg-base-100 shadow-xl sh">
-    <div class="flex justify-center Admission">
-      <p>This are the mimimun requirements you need to achieve arts design:</p>
-    </div>
-    <div class="flex justify-center">
-      <div class="flex justify-center font-bold bg-base-200 names">
-        Minimun Requirements
+<ng-container *ngIf="(requirements$ | async)?.length != 0; else loading">
+  <h1 class="flex justify-center font-bold text-3xl heading">
+    This are the minimum requirements for {{ careerpathName }}:
+  </h1>
+  <div class="flex justify-center container mx-auto push">
+    <div
+      class="card card-compact w-96 bg-base-100 shadow-xl sh"
+      *ngFor="let item of requirements$ | async"
+    >
+      <div class="flex justify-center">
+        <div class="flex justify-center font-bold bg-base-200 names">
+          Minimun Requirements
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <p>Admission Requirements:</p>
+      </div>
+      <div class="flex justify-center ad">
+        <p>
+          {{ item.requirements }}
+        </p>
       </div>
     </div>
-    <div class="flex justify-center">
-      <p>Admission Requirements:</p>
-    </div>
-    <div class="flex justify-center ad">
-      <p>
-        Admission to the BEng degree in Mechanical Engineering requires full
-        matriculation exemption, with an APS count of at least 31, Mathematics
-        level 6 (70–79%) and Physical Sciences level 5 (60–69%).
-      </p>
+  </div>
+
+  <div class="flex justify-center ad">
+    <p class="font-bold">Qualifications you can acquire:</p>
+  </div>
+
+  <div class="ppa">
+    <div
+      class="flex justify-center space"
+      *ngFor="let item of qualification$ | async"
+    >
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border w-96 border-base-300 bg-base-100 rounded-box ff"
+      >
+        <input type="checkbox" />
+        <div class="collapse-title text-xl font-medium">
+          {{ item.qualification }}
+        </div>
+        <div class="collapse-content">
+          <p>{{ item.description }}</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-<div class="flex justify-center ad">
-  <p class="font-bold">Qualifications you can acquire:</p>
-</div>
-
-<div class="flex justify-center">
-  <div
-    tabindex="0"
-    class="collapse collapse-arrow border w-96 border-base-300 bg-base-100 rounded-box ff"
-  >
-  <input type="checkbox" />
-    <div class="collapse-title text-xl font-medium">Diploma</div>
-    <div class="collapse-content">
-      <p>A National Senior Certificate (NSC) (Diploma
-        endorsement) with at least 50% in the language
-        of teaching and learning and at least 40% in
-        Mathematics</p>
-    </div>
-  </div>
-</div>
+</ng-container>
 
 <ng-template #loading>
-  <div class="max-w-full move">
-    <progress class="progress w-96 justify-center small"></progress>
-  </div>
-  <div class="flex justify-center">Sorry, It is taking a while......</div>
+  <app-nodata></app-nodata>
 </ng-template>
 
-<app-topnav></app-topnav>
 <app-navbar></app-navbar>
+<app-topnav></app-topnav>
+
+<app-loader></app-loader>
