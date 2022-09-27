@@ -12,4 +12,7 @@ export class NodataComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  back(){
+    history.back();
+  }
 }
