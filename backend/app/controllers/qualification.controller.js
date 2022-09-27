@@ -23,7 +23,7 @@ exports.getQualifications = (req, res) => {
   
   try {
     db.query(
-      "SELECT * FROM qualifications WHERE requirementsid = $1",
+      "SELECT * FROM qualifications WHERE requirementsid = $1 ORDER BY id ASC",
       [parseInt(requirementsId)],
       (err, results) => {
         if (err) {
