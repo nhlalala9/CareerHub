@@ -14,7 +14,7 @@ h3{
 }
 
 .sh{
-    box-shadow: 3px 3px 3px 3px rgba(77, 188, 184, 0.286);
+    box-shadow: 0 8px 8px rgba(77, 188, 184, 0.286);
     margin-bottom: 30px !important;
 }
 
@@ -26,4 +26,9 @@ h3{
 .move{
     margin-top: 55px;
     width: 100% !important;
+}
+
+.sh:hover{
+    cursor: pointer;
+  transform: scale(1.1);
 }

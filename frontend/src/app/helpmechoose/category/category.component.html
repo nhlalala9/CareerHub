@@ -3,16 +3,16 @@
 
     <div class="flex justify-center container mx-auto push">
       <div
-        class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
+        class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
       >
         <div
           class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh"
-          *ngFor="let item of category$ | async"
+          *ngFor="let item of category$ | async" routerLink="/help/question/{{item.id}}"
         >
           <figure>
             <img [src]="item.image" alt="Shoes" />
           </figure>
-          <button class="btn btn-primary b" (click)="send(item.id)">
+          <button class="btn btn-primary b">
             {{ item.name }}
           </button>
         </div>
