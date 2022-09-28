@@ -324,11 +324,6 @@
     },
     {
       "id": 12,
-      "image": "",
-      "careerpathid": -1
-    },
-    {
-      "id": 12,
       "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858412341219349/unknown.png",
       "careerpathid": 6
     },
@@ -368,9 +363,34 @@
       "careerpathid": 19
     },
     {
-      "id": 12,
+      "id": 21,
       "image": "",
       "careerpathid": 20
+    },
+    {
+      "id": 22,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664345847/science/Screenshot_2022-09-28_at_08.16.32_f9swbv.png",
+      "careerpathid": 21
+    },
+    {
+      "id": 23,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346433/science/Screenshot_2022-09-28_at_08.26.58_t0baip.png",
+      "careerpathid": 22
+    },
+    {
+      "id": 24,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346042/science/Screenshot_2022-09-28_at_08.20.25_dyhy1r.png",
+      "careerpathid": 23
+    },
+    {
+      "id": 25,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346209/science/Screenshot_2022-09-28_at_08.23.17_lkl51i.png",
+      "careerpathid": 24
+    },
+    {
+      "id": 26,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346306/science/Screenshot_2022-09-28_at_08.24.53_he4psq.png",
+      "careerpathid": 25
     }
   ],
 
@@ -880,6 +900,94 @@
       "description": "You are one step closer to obtaining lucrative industrial engineering jobs ",
       "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018884830924132452/industrial-engi.webp",
       "careerpathid": 19
+    },
+
+
+
+
+    {
+      "id": 74,
+      "description": "They are responsible for cleaning up the scene once the evidence has been collected",
+      "image": "https://c8.alamy.com/comp/BGCD7K/crime-scene-investigation-forensic-people-at-a-murder-scene-police-BGCD7K.jpg",
+      "careerpathid": 22
+    },
+    {
+      "id": 75,
+      "description": "They prepare bodies for autopsies and to assist a medical examiner with the autopsy process",
+      "image": "https://www.lexvisio.com/img/cat/expr/146-forensic-pathology-autopsy-expert-witnesses-desktop.webp",
+      "careerpathid": 22
+    },
+    {
+      "id": 76,
+      "description": "Specialize in identifying and comparing fingerprint patterns using laboratory equipment and computer programs",
+      "image": "https://i.ytimg.com/vi/cf3ZHWeeoo0/maxresdefault.jpg",
+      "careerpathid": 22
+    }
+
+
+
+    ,
+    {
+      "id": 77,
+      "description": "Carrying out fieldwork, eg collecting samples",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Zoobentos_sampling_Krippenbach.jpg/1200px-Zoobentos_sampling_Krippenbach.jpg",
+      "careerpathid": 23
+    },
+    {
+      "id": 78,
+      "description": "Organising product/materials testing scientists",
+      "image": "https://www.matest.com/contents/files/services.jpg",
+      "careerpathid": 23
+    },
+    {
+      "id": 79,
+      "description": "Keeping up to date with relevant scientific and technical developments",
+      "image": "https://constitutionpartyofwa.com/wp-content/uploads/2022/03/69.jpeg",
+      "careerpathid": 23
+    }
+
+
+
+    ,
+    {
+      "id": 80,
+      "description": "Study how the earth's surface is formed and changed by rivers, mountains, oceans, air and ice",
+      "image": "https://openpress.usask.ca/app/uploads/sites/29/2017/08/Svalbard.jpg",
+      "careerpathid": 24
+    },
+    {
+      "id": 81,
+      "description": "They undertake technical and scientific analysis of rock, soil, groundwater to see the likely impact that major construction developments will have on sites.",
+      "image": "https://www.aessoil.com/wp-content/uploads/2021/05/iStock-875007530.jpeg",
+      "careerpathid": 24
+    },
+    {
+      "id": 82,
+      "description": "Study the composition, structure, processes, and other physical aspects of the Earth.",
+      "image": "https://i.natgeofe.com/n/bd2d0e38-58b9-4b58-a08d-9b4ac58bc071/MM7908_101105_05024_16x9.jpg",
+      "careerpathid": 24
+    }
+
+
+
+    ,
+    {
+      "id": 83,
+      "description": "Design systems and products.",
+      "image": "https://images.practicaladultinsights.com/slideshow-mobile-small/complex-panel-of-wires.jpg",
+      "careerpathid": 25
+    },
+    {
+      "id": 84,
+      "description": "Train clinicians and other personnel on the proper use of equipment",
+      "image": "https://www.gebauer.com/hubfs/2016/nurse-operating-room.jpg",
+      "careerpathid": 25
+    } ,
+    {
+      "id": 85,
+      "description": "Research the engineering aspects within the biological systems of humans and animals",
+      "image": "https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/media/GettyImages-1193074238.jpg",
+      "careerpathid": 25
     }
 
   ],
@@ -989,6 +1097,36 @@
       "id": 20,
       "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
       "careerpathid": 10
+    }
+
+
+
+
+    ,
+    {
+      "id": 21,
+      "requirements": "A National Senior Certificate, with a minimum of 45% in English ORA Senior Certificate with Higher and/or Standard Grade subjects with a minimum of 45% in English, or equivalent qualification with the minimum APS of 30",
+      "careerpathid": 21
+    },
+    {
+      "id": 22,
+      "requirements": "A National Senior Certificate, with a minimum of 40% in three subjects, one of which is an official language at Home Language level and 30% in three subjects with the minimum APS of 32",
+      "careerpathid": 22
+    },
+    {
+      "id": 23,
+      "requirements": "A National Senior Certificate, with a minimum of 45% in English ORA Senior Certificate with Higher and/or Standard Grade subjects with a minimum of 45% in English, or equivalent qualification with the minimum APS of 30",
+      "careerpathid": 23
+    },
+    {
+      "id": 24,
+      "requirements": "A National Senior Certificate, with a minimum of 40% in three subjects, one of which is an official language at Home Language level and 30% in three subjects with the minimum APS of 21",
+      "careerpathid": 24
+    },
+    {
+      "id": 25,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 4 for Life Sciences, 4 for Mathematics and 4 for Physical Sciences with the minimum APS of 32",
+      "careerpathid": 25
     }
   ],
 
@@ -1557,6 +1695,92 @@
       "qualification":"Doctorate",
       "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
       "requirementsid": 20
+    }
+    
+    
+    
+    
+    ,
+    {
+      "id": 89,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate (Diploma Pass), with a minimum of 45% in English, together with an achievement rating of 3 or lbetter in four designated subjects (including Life Orientation), or equivalent qualification",
+      "requirementsid": 21
+    },
+    {
+      "id": 90,
+      "qualification":"Bachelors",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 21
+    }
+    
+    
+    ,
+    {
+      "id": 91,
+      "qualification":"Diploma",
+      "description":"Achieve 40% in three subjects, one of which is an official language at Home Language level and 30% in three subjects.",
+      "requirementsid": 22
+    },
+    {
+      "id": 92,
+      "qualification":"Bachelors",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 22
+    }
+    
+    
+    
+    ,
+    {
+      "id": 93,
+      "qualification":"Diploma",
+      "description":"A Senior Certificate or an equivalent qualification, with an E symbol at Higher Grade or a D symbol at Standard Grade for English and Mathematics.",
+      "requirementsid": 23
+    },
+    {
+      "id": 94,
+      "qualification":"Masters",
+      "description":"A Postgraduate Diploma in Agriculture, or a Baccalaureus Technologiae: Agriculture, or a Bachelor Honours degree in Agriculture from a South African university in the related or envisaged field of study of the applicant",
+      "requirementsid": 23
+    },
+    {
+      "id": 95,
+      "qualification":"Doctorate",
+      "description":"Any master's degree, or any magister technologiae from an accredited South African university in the related or envisaged field of study of the applicant.",
+      "requirementsid": 23
+    }
+    
+    
+    
+    ,
+    {
+      "id": 96,
+      "qualification":"Bachelor",
+      "description":"An applicant with NSC Grade 12 Mathematics requires an Admission Point Score (APS) of at least 21. NSC achievement rating of at least 60% for Mathematics",
+      "requirementsid": 24
+    },
+    {
+      "id": 97,
+      "qualification":"Masters",
+      "description":"The General Rules for Masters' degrees are applicable. A candidate must also comply with the requirements in the departmental policy document regarding studies towards a Master's degree. The research project for the dissertation must be approved by the Faculty Postgraduate Studies Committee (Science). BSc Honours: Geology or equivalent",
+      "requirementsid": 24
+    }
+    
+    
+    
+    ,
+    {
+      "id": 98,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 25
+    },
+    {
+      "id": 99,
+      "qualification":"Bachelors",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 25
     }
   ]
 }
