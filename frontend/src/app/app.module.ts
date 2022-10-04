@@ -27,7 +27,7 @@ import { ToastrModule } from 'ngx-toastr';
     SharedModule,
     CommonModule,
     BrowserAnimationsModule, // required animations module
-    ToastrModule.forRoot() // ToastrModule added
+    ToastrModule.forRoot()
   ],
   providers: [
     {

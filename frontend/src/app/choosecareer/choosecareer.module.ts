@@ -10,17 +10,20 @@ import { RequirementsComponent } from './requirements/requirements.component';
 import { SharedModule } from '../shared/shared.module';
 import { SearchfilterPipe } from '../pipes/searchfilter.pipe';
 import { FormsModule } from '@angular/forms';
-
+import { NgHttpLoaderModule } from 'ng-http-loader';
+import { LoaderComponent } from './loader/loader.component';
+import { NotfoundComponent } from '../shared/notfound/notfound.component';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
     {path: 'career/:id/:name', component: CareerComponent},
     {path: 'category', component: CategoryComponent},
-    {path: 'requirements', component: RequirementsComponent},
+    {path: 'requirements/:id/:name', component: RequirementsComponent},
     {path: 'search', component: SearchComponent},
     {path: 'summary', component: SummaryComponent},
     {path: 'summary/:id/:name', component: SummaryComponent},
-    {path: 'career', component: CareerComponent}
+    {path: 'career', component: CareerComponent},
+    {path: '**', component: NotfoundComponent}
   ]}
 ]
 
@@ -32,10 +35,12 @@ const routes: Routes = [
     CareerComponent,
     SummaryComponent,
     RequirementsComponent,
-    SearchfilterPipe
+    SearchfilterPipe,
+    LoaderComponent
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes),SharedModule,FormsModule
+    CommonModule, RouterModule.forChild(routes),SharedModule,FormsModule,
+    NgHttpLoaderModule.forRoot()
   ]
 })
 export class ChoosecareerModule { }

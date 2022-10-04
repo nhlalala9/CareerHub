@@ -12,7 +12,7 @@ app.use(
   
   const controller = require("../controllers/careerCategory.controller")
 
-  app.get("/createCategory", controller.createCategory)
-  app.post("/getCategory", controller.getcategory)
+  app.get("/getcareerCategory", controller.getCategory)
+  app.post("/createCareerCategory", controller.createCategory)
 
   module.exports = app;
