@@ -8,10 +8,11 @@ import {
 } from '@angular/common/http';
 import { catchError, Observable, throwError } from 'rxjs';
 import { NotificationService } from '../services/notification.service';
+import { Router } from '@angular/router';
 
 @Injectable()
 export class ErrorhandlerInterceptor implements HttpInterceptor {
-  constructor(private notify: NotificationService) {}
+  constructor(private notify: NotificationService, private route: Router) {}
 
   intercept(
     request: HttpRequest<any>,
@@ -20,7 +21,6 @@ export class ErrorhandlerInterceptor implements HttpInterceptor {
     return next.handle(request).pipe(
       catchError((error: HttpErrorResponse) => {
         const ErrorMessage = this.setError(error);
-
         this.notify.showError(ErrorMessage);
         return throwError(error);
       })
@@ -38,7 +38,8 @@ export class ErrorhandlerInterceptor implements HttpInterceptor {
       if (error.status != 0 && error.status != 404) {
         ErrorMessage = error.error.error;
       }else if(error.status === 0){
-        return ErrorMessage
+        this.route.navigate(['/nointernet'])
+        return ErrorMessage = 'Check your Internet connection'
       }
     }
     return ErrorMessage;

@@ -1,1 +1,29 @@
-<p>single works!</p>
+
+<div class="flex justify-center container mx-auto push">
+    <div class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp">
+        
+
+        <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh">
+            <h3>question</h3>
+        
+            <figure>
+                <img src="../../../../assets/artsss.jpeg" alt="Question Image" />
+            </figure>
+
+            <div class="card w-96 bg-base-100 space" *ngFor="let item of [1,2,3]">
+                <div class="card-body">
+
+                    <div class="form-control">
+                        <label class="label cursor-pointer">
+                            <input type="radio" name="radio-6" class="radio checked:bg-red-500" checked />
+                            <span class="label-text">Answer</span>
+                        </label>
+                    </div>
+                  
+                </div>
+              </div>
+
+          
+        </div>
+    </div>
+</div>
