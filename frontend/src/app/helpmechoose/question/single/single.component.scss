@@ -1,11 +1,11 @@
 h3{
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    padding: 20px;
 }
 
 .push{
     // margin: 15px;
-    margin-bottom: 90px;
+    margin-top: 90px;
 }
 
 .b{
@@ -28,10 +28,19 @@ h3{
     width: 100% !important;
 }
 
-.sh:hover{
-    cursor: pointer;
-  transform: scale(1.1);
-}
+// .sh:hover{
+//     cursor: pointer;
+//   transform: scale(1.1);
+// }
 .label-text{
     padding-left: 2%;
+}
+
+.space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 10px 10px 10px 10px !important;
 }
