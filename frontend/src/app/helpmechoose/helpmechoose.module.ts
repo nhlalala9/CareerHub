@@ -16,7 +16,7 @@ import { NotfoundComponent } from '../shared/notfound/notfound.component';
 
 const routes: Routes = [
   {path: 'help', component: HelpmechooseComponent, children:[
-    {path: 'question/:id', component: QuestionComponent},
+    {path: 'question', component: QuestionComponent},
     {path: 'question/single', component: SingleComponent},
     {path: 'category', component: CategoryComponent},
     {path: 'requirements', component: RequirementsComponent},
