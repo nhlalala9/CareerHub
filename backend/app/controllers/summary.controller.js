@@ -5,8 +5,9 @@ const db = require("../configs/db.config");
 exports.createSummary = (req, res) => {
     const { description, image, careerpathid } = req.body;
     try {
+        // inserting 
         db.query(
-            "INSERT INTO summary (description,image,careerpathid) VALUES($1,$2,$3)",
+            "INSERT INTO summary (description,image,careerpathid) VALUES($1,$2,$3)", 
             [description, image, parseInt(careerpathid)],
             (err) => {
                 if (err) {
@@ -16,10 +17,12 @@ exports.createSummary = (req, res) => {
 
             }
         );
+        
     } catch (error) {
         res.status(500).json({ error: "database error" });
     }
 };
+//ending for create summary
 
 //getting all summary  
 exports.getAllSummary = (req, res) => {
@@ -36,6 +39,7 @@ try{
     return res.status(500).json({ error: "sorry,we are still fixing technical issues" });
 }
 }
+//ending for getting all summary
 
 
 
