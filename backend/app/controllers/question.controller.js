@@ -16,3 +16,29 @@ exports.createQuestions = (req, res) => {
         res.status(500).json({ error: "sorry,we are still fixing technical issues" })
     }
 };
+
+exports.getQuestions = (req, res) =>{
+    const categoryId = req.params.id;
+    try{
+        db.query("SELECT * FROM question WHERE categoryid  = $1",
+        [parseInt(categoryId)],
+        (err, results) => {
+            if (err){
+                return res.status(400).json({error: err});
+            }
+            return res.status(200).json(results.rows);
+        });
+    } catch (error){
+        return res.status(500).json({ error: "sorry,we are still fixing technical issues" });
+    }
+};
+
+exports.getallQuestions = (req, res) => {
+    db.query("SELECT * FROM question", (err, results) => {
+      if (err) {
+        return res.status(400).json({ error: "Could not retrieve questions" });
+      }
+      return res.status(200).json(results.rows);
+    });
+  };
+  

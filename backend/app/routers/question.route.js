@@ -15,5 +15,7 @@ app.use(bodyparser.json());
 const controller = require("../controllers/question.controller");
 
 app.post("/createQuestion", controller.createQuestions);
+app.get("/getQuestions/:id", controller.getQuestions);
+app.get("/getAllQuestions", controller.getallQuestions);
 
 module.exports = app;
