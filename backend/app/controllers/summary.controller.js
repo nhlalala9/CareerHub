@@ -17,7 +17,7 @@ exports.createSummary = (req, res) => {
 
             }
         );
-        
+        // catching an error  
     } catch (error) {
         res.status(500).json({ error: "database error" });
     }
