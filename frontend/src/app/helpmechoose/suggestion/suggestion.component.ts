@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
+import { SuggestionService } from 'src/app/services/suggestion.service';
 
 @Component({
   selector: 'app-suggestion',
@@ -9,11 +10,12 @@ import { RoutingService } from 'src/app/services/routing.service';
 })
 export class SuggestionComponent implements OnInit {
 
-  constructor(public category: CategoryService, public routing: RoutingService) { }
+  constructor(public category: CategoryService, public routing: RoutingService, private suggested: SuggestionService) { }
 
   ngOnInit(): void {
     this.category.browse = ''
     this.routing.dynamic = 'help'
   }
+
 
 }
