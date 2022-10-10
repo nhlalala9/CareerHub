@@ -47,7 +47,7 @@
                     name="radio-6"
                     class="radio checked:bg-green-500"
                     (change)="
-                      onAnswer(options.correct, show$[currentQuiz].careerpathId)
+                      onAnswer(options.correct, show$[currentQuiz].careerpathid)
                     "
                     [disabled]="answerSelected"
                   />
@@ -75,7 +75,7 @@
             class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center shs"
             *ngFor="let options of show$[currentQuiz].answer"
             (click)="
-                onAnswer(options.correct, show$[currentQuiz].careerpathId)
+                onAnswer(options.correct, show$[currentQuiz].careerpathid)
               "
           >
             <figure>
@@ -113,7 +113,7 @@
             <figure>
               <img
                 (click)="
-                  onAnswer(options.correct, show$[currentQuiz].careerpathId)
+                  onAnswer(options.correct, show$[currentQuiz].careerpathid)
                 "
                 class="quiz"
                 [src]="options.image"
