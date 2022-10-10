@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Questions } from 'src/app/model/questions';
 import { Score } from 'src/app/model/score';
 import { CategoryService } from 'src/app/services/category.service';
@@ -12,22 +13,43 @@ import { RoutingService } from 'src/app/services/routing.service';
 export class QuestionComponent implements OnInit {
   constructor(
     public category: CategoryService,
-    public routing: RoutingService
+    public routing: RoutingService,
+    private route: Router
   ) {}
 
   show$: Questions[] = [
     {
       id: 1,
-      question: 'which picture do you choose?',
+      question: 'Which can replace the question mark?',
       answer: [
-        { option: 'nice', correct: true, image: '' },
-        { option: 'not good', correct: false, image: '' },
-        { option: 'bad', correct: false, image: '' },
-        { option: 'nonsense', correct: false, image: '' },
+        {
+          option: 'nice',
+          correct: false,
+          image:
+            'https://cdn.discordapp.com/attachments/1009769128179019867/1024621865865588797/Screenshot_2022-09-28_at_12.00.37.png',
+        },
+        {
+          option: 'not good',
+          correct: false,
+          image:
+            'https://cdn.discordapp.com/attachments/1009769128179019867/1024621866276626493/Screenshot_2022-09-28_at_12.00.48.png',
+        },
+        {
+          option: 'bad',
+          correct: true,
+          image:
+            'https://cdn.discordapp.com/attachments/1009769128179019867/1024621866750595132/Screenshot_2022-09-28_at_12.00.58.png',
+        },
+        {
+          option: 'nonsense',
+          correct: false,
+          image:
+            'https://cdn.discordapp.com/attachments/1009769128179019867/1024621867119685662/Screenshot_2022-09-28_at_12.01.06.png',
+        },
       ],
       type: 3,
       image:
-        'https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+        'https://cdn.discordapp.com/attachments/1009769128179019867/1024620618089517066/Screenshot_2022-09-28_at_11.56.07.png',
       careerpathId: 1,
       categoryId: 1,
     },
@@ -165,6 +187,50 @@ export class QuestionComponent implements OnInit {
       careerpathId: 3,
       categoryId: 1,
     },
+    
+
+
+
+    {
+      id: 1,
+      question: 'what do you want?',
+      answer: [
+        { option: 'Yes', correct: false, image: '' },
+        { option: 'No', correct: true, image: '' },
+      ],
+      type: 1,
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQBMJJw3CsZbJ1rfbddHde2qbPjq8gmWT_S8058muJ6qkCyq4mtgmWODALqExozWQ79w&usqp=CAU',
+      careerpathId: 6,
+      categoryId: 1,
+    },
+    {
+      id: 1,
+      question: 'Which can replace the question mark?',
+      answer: [
+        { option: 'Yes', correct: true, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624511972278272/Screenshot_2022-09-28_at_12.11.21.png' },
+        { option: 'No', correct: false, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624512588845067/Screenshot_2022-09-28_at_12.11.30.png' },
+        { option: 'No', correct: true, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624513008279562/Screenshot_2022-09-28_at_12.11.41.png' },
+      ],
+      type: 3,
+      image:
+        'https://cdn.discordapp.com/attachments/1009769128179019867/1024624511456391208/Screenshot_2022-09-28_at_12.10.10.png',
+      careerpathId: 6,
+      categoryId: 1,
+    },
+    {
+      id: 1,
+      question: 'what do you want?',
+      answer: [
+        { option: 'Yes', correct: false, image: '' },
+        { option: 'No', correct: true, image: '' },
+      ],
+      type: 1,
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQBMJJw3CsZbJ1rfbddHde2qbPjq8gmWT_S8058muJ6qkCyq4mtgmWODALqExozWQ79w&usqp=CAU',
+      careerpathId: 6,
+      categoryId: 1,
+    },
   ];
 
   scores: Score[] = [];
@@ -183,6 +249,12 @@ export class QuestionComponent implements OnInit {
 
   getQuizzes() {
     return this.show$;
+  }
+
+  ngDoCheck() {
+    if (this.currentQuiz === this.show$.length) {
+      this.route.navigate([`/help/suggestion/${this.career}/${this.career2}`]);
+    }
   }
 
   scoreMap = new Map();
@@ -221,26 +293,7 @@ export class QuestionComponent implements OnInit {
 
           console.log(`this is third  ${option}`);
         }
-        // else if (option && this.count > 2) {
-
-        //   this.scoreMap.set(careerpathId, this.count + 1);
-        //   console.log(this.scoreMap);
-
-        //   console.log(`this is third but greater ${option}`);
-        //   this.count = 0;
-        // }
       }
-      // if (key == careerpathId) {
-      //   if (option) {
-      //     this.scoreMap.set(careerpathId, parseInt(value)+1);
-      //     console.log(this.scoreMap);
-      //   }
-      // } else {
-      //   value=0
-      //   console.log(this.scoreMap.has(careerpathId))
-      //   // this.scoreMap.set(careerpathId, value);
-      //   console.log(this.scoreMap);
-      // }
     }
 
     this.answerSelected = true;
@@ -253,23 +306,23 @@ export class QuestionComponent implements OnInit {
 
   count: number = 1;
 
-  career: number = 0
-  career2: number = 0
-  big: number = 0
-  big2: number = 0
+  career: number = 0;
+  career2: number = 0;
+  big: number = 0;
+  big2: number = 0;
   calculate() {
-
     this.scoreMap.forEach((value, key) => {
-      if(value > this.big){
-        this.big = value
-        this.career = key
-      }else if(value < this.big && value > this.big2){
+      if (value > this.big) {
+        this.big = value;
+        this.career = key;
+      } else if (value < this.big && value > this.big2) {
         this.big2 = value;
-        this.career2 = key
+        this.career2 = key;
       }
-
     });
 
-    console.log(`the lagest career is ${this.career} and score is ${this.big}, career number is: ${this.career2}, score is ${this.big2}`)
+    console.log(
+      `the lagest career is ${this.career} and score is ${this.big}, career number is: ${this.career2}, score is ${this.big2}`
+    );
   }
 }

@@ -1,80 +1,101 @@
-.move{
-    margin-top: 80px;
+.move {
+  margin-top: 80px;
 }
 
-.pushdown{
-    margin-top: 90px;
+.pushdown {
+  margin-top: 65px;
+  margin-bottom: 60px;
 }
 
-h3{
-    margin-top: 0px;
-    padding: 20px;
+.bb {
+  margin-top: 30px;
 }
 
-.push{
-    // margin: 15px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+h3 {
+  margin-top: 0px;
+  padding: 20px;
 }
 
-.b{
-    border-radius: 0px 0px 10px 10px !important;
-    
+.push {
+  // margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
-.single{
-    border-radius: 10px 10px 10px 10px !important;
-    width: 100%;
+.b {
+  border-radius: 0px 0px 10px 10px !important;
 }
 
-.sh{
-    box-shadow: 0 8px 8px rgba(77, 188, 184, 0.286);
-    margin-bottom: 30px !important;
+.single {
+  border-radius: 10px 10px 10px 10px !important;
+  width: 100%;
 }
 
-.c{
-    display: flex;
-    justify-self: start;
-}
-.small{
-    width: 100% !important;
+.sh {
+  box-shadow: 0 8px 8px rgba(77, 188, 184, 0.286);
+  margin-bottom: 30px !important;
 }
 
-.move{
-    margin-top: 55px;
-    width: 100% !important;
+.c {
+  display: flex;
+  justify-self: start;
+}
+.small {
+  width: 100% !important;
+}
+
+.move {
+  margin-top: 55px;
+  width: 100% !important;
 }
 
 // .sh:hover{
 //     cursor: pointer;
 //   transform: scale(1.1);
 // }
-.label-text{
-    padding-left: 2%;
+.label-text {
+  padding-left: 2%;
 }
 
-.space{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.quiz{
-    border-radius: 10px 10px 10px 10px !important;
+.tt {
+  margin-top: 15px;
+}
+.quizz {
+  width: 380px;
 }
 
-.multi{
-    border-radius: 10px 10px 0px 0px !important;
-    width: 100%;
+.quiz {
+  border-radius: 10px 10px 10px 10px !important;
 }
 
-.rm{
-    margin: 10px;
+.multi {
+  border-radius: 10px 10px 0px 0px !important;
+  width: 100%;
 }
 
-label{
-    justify-content: start !important;
+.quiz:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
-span{
-    margin-left: 10px;
+.b:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.rm {
+  margin: 10px;
+}
+
+label {
+  justify-content: start !important;
+}
+
+span {
+  margin-left: 10px;
 }

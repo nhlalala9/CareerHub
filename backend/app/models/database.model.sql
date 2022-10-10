@@ -38,8 +38,9 @@ CREATE TABLE salaryimage(
 
 CREATE TABLE question(
     id serial not null primary key,
-    question json,
+    question jsonb,
     image varchar(255),
+    type int,
     categoryId int not null,
     careerpathId int not null,
     foreign key(categoryId) references category(id),
