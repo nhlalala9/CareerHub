@@ -1,7 +1,7 @@
 // connecting database 
 const db = require("../configs/db.config");
 
-//backend for create summary
+//backend for create salary
 exports.createSalary = (req, res) => {
   const { image, careerpathid } = req.body;
   try {
@@ -22,7 +22,7 @@ exports.createSalary = (req, res) => {
 };
 // ending for create
 
-// code for getting all summary  
+// code for getting all salary  
 exports.getAllSalary = (req, res) => {
 
   const careerpathid = req.params.id;
