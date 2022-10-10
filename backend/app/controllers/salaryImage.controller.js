@@ -20,8 +20,9 @@ exports.createSalary = (req, res) => {
     res.status(500).json({ error: "database error" });
   }
 };
+// ending for create
 
-//getting all summary  
+// code for getting all summary  
 exports.getAllSalary = (req, res) => {
 
   const careerpathid = req.params.id;
@@ -37,3 +38,4 @@ exports.getAllSalary = (req, res) => {
   res.status(500).json({ error: "sorry,we are still fixing technical issues" });
 }
 }
+// ending for getting all salary
