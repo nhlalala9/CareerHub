@@ -20,7 +20,7 @@ const routes: Routes = [
     {path: 'category', component: CategoryComponent},
     {path: 'requirements', component: RequirementsComponent},
     {path: 'summary', component: SummaryComponent},
-    {path: 'suggestion', component: SuggestionComponent},
+    {path: 'suggestion/:careerId/:careerIdTwo', component: SuggestionComponent},
     {path: '**', component: NotfoundComponent}
   ]}
 ]
