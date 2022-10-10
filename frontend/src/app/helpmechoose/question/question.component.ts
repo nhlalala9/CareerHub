@@ -208,9 +208,9 @@ export class QuestionComponent implements OnInit {
       id: 1,
       question: 'Which can replace the question mark?',
       answer: [
-        { option: 'Yes', correct: true, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624511972278272/Screenshot_2022-09-28_at_12.11.21.png' },
-        { option: 'No', correct: false, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624512588845067/Screenshot_2022-09-28_at_12.11.30.png' },
-        { option: 'No', correct: true, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624513008279562/Screenshot_2022-09-28_at_12.11.41.png' },
+        { option: '', correct: true, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624511972278272/Screenshot_2022-09-28_at_12.11.21.png' },
+        { option: '', correct: false, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624512588845067/Screenshot_2022-09-28_at_12.11.30.png' },
+        { option: '', correct: true, image: 'https://cdn.discordapp.com/attachments/1009769128179019867/1024624513008279562/Screenshot_2022-09-28_at_12.11.41.png' },
       ],
       type: 3,
       image:
