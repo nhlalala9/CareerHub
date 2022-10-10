@@ -3,12 +3,12 @@
 
 <h4 class="flex justify-center font-bold tp">Top Career Areas:</h4>
 <div class="flex justify-center container mx-auto push">
-    <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh">
+    <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngIf="firstCareer$ |async as first">
       <figure>
-        <img src="../../../assets/artsss.jpeg" alt="Shoes" />
+        <img [src]="first.image" alt="Shoes" />
       </figure>
       <button class="btn btn-primary b">
-          <h1>Industrial Engineering</h1>
+          <h1>{{first.name}}</h1>
         <!-- {{ }} -->
       </button>
     </div>

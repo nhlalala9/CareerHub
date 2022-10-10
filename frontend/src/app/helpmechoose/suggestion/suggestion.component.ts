@@ -21,6 +21,13 @@ export class SuggestionComponent implements OnInit {
 
   public firstCareer$ = this.router.paramMap.pipe(
     switchMap((params)=>
+      this.suggested.getSuggestion(params.get('careerId'))
+    )
+  )
+
+  public secondCareer$ = this.router.paramMap.pipe(
+    switchMap((params)=>
+      this.suggested.getSuggestion(params.get('careerIdTwo'))
     )
   )
 }
