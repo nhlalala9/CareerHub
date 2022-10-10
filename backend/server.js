@@ -31,7 +31,7 @@ app.use('/api' ,careerCategory);
 app.use('/api',careerpath);
 app.use('/api',category);
 app.use('/api',qualification);
-// app.use('/api',question);
+app.use('/api',question);
 app.use('/api',requirements);
 app.use('/api',salaryimage);
 app.use('/api',summary);
