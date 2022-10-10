@@ -15,12 +15,12 @@
     </div>
     <h2 class="flex justify-center font-bold ad">Additional Career Areas:</h2>
     <div class="flex justify-center container mx-auto down">
-          <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh">
+          <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngIf="secondCareer$ |async as second">
             <figure>
-              <img src="../../../assets/person-learning-online.jpeg" alt="Shoes" />
+              <img [src]="second.image" alt="Shoes" />
             </figure>
             <button class="btn btn-primary b">
-                <h1>Civil engineering</h1>
+                <h1>{{second.name}}</h1>
               <!-- {{ }} -->
             </button>
           </div>
