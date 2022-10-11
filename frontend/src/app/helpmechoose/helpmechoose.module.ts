@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { HelpmechooseComponent } from './helpmechoose/helpmechoose.component';
 import { CategoryComponent } from './category/category.component';
 import { QuestionComponent } from './question/question.component';
-import { MultiComponent } from './question/multi/multi.component';
-import { SingleComponent } from './question/single/single.component';
 import { SuggestionComponent } from './suggestion/suggestion.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
@@ -26,8 +24,6 @@ const routes: Routes = [
     HelpmechooseComponent,
     CategoryComponent,
     QuestionComponent,
-    MultiComponent,
-    SingleComponent,
     SuggestionComponent,
     LoaderComponent,
   ],
