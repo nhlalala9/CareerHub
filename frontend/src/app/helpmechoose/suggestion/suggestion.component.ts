@@ -20,6 +20,8 @@ export class SuggestionComponent implements OnInit {
     this.routing.dynamic = 'help'
 
     this.routing.home = 'active'
+    this.routing.category = '';
+    this.routing.search = '';
   }
 
   public firstCareer$ = this.router.paramMap.pipe(
