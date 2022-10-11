@@ -4,7 +4,7 @@
 
 .pushdown {
   margin-top: 65px;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 .bb {
@@ -32,7 +32,7 @@ h3 {
 }
 
 .sh {
-  box-shadow: 0 8px 8px rgba(77, 188, 184, 0.286);
+  box-shadow: 0 4px 4px rgb(77, 188, 184);
   margin-bottom: 30px !important;
 }
 
@@ -60,6 +60,7 @@ h3 {
 .space {
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 0 4px 4px rgb(77, 188, 184);
 }
 
 .tt {
@@ -98,4 +99,8 @@ label {
 
 span {
   margin-left: 10px;
+}
+
+img{
+  max-height: 384px !important;
 }
