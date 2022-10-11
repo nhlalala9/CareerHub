@@ -10,16 +10,16 @@ FROM node:14.15-alpine AS build
 WORKDIR /usr/src/app
 
 # copying package.json & package-lock.json files from local root directory — this file contains all dependencies that our app requires,
-COPY package.json package-lock.json ./
+COPY package*.json ./
 
 # installing necessary libraries
-RUN npm install --legacy-peer-deps
+RUN npm install
 
 # copying all remaining files with a source code
 COPY . .
 
 # and finally compiling our app
-RUN npm run build --legacy-peer-deps
+RUN npm run build
 
 
 #################################################################################################################################################
@@ -43,3 +43,4 @@ COPY --from=build . /usr/src/app/dist/frontend
 # BUILD === docker build -t [image_name] .
 
 # RUN === docker run --name [container_name] -d -p [PORT]:80 [image_name]
+# docker run -it -p 9001:3000 backend-docker

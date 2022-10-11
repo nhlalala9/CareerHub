@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { values } from 'cypress/types/lodash';
 import { shareReplay, switchMap } from 'rxjs';
 import { Questions } from 'src/app/model/questions';
 import { Score } from 'src/app/model/score';
