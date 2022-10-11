@@ -1,1 +1,32 @@
 <app-loader></app-loader>
+<h3 class="flex justify-center font-bold sg">Suggested career  you can do:</h3>
+
+<h4 class="flex justify-center font-bold tp">Top Career Areas:</h4>
+<div class="flex justify-center container mx-auto push">
+    <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngFor="let first of firstCareer$ |async" routerLink="/choose/summary/{{first.id}}/{{first.name}}">
+      <figure>
+        <img [src]="first.image" alt="Shoes" />
+      </figure>
+      <button class="btn btn-primary b">
+          <h1>{{first.name}}</h1>
+        <!-- {{ }} -->
+      </button>
+    </div>
+    </div>
+    <h2 class="flex justify-center font-bold ad">Additional Career Areas:</h2>
+    <div class="flex justify-center container mx-auto down">
+          <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngFor="let second of secondCareer$ |async" routerLink="/choose/summary/{{second.id}}/{{second.name}}">
+            <figure>
+              <img [src]="second.image" alt="Shoes" />
+            </figure>
+            <button class="btn btn-primary b">
+                <h1>{{second.name}}</h1>
+              <!-- {{ }} -->
+            </button>
+          </div>
+  </div>
+
+
+<app-topnav></app-topnav>
+<app-navbar></app-navbar>
+<app-loader></app-loader>

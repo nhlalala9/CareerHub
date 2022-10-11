@@ -21,6 +21,7 @@ const question =require("./app/routers/question.route");
 const requirements =require("./app/routers/requirement.route");
 const salaryimage =require("./app/routers/salaryImage.route");
 const summary =require("./app/routers/summary.route");
+const suggestion = require("./app/routers/suggestion.route");
 
 
 
@@ -31,10 +32,11 @@ app.use('/api' ,careerCategory);
 app.use('/api',careerpath);
 app.use('/api',category);
 app.use('/api',qualification);
-// app.use('/api',question);
+app.use('/api',question);
 app.use('/api',requirements);
 app.use('/api',salaryimage);
 app.use('/api',summary);
+app.use('/api', suggestion)
 
 
 
