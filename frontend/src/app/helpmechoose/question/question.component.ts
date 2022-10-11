@@ -38,8 +38,6 @@ export class QuestionComponent implements OnInit {
   )
 
   
-
-  scores: Score[] = [];
   score: number = 0;
   currentQuiz: number = 0;
   answerSelected = false;
@@ -49,12 +47,10 @@ export class QuestionComponent implements OnInit {
     this.category.browse = '';
     this.routing.dynamic = 'help';
     this.routing.home = 'active';
+    this.routing.category = '';
+    this.routing.search = '';
 
 
-  }
-
-  answer(correct: boolean) {
-    console.log(correct);
   }
 
 
