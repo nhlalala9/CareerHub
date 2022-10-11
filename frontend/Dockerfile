@@ -13,13 +13,13 @@ WORKDIR /usr/src/app
 COPY package.json package-lock.json ./
 
 # installing necessary libraries
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # copying all remaining files with a source code
 COPY . .
 
 # and finally compiling our app
-RUN npm run build
+RUN npm run build --legacy-peer-deps
 
 
 #################################################################################################################################################
