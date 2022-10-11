@@ -3,7 +3,7 @@
 
 <h4 class="flex justify-center font-bold tp">Top Career Areas:</h4>
 <div class="flex justify-center container mx-auto push">
-    <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngIf="firstCareer$ |async as first">
+    <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngFor="let first of firstCareer$ |async">
       <figure>
         <img [src]="first.image" alt="Shoes" />
       </figure>
@@ -15,7 +15,7 @@
     </div>
     <h2 class="flex justify-center font-bold ad">Additional Career Areas:</h2>
     <div class="flex justify-center container mx-auto down">
-          <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngIf="secondCareer$ |async as second">
+          <div class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh" *ngFor="let second of secondCareer$ |async">
             <figure>
               <img [src]="second.image" alt="Shoes" />
             </figure>

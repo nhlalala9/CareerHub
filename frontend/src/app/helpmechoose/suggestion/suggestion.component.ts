@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { values } from 'cypress/types/lodash';
 import { switchMap } from 'rxjs';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
@@ -17,6 +18,8 @@ export class SuggestionComponent implements OnInit {
   ngOnInit(): void {
     this.category.browse = ''
     this.routing.dynamic = 'help'
+
+    this.firstCareer$.subscribe((value)=>console.log(value))
   }
 
   public firstCareer$ = this.router.paramMap.pipe(

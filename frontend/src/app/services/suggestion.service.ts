@@ -11,7 +11,7 @@ export class SuggestionService {
 
   constructor(private http: HttpClient) { }
 
-  getSuggestion(id: any): Observable<Career>{
-    return this.http.get<Career>(`${environment.baseUrl}/getsuggestion/${id}`)
+  getSuggestion(id: any): Observable<Career[]>{
+    return this.http.get<Career[]>(`${environment.baseUrl}/getsuggestion/${id}`)
   }
 }
