@@ -1,1 +1,148 @@
-<p>question works!</p>
+<app-loader></app-loader>
+
+<div class="bg-base-200 min-h-screen pushdown">
+  <div class="flex justify-center">
+    <div class="flex w-96 bb">
+      <div
+        class="grid h-12 flex-grow card bg-primary rounded-box place-items-center shadow-xl"
+      >
+        {{ currentQuiz + 1 }}
+      </div>
+      <div class="divider divider-horizontal">OF</div>
+      <div
+        class="grid h-12 flex-grow card bg-primary rounded-box place-items-center shadow-xl"
+      >
+        {{ show$.length }}
+      </div>
+    </div>
+  </div>
+
+  <ng-container [ngSwitch]="show$[currentQuiz].type">
+    <div *ngSwitchCase="1">
+      <div class="flex justify-center container mx-auto push">
+        <div
+          class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
+        >
+          <div
+            class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center sh"
+          >
+            <h3>{{ show$[currentQuiz].question }}</h3>
+
+            <figure>
+              <img
+                class="single"
+                [src]="show$[currentQuiz].image"
+                alt="Question Image"
+              />
+            </figure>
+
+            <div
+              class="card card-compact w-96 bg-primary-200 shadow-xl space"
+              *ngFor="let options of show$[currentQuiz].answer; let x = index"
+            >
+              <div class="form-control">
+                <label class="label cursor-pointer">
+                  <input
+                    type="radio"
+                    name="radio-6"
+                    class="radio checked:bg-green-500"
+                    (change)="
+                      onAnswer(options.correct, show$[currentQuiz].careerpathid)
+                    "
+                    [disabled]="answerSelected"
+                  />
+                  <span class="label-text">{{
+                    show$[currentQuiz].answer[x].option
+                  }}</span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngSwitchCase="2">
+      <h3 class="flex justify-center font-bold">
+        {{ show$[currentQuiz].question }}
+      </h3>
+
+      <div class="flex justify-center container mx-auto push">
+        <div
+          class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
+        >
+          <div
+            class="flex card card-compact w-96 bg-base-100 shadow-xl justify-center shs"
+            *ngFor="let options of show$[currentQuiz].answer"
+            (click)="
+                onAnswer(options.correct, show$[currentQuiz].careerpathid)
+              "
+          >
+            <figure>
+              <img class="multi" [src]="options.image" alt="question" />
+            </figure>
+            <button
+              class="btn btn-primary b"
+            >
+              {{ options.option }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngSwitchCase="3">
+      <h3 class="flex justify-center font-bold">
+        {{ show$[currentQuiz].question }}
+      </h3>
+
+      <div class="flex justify-center">
+        <img class="quizz" [src]="show$[currentQuiz].image" alt="no" />
+      </div>
+
+      <h4 class="flex justify-center font-bold tt">Choose one</h4>
+
+      <div class="flex justify-center container mx-auto push">
+        <div
+          class="grid md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-2 gap-3 sp"
+        >
+          <div
+            class="flex card card-compact w-80 bg-base-100 shadow-xl justify-center sh"
+            *ngFor="let options of show$[currentQuiz].answer"
+          >
+            <figure>
+              <img
+                (click)="
+                  onAnswer(options.correct, show$[currentQuiz].careerpathid)
+                "
+                class="quiz"
+                [src]="options.image"
+                alt="question"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngSwitchDefault>output2</div>
+  </ng-container>
+</div>
+
+<!-- old -->
+<!-- <div class="move">
+  <h1>{{ currentQuiz + 1 }} of {{ show$.length }}</h1>
+  <div>{{ show$[currentQuiz].question }}</div>
+
+  <ul>
+    <li *ngFor="let options of show$[currentQuiz].answer">
+      <input
+        type="radio"
+        name="option"
+        (change)="onAnswer(options.correct, show$[currentQuiz].careerpathId)"
+        [disabled]="answerSelected"
+      />
+      {{ options.option }}
+    </li>
+  </ul>
+</div> -->

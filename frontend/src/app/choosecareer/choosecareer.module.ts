@@ -7,15 +7,23 @@ import { CategoryComponent } from './category/category.component';
 import { CareerComponent } from './career/career.component';
 import { SummaryComponent } from './summary/summary.component';
 import { RequirementsComponent } from './requirements/requirements.component';
-import { summaryFileName } from '@angular/compiler/src/aot/util';
+import { SharedModule } from '../shared/shared.module';
+import { SearchfilterPipe } from '../pipes/searchfilter.pipe';
+import { FormsModule } from '@angular/forms';
+import { NgHttpLoaderModule } from 'ng-http-loader';
+import { LoaderComponent } from './loader/loader.component';
+import { NotfoundComponent } from '../shared/notfound/notfound.component';
 
 const routes: Routes = [
   {path: 'choose', component: ChoosecareerComponent, children: [
-    {path: 'career', component: CareerComponent},
+    {path: 'career/:id/:name', component: CareerComponent},
     {path: 'category', component: CategoryComponent},
-    {path: 'requirements', component: RequirementsComponent},
+    {path: 'requirements/:id/:name', component: RequirementsComponent},
     {path: 'search', component: SearchComponent},
-    {path: 'summary', component: SummaryComponent}
+    {path: 'summary', component: SummaryComponent},
+    {path: 'summary/:id/:name', component: SummaryComponent},
+    {path: 'career', component: CareerComponent},
+    {path: '**', component: NotfoundComponent}
   ]}
 ]
 
@@ -26,10 +34,13 @@ const routes: Routes = [
     CategoryComponent,
     CareerComponent,
     SummaryComponent,
-    RequirementsComponent
+    RequirementsComponent,
+    SearchfilterPipe,
+    LoaderComponent
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes)
+    CommonModule, RouterModule.forChild(routes),SharedModule,FormsModule,
+    NgHttpLoaderModule.forRoot()
   ]
 })
 export class ChoosecareerModule { }

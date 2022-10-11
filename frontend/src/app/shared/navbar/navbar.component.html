@@ -1,0 +1,25 @@
+<div class="btm-nav shadow">
+    <button [ngClass]="routing.search" routerLink="/choose/search" >
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="10" cy="10" r="7"></circle>
+            <line x1="21" y1="21" x2="15" y2="15"></line>
+         </svg>
+         <span class="btm-nav-label">Search</span>
+    </button>
+
+    <button [ngClass]="routing.home" routerLink="/public/home">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+      <span class="btm-nav-label">Home</span>
+    </button>
+    <button [ngClass]="routing.category" routerLink="/{{routing.dynamic}}/category">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stack-3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 2l-8 4l8 4l8 -4l-8 -4"></path>
+            <path d="M4 10l8 4l8 -4"></path>
+            <path d="M4 18l8 4l8 -4"></path>
+            <path d="M4 14l8 4l8 -4"></path>
+         </svg>
+        <span class="btm-nav-label">Category</span>
+    </button>
+  </div>

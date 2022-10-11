@@ -9,15 +9,19 @@ import { SuggestionComponent } from './suggestion/suggestion.component';
 import { SummaryComponent } from './summary/summary.component';
 import { RequirementsComponent } from './requirements/requirements.component';
 import { RouterModule, Routes } from '@angular/router';
-import { SearchComponent } from '../choosecareer/search/search.component';
+import { SharedModule } from '../shared/shared.module';
+import { NgHttpLoaderModule } from 'ng-http-loader';
+import { LoaderComponent } from './loader/loader.component';
+import { NotfoundComponent } from '../shared/notfound/notfound.component';
 
 const routes: Routes = [
   {path: 'help', component: HelpmechooseComponent, children:[
-    {path: 'question', component: QuestionComponent},
+    {path: 'question/:id', component: QuestionComponent},
     {path: 'category', component: CategoryComponent},
     {path: 'requirements', component: RequirementsComponent},
     {path: 'summary', component: SummaryComponent},
-    {path: 'suggestion', component: SuggestionComponent}
+    {path: 'suggestion/:careerId/:careerIdTwo', component: SuggestionComponent},
+    {path: '**', component: NotfoundComponent}
   ]}
 ]
 
@@ -30,10 +34,14 @@ const routes: Routes = [
     SingleComponent,
     SuggestionComponent,
     SummaryComponent,
-    RequirementsComponent
+    RequirementsComponent,
+    LoaderComponent,
   ],
   imports: [
-    CommonModule, RouterModule.forChild(routes)
+    CommonModule, 
+    RouterModule.forChild(routes),
+    SharedModule,
+    NgHttpLoaderModule.forRoot()
   ]
 })
 export class HelpmechooseModule { }

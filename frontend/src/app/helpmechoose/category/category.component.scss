@@ -1,0 +1,38 @@
+h3{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.push{
+    // margin: 15px;
+    margin-bottom: 90px;
+}
+
+.b{
+    border-radius: 0px 0px 10px 10px !important;
+    
+}
+
+img{
+    height: 384px;
+}
+
+.sh{
+    box-shadow: 0 8px 8px rgba(77, 188, 184, 0.286);
+    margin-bottom: 30px !important;
+}
+
+
+.small{
+    width: 100% !important;
+}
+
+.move{
+    margin-top: 55px;
+    width: 100% !important;
+}
+
+.sh:hover{
+    cursor: pointer;
+  transform: scale(1.1);
+}

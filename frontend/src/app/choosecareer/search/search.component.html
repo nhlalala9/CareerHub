@@ -1,1 +1,57 @@
-<p>search works!</p>
+<ng-container>
+  <div class="hero min-h-screen bg-base-200">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <div class="flex justify-center push">
+          <input
+            type="text"
+            placeholder="Search a career"
+            class="input input-bordered input-primary w-full max-w-xs search"
+            [(ngModel)]="this.term"
+            (input)="this.showOrDont()"
+          />
+          
+        </div>
+
+        <div class="card card-compact w-96 bg-base-100 shadow-xl" id="image" *ngIf="show == false; else searches">
+          <figure class="flex justify-center">
+            <img
+              src="https://media.discordapp.net/attachments/1019131152814059570/1019163476003930112/person-searching.jpeg?width=528&height=529"
+            />
+          </figure>
+        </div>
+
+        <div class="flex justify-center">
+          <button
+            class="btn btn-primary shadow-xl buttons"
+            routerLink="/choose/category"
+          >
+            Browse Careers
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</ng-container>
+
+<ng-template #searches>
+  <div class="flex justify-center container mx-auto push">
+    <div
+      class="grid md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 lg:grid-cols-1 gap-3 sp"
+    >
+      <div
+        *ngFor="let item of careers | searchfilter: this.term"
+        routerLink="/choose/summary/{{ item.id }}/{{ item.name }}"
+      >
+        <div class="card card-compact w-80 bg-base-100 shadow-xl sh">
+          <div class="card-body">
+            <h2 class="flex justify-center card-title">{{ item.name }}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+

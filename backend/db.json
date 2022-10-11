@@ -1,0 +1,1786 @@
+{
+  "category":[
+    {
+      "id": 1,
+      "name": "Your Hands",
+      "image": "https://www.wtcsystem.edu/_resources/themes/wtcs/dist/images/Illustrated-Icons/WTCS_WebsiteImageAsset_Icon_Medium_GearInGlove_BLUE_01.png"
+    },{
+      "id": 2,
+      "name": "Computers OR Computer Programs",
+      "image":"https://www.wtcsystem.edu/_resources/themes/wtcs/dist/images/Illustrated-Icons/WTCS_WebsiteImageAsset_Icon_Medium_OnLaptop_BLUE_01.png"
+    },{
+      "id": 3,
+      "name": "Numbers And Data",
+      "image":"https://www.wtcsystem.edu/_resources/themes/wtcs/dist/images/Illustrated-Icons/WTCS_WebsiteImageAsset_Icon_Medium_NumbersData_BLUE_01.png"
+    },{
+      "id": 4,
+      "name": "Hands And Power Tools Or Machinery",
+      "image":"https://www.wtcsystem.edu/_resources/themes/wtcs/dist/images/Illustrated-Icons/WTCS_WebsiteImageAsset_Icon_Medium_Machinery_BLUE_01.png"
+    },{
+      "id": 5,
+      "name": "Video And Recording Technology",
+      "image":"https://www.wtcsystem.edu/_resources/themes/wtcs/dist/images/Illustrated-Icons/WTCS_WebsiteImageAsset_Icon_Medium_VideoAndRecording_BLUE_01.png"
+    }
+  ],
+
+  "question":[
+    {
+      "id": 1,
+      "question": {
+        "question": "Would you like to work",
+        "options": {
+          "answer": ["Indoors", "Outdoors"],
+          "images": ["https://res.cloudinary.com/dadevelopers/image/upload/v1662979658/questions/lgbtqia2_-working-from-home_1_vpe1cy.png",
+          "https://res.cloudinary.com/dadevelopers/image/upload/v1662979705/questions/undraw_multitasking_re_ffpb_1_b8kcbh.svg"]
+        }
+      },
+      "categotyid": 1,
+      "careerpathid": null
+    }
+  ],
+
+
+
+
+  "careercategory": [
+    {
+      "id": 1,
+      "name": "Art, Design and Architecture",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018844057004425276/unknown.png"
+    },
+    {
+      "id": 2,
+      "name": "Business, Economics",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018844056551444490/unknown.png"
+    },
+    {
+      "id": 3,
+      "name": "Engineering",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018844056199106630/unknown.png"
+    },
+    {
+      "id": 4,
+      "name": "Science",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018844055448334407/unknown.png"
+    },
+    {
+      "id": 5,
+      "name": "Computer Science",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018844055850983424/unknown.png"
+    }
+  ],
+
+
+
+
+  "careerpath": [
+    {
+      "id": 1,
+      "name": "Financial, Risk Analyst",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842235791487046/unknown.png",
+      "isoutdoor": false,
+      "careercategoryid": 2
+    },
+    {
+      "id": 2,
+      "name": "Financial planner",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842236366102548/unknown.png",
+      "isoutdoor": false,
+      "careercategoryid": 2
+    },
+    {
+      "id": 3,
+      "name": "Accountant",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842236764573726/unknown.png",
+      "isoutdoor": false,
+      "careercategoryid": 2
+    },
+    {
+      "id": 4,
+      "name": "Economist",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842237091721236/unknown.png",
+      "isoutdoor": false,
+      "careercategoryid": 2
+    },
+    {
+      "id": 5,
+      "name": "Business Consultant",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842237477601361/unknown.png",
+      "isoutdoor": false,
+      "careercategoryid": 2
+    },
+
+
+    {
+      "id": 6,
+      "name": "Web Developer",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018866216447787048/Screenshot_2022-09-12_at_14.50.26.png",
+      "isoutdoor": false,
+      "careercategoryid": 5
+    },
+    {
+      "id": 7,
+      "name": "Software Developer",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018866467858563173/Screenshot_2022-09-12_at_14.51.26.png",
+      "isoutdoor": false,
+      "careercategoryid": 5
+    },
+    {
+      "id": 8,
+      "name": "Network Engineer",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018866593280835585/Screenshot_2022-09-12_at_14.51.56.png",
+      "isoutdoor": false,
+      "careercategoryid": 5
+    },
+    {
+      "id": 9,
+      "name": "Cloud Engineer",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018866710293524530/Screenshot_2022-09-12_at_14.52.25.png",
+      "isoutdoor": false,
+      "careercategoryid": 5
+    },
+    {
+      "id": 10,
+      "name": "Business Analyst",
+      "image": "https://designstripe-secure.imgix.net/scene-snapshots/537ee05e-d970-467e-a64f-e26e73250953/1637684762158/default?auto=format&h=1080&s=615b9b717536832f36fbf61dbd7bbf56",
+      "isoutdoor": false,
+      "careercategoryid": 5
+    },
+    
+
+
+
+    {
+      "id": 11,
+      "name": "Art Graphic Designer",
+      "image": "https://media.istockphoto.com/photos/creativity-takes-courage-picture-id520438705?b=1&k=20&m=520438705&s=170667a&w=0&h=WTRCUo2OyO77AsdQ95oi6sQ2fdOkWNPFVHwOeq3E-8M=",
+      "isoutdoor": true,
+      "careercategoryid": 1
+    },
+    {
+      "id": 12,
+      "name": "Fashion Designer",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018864996492513280/Screenshot_2022-09-12_at_14.45.33.png",
+      "isoutdoor": true,
+      "careercategoryid": 1
+    },
+    {
+      "id": 13,
+      "name": "Architectural Designer",
+      "image": "https://blog.ipleaders.in/wp-content/uploads/2021/06/Arch2O-architectural-sketching-10-architecture-sketching-tips-1.jpg",
+      "isoutdoor": false,
+      "careercategoryid": 1
+    },
+    {
+      "id": 14,
+      "name": "Interior Designer",
+      "image": "https://images-platform.99static.com//yQNYifR4JZKdkMOLY_LwAlSesxI=/368x1185:1624x2441/fit-in/500x500/99designs-contests-attachments/91/91124/attachment_91124369",
+      "isoutdoor": false,
+      "careercategoryid": 1
+    },
+    {
+      "id": 25,
+      "name": "User Exprience Designer",
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/004/580/539/small_2x/ui-ux-programmer-flat-design-illustration-vector.jpg",
+      "isoutdoor": false,
+      "careercategoryid": 1
+    },
+
+
+
+    {
+      "id": 15,
+      "name": "Civil Engineer",
+      "image": "https://img.freepik.com/premium-vector/engineering-team-civil-engineer-surveyor-architect-isolated-vector-illustration_212216-567.jpg?w=2000",
+      "isoutdoor": true,
+      "careercategoryid": 3
+    },
+    {
+      "id": 16,
+      "name": "Mechanical Engineer",
+      "image": "https://media.istockphoto.com/vectors/engineers-make-and-programming-robot-robotics-hardware-and-software-vector-id1271230327?k=20&m=1271230327&s=612x612&w=0&h=5r5Ix7AID-y9aFXJy-TJSa_to6PjQPwciDlySUcTqOg=",
+      "isoutdoor": true,
+      "careercategoryid": 3
+    },
+    {
+      "id": 17,
+      "name": "Electrical Engineer",
+      "image": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/07/30122518/ME-Electronics.jpg",
+      "isoutdoor": true,
+      "careercategoryid": 3
+    },
+    {
+      "id": 18,
+      "name": "Chemical Engineer",
+      "image": "https://thumbs.dreamstime.com/b/pharmaceutical-engineering-vector-icon-drug-formulating-illustration-sign-chemical-engineering-symbol-pharmaceutical-engineering-182031581.jpg",
+      "isoutdoor": false,
+      "careercategoryid": 3
+    },
+    {
+      "id": 19,
+      "name": "Industrial Engineer",
+      "image": "https://media.istockphoto.com/vectors/engineer-woman-vector-id1217336700?k=20&m=1217336700&s=612x612&w=0&h=ded9EEb8d80OK2xnOujSXq9_li3pJouICQRZ9FxuzqU=",
+      "isoutdoor": true,
+      "careercategoryid": 3
+    },
+
+
+
+
+    {
+      "id": 20,
+      "name": "Psychologist",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018873116220469268/Screenshot_2022-09-12_at_15.17.52.png",
+      "isoutdoor": false,
+      "careercategoryid": 4
+    },
+    {
+      "id": 21,
+      "name": "Forensic Science Technician",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018873393220702218/Screenshot_2022-09-12_at_15.18.47.png",
+      "isoutdoor": false,
+      "careercategoryid": 4
+    },
+    {
+      "id": 22,
+      "name": "Research Scientist",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018873868095602799/Screenshot_2022-09-12_at_15.20.51.png",
+      "isoutdoor": false,
+      "careercategoryid": 4
+    },
+    {
+      "id": 23,
+      "name": "Geologist",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018873955894968391/Screenshot_2022-09-12_at_15.21.14.png",
+      "isoutdoor": true,
+      "careercategoryid": 4
+    },
+    {
+      "id": 24,
+      "name": "Biomedical engineer and technology",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018874060215697408/Screenshot_2022-09-12_at_15.21.35.png",
+      "isoutdoor": false,
+      "careercategoryid": 4
+    }
+  ],
+
+
+
+  "Salaryimage": [
+    {
+      "id": 1,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019591357515448390/Screenshot_2022-09-14_at_14.51.18.png",
+      "careerpathid": 11
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019593047463440434/Screenshot_2022-09-14_at_14.58.30.png",
+      "careerpathid": 12
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019592249761333278/Screenshot_2022-09-14_at_14.55.20.png",
+      "careerpathid": 13
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019592646261477536/Screenshot_2022-09-14_at_14.56.01.png",
+      "careerpathid": 14
+    },
+    {
+      "id": 5,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842474745188382/unknown.png",
+      "careerpathid": 2
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842373628887091/unknown.png",
+      "careerpathid": 3
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842370814517340/unknown.png",
+      "careerpathid": 4
+    },
+    {
+      "id": 8,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842239402786906/unknown.png",
+      "careerpathid": 5
+    },
+    {
+      "id": 9,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018859310048083978/Screenshot_2022-09-12_at_14.22.13.png",
+      "careerpathid": 15
+    },
+    {
+      "id": 10,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858413897293864/unknown.png",
+      "careerpathid": 16
+    },
+    {
+      "id": 11,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858413595316364/unknown.png",
+      "careerpathid": 17
+    },
+    {
+      "id": 12,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858412341219349/unknown.png",
+      "careerpathid": 6
+    },
+    {
+      "id": 13,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858411712061490/unknown.png",
+      "careerpathid": 7
+    },
+    {
+      "id": 14,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018858411993088140/unknown.png",
+      "careerpathid": 10
+    },{
+      "id": 15,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1663148073/network%20engineer/Screenshot_2022-09-14_at_11.33.55_wth2d8.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 16,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1663151696/cloud%20engineer/Screenshot_2022-09-14_at_12.33.50_boiaxg.png",
+      "careerpathid": 9
+    },
+    {
+      "id": 17,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019593964006948904/Screenshot_2022-09-14_at_15.02.10.png",
+      "careerpathid": 25
+    },
+    {
+      "id": 18,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019603722856312882/Screenshot_2022-09-14_at_15.40.28.png",
+      "careerpathid": 18
+    }
+    ,
+    {
+      "id": 20,
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019605435138977813/Screenshot_2022-09-14_at_15.47.37.png",
+      "careerpathid": 19
+    },
+    {
+      "id": 21,
+      "image": "",
+      "careerpathid": 20
+    },
+    {
+      "id": 22,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664345847/science/Screenshot_2022-09-28_at_08.16.32_f9swbv.png",
+      "careerpathid": 21
+    },
+    {
+      "id": 23,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346433/science/Screenshot_2022-09-28_at_08.26.58_t0baip.png",
+      "careerpathid": 22
+    },
+    {
+      "id": 24,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346042/science/Screenshot_2022-09-28_at_08.20.25_dyhy1r.png",
+      "careerpathid": 23
+    },
+    {
+      "id": 25,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346209/science/Screenshot_2022-09-28_at_08.23.17_lkl51i.png",
+      "careerpathid": 24
+    },
+    {
+      "id": 26,
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1664346306/science/Screenshot_2022-09-28_at_08.24.53_he4psq.png",
+      "careerpathid": 25
+    }
+  ],
+
+
+
+
+  "summary": [
+    {
+      "id": 1,
+      "description": "graphic design is finding visual solutions for a specific purpose",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018879298779762758/Screenshot_2022-09-12_at_15.42.02.png",
+      "careerpathid": 11
+    },
+    {
+      "id": 2,
+      "description": "Arts has been there to bring you the lowdown on everything that's happened in graphic design",
+      "image": "https://cdn.discordapp.com/attachments/1018833910559408128/1018834139115434116/artsss.jpeg",
+      "careerpathid": 11
+    },
+
+
+
+
+
+    {
+      "id": 4,
+      "description": "Architectural designers plan and design the layout for building",
+      "image": "https://cdn.discordapp.com/attachments/1018833910559408128/1018834138704384010/Architectural-Designer.jpeg",
+      "careerpathid": 13
+    },
+    {
+      "id": 5,
+      "description": "Coordination of working drawings from concept through completion",
+      "image": "https://cdn.discordapp.com/attachments/1018833910559408128/1018834138402410537/archi.webp",
+      "careerpathid": 13
+    },
+    {
+      "id": 6,
+      "description": "Let us look at the steps you need to take as an aspiring Interior Designer so you can quickly establish",
+      "image": "https://cdn.discordapp.com/attachments/1018833910559408128/1018834140747018291/interior-designer.webp",
+      "careerpathid": 14
+    },
+    {
+      "id": 7,
+      "description": "Interior designers make indoor spaces functional,safe, and visually appealing by calculating space requirements",
+      "image": "https://cdn.discordapp.com/attachments/1018833910559408128/1018834140377923684/interio.jpeg",
+      "careerpathid": 14
+    },
+
+
+
+    {
+      "id": 8,
+      "description": "Wealth management advice",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842475055554560/unknown.png",
+      "careerpathid": 2
+    },
+    {
+      "id": 9,
+      "description": "Retirement planning advice",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842475319787551/unknown.png",
+      "careerpathid": 2
+    },
+    {
+      "id": 10,
+      "description": "Insurance and tax advice",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842475856666655/unknown.png",
+      "careerpathid": 2
+    },
+    {
+      "id": 11,
+      "description": "Professional advice regarding investments",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842475554689054/unknown.png",
+      "careerpathid": 2
+    }
+
+    
+    ,{
+      "id": 12,
+      "description": "Preparing budget forecasts",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842373343686657/unknown.png",
+      "careerpathid": 3
+    },
+    {
+      "id": 13,
+      "description": "Processing tax payments and returns",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842373075247144/unknown.png",
+      "careerpathid": 3
+    },
+    {
+      "id": 14,
+      "description": "Manage accounting transactions",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842372764860436/unknown.png",
+      "careerpathid": 3
+    },
+    {
+      "id": 15,
+      "description": "Tracking payments to stakeholders",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842372500623380/unknown.png",
+      "careerpathid": 3
+    },
+
+
+    {
+      "id": 16,
+      "description": "Collecting and analyzing financial, political and socioeconomic data",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842371284291605/unknown.png",
+      "careerpathid": 4
+    },
+    {
+      "id": 17,
+      "description": "Conducting surveys and utilizing various sampling techniques",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842371632406538/unknown.png",
+      "careerpathid": 4
+    },
+    {
+      "id": 18,
+      "description": "Research politics, healthcare and education",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842371984740392/unknown.png",
+      "careerpathid": 4
+    },
+    {
+      "id": 19,
+      "description": "create financial and economic forecasts and models",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842372253163590/unknown.png",
+      "careerpathid": 4
+    },
+
+
+    {
+      "id": 20,
+      "description": "Meeting with assigned clients when needed",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842239029477456/unknown.png",
+      "careerpathid": 5
+    },
+    {
+      "id": 21,
+      "description": "Perform an initial assessment of a problematic situation",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842238660399194/unknown.png",
+      "careerpathid": 5
+    },
+    {
+      "id": 22,
+      "description": "Collecting information about the client's business",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842238224179210/unknown.png",
+      "careerpathid": 5
+    },
+    {
+      "id": 23,
+      "description": "Organise and execute businessprojects on behalf of clients.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018842237829910610/unknown.png",
+      "careerpathid": 5
+    }
+
+
+
+
+    ,
+    {
+      "id": 24,
+      "description": "Researching and providing estimates for projects.",
+      "image": "https://www.vandelaydesign.com/wp-content/uploads/design-project-estimages.jpg",
+      "careerpathid": 15
+    },
+    {
+      "id": 25,
+      "description": "Project management duties",
+      "image": "https://cdn-dilge.nitrocdn.com/CEoyLRJrMZkvcZHgfQFGOitFXuUyzTkm/assets/static/optimized/rev-64c0a57/wp-content/uploads/2022/02/project-manager-illustration.jpg",
+      "careerpathid": 15
+    },
+    {
+      "id": 26,
+      "description": "Making recommendations or presenting alternative solutions to problems.",
+      "image": "https://www.sessionlab.com/wp-content/uploads/header-images.jpg",
+      "careerpathid": 15
+    },
+    {
+      "id": 27,
+      "description": "Developing detailed designs.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5d4072484557bc000155855b/1582145325804-C3VMLKIAC3WE7GLRGMHN/Concept+development+industrial+design+CAD.jpg",
+      "careerpathid": 15
+    }
+
+
+
+
+    ,
+    {
+      "id": 28,
+      "description": "Testing, evaluating, modifying and re-testing products.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9TQaaM1Y2wDl1Uonpd7EAUQ3l-uS87bqlkzoePuSQVqfe4C4J1eScbmNhRQneF8Cwx-s&usqp=CAU",
+      "careerpathid": 16
+    },
+    {
+      "id": 30,
+      "description": "Undertaking relevant research.",
+      "image": "https://i0.wp.com/trustidea.org/wp-content/uploads/2021/04/Webp.net-compress-image-4.jpg?fit=660%2C418&ssl=1",
+      "careerpathid": 16
+    },
+    {
+      "id": 31,
+      "description": "Analysing and interpreting data.",
+      "image": "https://study.com/cimages/videopreview/videopreview-full/65krh9r1vn.jpg",
+      "careerpathid": 16
+    },
+    {
+      "id": 32,
+      "description": "Mechanical engineers can work on components and equipment for many industries including healthcare, power, transport and water.",
+      "image": "https://www.careerindia.com/img/2015/07/31-1438340729-mechanicalengineering.jpg",
+      "careerpathid": 16
+    }
+
+
+
+    ,
+    {
+      "id": 33,
+      "description": "Designing systems and products using computer software.",
+      "image": "https://thumbs.dreamstime.com/z/vector-illustration-technology-design-concept-worker-designing-programming-pc-flat-cartoon-style-metaphor-int-139727069.jpg",
+      "careerpathid": 17
+    },
+    {
+      "id": 34,
+      "description": "Managing power generation, transmission and distribution.",
+      "image": "https://i.pinimg.com/550x/d3/a7/77/d3a777a4fda1f715e12e1cdc92d7b05a.jpg",
+      "careerpathid": 17
+    },
+    {
+      "id": 35,
+      "description": "Managing maintenance programmes.",
+      "image": "https://media.noria.com/sites/Uploads/2020/2/25/SME_Header_MaintenanceManagement.jpg",
+      "careerpathid": 17
+    },
+    {
+      "id": 36,
+      "description": "Testing installations and systems.",
+      "image": "https://media.istockphoto.com/photos/electrician-engineer-uses-a-multimeter-to-test-the-electrical-and-picture-id1345962789?b=1&k=20&m=1345962789&s=170667a&w=0&h=zDGHjQnJ7Wu5TaMK4b4hoj9rb_uSMV8XConI1F_FiuE=",
+      "careerpathid": 17
+    }
+
+
+
+    ,
+    {
+      "id": 37,
+      "description": "Clinical psychologists deals  with a range  of illeness and difficulties.",
+      "image": "https://i0.wp.com/educationplanetonline.com/wp-content/uploads/2022/08/How-to-Become-a-Clinical-Psychologist2.jpg",
+      "careerpathid": 20
+    },
+    {
+      "id": 38,
+      "description": "Counselling psychologists assist people with normal developments issues and prevent mental health disorders.",
+      "image": "https://us.123rf.com/450wm/belchonock/belchonock2003/belchonock200317755/143254661-psychotherapist-and-patient-in-office-hypnotherapy-session.jpg?ver=6",
+      "careerpathid": 20
+    },
+    {
+      "id": 39,
+      "description": "Educational psychologists provide advice and training on how schools might help children learn and develop.",
+      "image": "https://www.healingsense.co.za/wp-content/uploads/2021/10/TUW_What-Can-I-do-With-a-Masters-in-Educational-Psychology.jpg",
+      "careerpathid": 20
+    }
+
+
+    ,
+    {
+      "id": 40,
+      "description": "This is html it structures the web page.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662979937/web%20developer/Screenshot_2022-08-31_at_08.06.48_nj4zoc.png",
+      "careerpathid": 6
+    },
+    {
+      "id": 41,
+      "description": "This is html it structures the web page.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662980026/web%20developer/Screenshot_2022-08-31_at_08.07.08_cr2rxe.png",
+      "careerpathid": 6
+    },
+    {
+      "id": 42,
+      "description": "This is called css you can style your html structure with it.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662980090/web%20developer/Screenshot_2022-08-31_at_08.28.27_qldomg.png",
+      "careerpathid": 6
+    },
+    {
+      "id": 43,
+      "description": "This is what the css did. nice, so your website is done.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662980164/web%20developer/Screenshot_2022-08-31_at_08.28.59_k6bkz5.png",
+      "careerpathid": 6
+    }
+
+
+
+    ,
+    {
+      "id": 44,
+      "description": "I hope you have used an application like whatsapp, facebook, instagram and twitter, that is a work of a software developer.",
+      "image": "https://lh5.googleusercontent.com/oDUgUwudwBlIQ3WSyBE3gZ58_tqhKTDBkic65snFp2x5ZKamuzmyfG-WqYI8AC5vl1iu4RAZhW7JdwnCdyW0lA5RNyCbA5XjW6dBVcHw1hPbYZ1yGX82YIH2pWi4JdgFY38VPPd4",
+      "careerpathid": 7
+    },
+    {
+      "id": 45,
+      "description": "One of the task of a developer is to program, using language that a computer can understand.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981500/software%20developer/developer_coding_el6gef.jpg",
+      "careerpathid": 7
+    },
+    {
+      "id": 46,
+      "description": "Testing and the upload it to the internet and you can access it on your phone, laptab and tablet.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981564/software%20developer/deployed_jc0qcv.jpg",
+      "careerpathid": 7
+    }
+
+
+    
+
+
+    ,
+    {
+      "id": 47,
+      "description": "This is a summary of business analyst role.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981282/business%20analyst/business_analyst_gdoj47.jpg",
+      "careerpathid": 10
+    },
+    {
+      "id": 48,
+      "description": "Business analyst have a meeting with a customer, for business proposal like customer want to buy application for her business.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981375/business%20analyst/business_meeting_eavp1y.jpg",
+      "careerpathid": 10
+    },
+    {
+      "id": 49,
+      "description": "Then a business analyst have a meeting with people that will do application and tell them what the customer want.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981419/business%20analyst/business_meeting_office_k24zh1.jpg",
+      "careerpathid": 10
+    },
+    {
+      "id": 50,
+      "description": "All in all business analyst is a middlepoint of customers and developers.",
+      "image": "https://res.cloudinary.com/dadevelopers/image/upload/v1662981446/business%20analyst/business_middlepoint_x4dt2f.jpg",
+      "careerpathid": 10
+    }
+
+
+    ,
+    {
+      "id": 51,
+      "description": "Designing and implementing new network solutions and/or improving the efficiency of current networks.",
+      "image": "https://4sight.group/wp-content/uploads/2021/09/network-engineering.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 52,
+      "description": "Installing, configuring and supporting network equipment including routers, proxy servers, switches, WAN accelerators, DNS and DHCP.",
+      "image": "https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/resources/4afb0436-a998-11e9-81a4-00505692583a/images/32edc47f369e4f18beec1dc0e001a7b5_Opt-Bandwidth.png",
+      "careerpathid": 8
+    },
+    {
+      "id": 53,
+      "description": "Arranging scheduled upgrades",
+      "image": "https://marketscale.com/wp-content/uploads/2021/04/shutterstock_1076953793.jpg",
+      "careerpathid": 8
+    },
+    {
+      "id": 53,
+      "description": "Investigating faults in the network",
+      "image": "https://www.splunk.com/content/dam/splunk2/images/data-insider/what-is-network-monitoring/network-monitoring-diagram.jpg",
+      "careerpathid": 8
+    }
+
+
+
+    ,
+    {
+      "id": 54,
+      "description": "Collaborating with engineering and development teams to evaluate and identify optimal cloud solutions.",
+      "image": "https://content.waterbear.cloud/wp-content/uploads/image/png/crop-0-0-625-625-0-cloud-team.png",
+      "careerpathid": 9
+    },
+    {
+      "id": 55,
+      "description": "Modifying and improving existing systems.",
+      "image": "https://lh5.googleusercontent.com/wZymo9NpgmNC9HaFY12OZQiAkaPIOXgZLUxcBNZ_B4aHcEqWyVzNQ5Tabw_qd_gSL6DR_IYbCDkGGPLHg38ydL6K2JAKwJmzaEKaZIoPzKOXXJAYPqqb34fJH8XZrMEyeIwZrSoh",
+      "careerpathid": 9
+    },
+    {
+      "id": 56,
+      "description": "Identifying, analyzing, and resolving infrastructure vulnerabilities and application deployment issues.",
+      "image": "https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/03/vulnerability-assessment.png",
+      "careerpathid": 9
+    }
+
+
+
+
+    ,
+    {
+      "id": 57,
+      "description": "Illustrate design ideas using storyboards, process flows and sitemaps.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019594469231833108/experi_ux.jpeg",
+      "careerpathid": 25
+    },
+    {
+      "id": 58,
+      "description": "Develop UI mockups and prototypes that clearly illustrate how sites function and look like.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019594468988571648/ux.png",
+      "careerpathid": 25
+    },
+    {
+      "id": 59,
+      "description": "Gather and evaluate user requirements in collaboration with product managers and engineers.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019594468707549275/user_ux.jpeg",
+      "careerpathid": 25
+    }
+
+
+
+    ,
+    {
+      "id": 60,
+      "description": "Create production sketches for development packages.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019597642558341212/designerr.jpeg",
+      "careerpathid": 12
+    },
+    {
+      "id": 61,
+      "description": "Collaborate with a technical designer to ensure development packages are accurate",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019597139812307034/designers.webp",
+      "careerpathid": 12
+    },
+    {
+      "id": 62,
+      "description": "Collaborate with team members to select seasonal   themes, make edits to lines and create new concepts",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019597140516933722/fashion-designer.jpeg",
+      "careerpathid": 12
+    }
+    
+
+    ,
+    {
+      "id": 63,
+      "description": "Creating a wide range of graphics and layouts for product  and websites with software such as photoshop.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019598073925730405/arts_design.jpeg",
+      "careerpathid": 11
+    }
+
+    ,
+    {
+      "id": 64,
+      "description": "Gathering the necessary measurements, dimensions, and other routine calculations for design layouts.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019599225388023828/Architectural-Design-Software-Technical-Diploma.jpeg",
+      "careerpathid": 13
+    }
+
+    ,
+    {
+      "id": 65,
+      "description": "Research and decide on materials and products sourcing.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019599629177856080/interior_design.jpeg",
+      "careerpathid": 14
+    }
+
+
+
+    ,
+    {
+      "id": 66,
+      "description": "Using scientific, mathematical, and engineering principles to solve problems and improve processes.",
+      "image": "https://cdn.mos.cms.futurecdn.net/HFUAjfbamNhbM8dsNSQW3D.jpg",
+      "careerpathid": 18
+    } ,
+    {
+      "id": 67,
+      "description": "Establishing safety and waste management procedures.",
+      "image": "https://hsseworld.com/wp-content/uploads/2019/08/waste-mangement.jpg",
+      "careerpathid": 18
+    },
+    {
+      "id": 68,
+      "description": "Traveling to work sites and locations to learn about project needs and design, implement, troubleshoot, test, and improve processes, equipment, and facilities.",
+      "image": "https://qubstudio.com/wp-content/uploads/2019/08/product-design-banner.png",
+      "careerpathid": 18
+    },
+    {
+      "id": 69,
+      "description": "Assisting with establishing budgets and timelines.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1019150373858070538/unknown.png",
+      "careerpathid": 18
+    },
+
+
+    {
+      "id": 70,
+      "description": "Evelop design and production standards in cooperation with management and user personnel.",
+      "image": "https://uxstudioteam.com/ux-blog/wp-content/uploads/2020/06/UX-product-design-process.png",
+      "careerpathid": 19
+    },{
+      "id": 71,
+      "description": "Industrial engineering is the branch of engineering that concerns the development.",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018885924442087526/Screenshot_2022-09-12_at_16.07.25.png",
+      "careerpathid": 19
+    },{
+      "id": 72,
+      "description": "Industrial engineering function is in charge of developing better ways to perform work",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018884830617927720/indu.jpeg",
+      "careerpathid": 19
+    },{
+      "id": 73,
+      "description": "You are one step closer to obtaining lucrative industrial engineering jobs ",
+      "image": "https://cdn.discordapp.com/attachments/988343560166338571/1018884830924132452/industrial-engi.webp",
+      "careerpathid": 19
+    },
+
+
+
+
+    {
+      "id": 74,
+      "description": "They are responsible for cleaning up the scene once the evidence has been collected",
+      "image": "https://c8.alamy.com/comp/BGCD7K/crime-scene-investigation-forensic-people-at-a-murder-scene-police-BGCD7K.jpg",
+      "careerpathid": 22
+    },
+    {
+      "id": 75,
+      "description": "They prepare bodies for autopsies and to assist a medical examiner with the autopsy process",
+      "image": "https://www.lexvisio.com/img/cat/expr/146-forensic-pathology-autopsy-expert-witnesses-desktop.webp",
+      "careerpathid": 22
+    },
+    {
+      "id": 76,
+      "description": "Specialize in identifying and comparing fingerprint patterns using laboratory equipment and computer programs",
+      "image": "https://i.ytimg.com/vi/cf3ZHWeeoo0/maxresdefault.jpg",
+      "careerpathid": 22
+    }
+
+
+
+    ,
+    {
+      "id": 77,
+      "description": "Carrying out fieldwork, eg collecting samples",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Zoobentos_sampling_Krippenbach.jpg/1200px-Zoobentos_sampling_Krippenbach.jpg",
+      "careerpathid": 23
+    },
+    {
+      "id": 78,
+      "description": "Organising product/materials testing scientists",
+      "image": "https://www.matest.com/contents/files/services.jpg",
+      "careerpathid": 23
+    },
+    {
+      "id": 79,
+      "description": "Keeping up to date with relevant scientific and technical developments",
+      "image": "https://constitutionpartyofwa.com/wp-content/uploads/2022/03/69.jpeg",
+      "careerpathid": 23
+    }
+
+
+
+    ,
+    {
+      "id": 80,
+      "description": "Study how the earth's surface is formed and changed by rivers, mountains, oceans, air and ice",
+      "image": "https://openpress.usask.ca/app/uploads/sites/29/2017/08/Svalbard.jpg",
+      "careerpathid": 24
+    },
+    {
+      "id": 81,
+      "description": "They undertake technical and scientific analysis of rock, soil, groundwater to see the likely impact that major construction developments will have on sites.",
+      "image": "https://www.aessoil.com/wp-content/uploads/2021/05/iStock-875007530.jpeg",
+      "careerpathid": 24
+    },
+    {
+      "id": 82,
+      "description": "Study the composition, structure, processes, and other physical aspects of the Earth.",
+      "image": "https://i.natgeofe.com/n/bd2d0e38-58b9-4b58-a08d-9b4ac58bc071/MM7908_101105_05024_16x9.jpg",
+      "careerpathid": 24
+    }
+
+
+
+    ,
+    {
+      "id": 83,
+      "description": "Design systems and products.",
+      "image": "https://images.practicaladultinsights.com/slideshow-mobile-small/complex-panel-of-wires.jpg",
+      "careerpathid": 25
+    },
+    {
+      "id": 84,
+      "description": "Train clinicians and other personnel on the proper use of equipment",
+      "image": "https://www.gebauer.com/hubfs/2016/nurse-operating-room.jpg",
+      "careerpathid": 25
+    } ,
+    {
+      "id": 85,
+      "description": "Research the engineering aspects within the biological systems of humans and animals",
+      "image": "https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto/https://www.gcu.edu/sites/default/files/media/GettyImages-1193074238.jpg",
+      "careerpathid": 25
+    }
+
+  ],
+
+  "requirements":[
+    {
+      "id": 1,
+      "requirements": "Matric with Exemption Minimum APS score of 28 English level 4, Mathematics level 4,Mathematical Literacy is Not Accepted,Technical Mathematics is Not Accepted",
+      "careerpathid": 1
+    },
+    {
+      "id": 2,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 2
+    },
+    {
+      "id": 3,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 3
+    },
+    {
+      "id": 4,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 4
+    },
+    {
+      "id": 5,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 5
+    },
+    {
+      "id": 6,
+      "requirements":"A minimum mark of 50% on standard grade or 40% on higher grade in both Physical Sciences, Mathematics and English. ",
+      "careerpathid": 17
+    },
+    {
+      "id": 7,
+      "requirements":"Admission to the BEng degree in Mechanical Engineering requires full matriculation exemption, with an APS count of at least 31, Mathematics level 6 (70–79%) and Physical Sciences level 5 (60–69%).",
+      "careerpathid": 16
+    },
+    {
+      "id": 8,
+      "requirements":"A Grade 12 National Senior Certificate (NSC) and a minimum score of 32 points on the CUT scoring scale, plus a minimum mark of 50% to 59% (Level 4) in both Mathematics and Physical Sciences.",
+      "careerpathid": 15
+    },
+    {
+      "id": 9,
+      "requirements":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 19
+    },
+    {
+      "id": 10,
+      "requirements":"A National Senior Certificate (NSC) (Diploma endorsement) with a rating of 4 in Mathematics or Technical Mathematics (not Mathematical Literacy), English, Physical Science or Technical Science, or N4 Mathematics and Engineering Science with minimum mark of 50%.",
+      "careerpathid": 18
+    },
+    {
+      "id": 11,
+      "requirements": "National Senior Certificate or equivalent qualification An Admission Point Score (APS) of at least 30 Art as a school subject is NOT a requirement.At least 60% for English language (home or first additional).",
+      "careerpathid": 11
+    },
+    {
+      "id": 12,
+      "requirements": "National Senior Certificate with a bachelor's degree an achievement level of 5 for English or Afrikaans, 6 for Mathematics and 5 for Physical Science",
+      "careerpathid": 13
+    },
+    {
+      "id": 13,
+      "requirements": "A Diploma in Interior Design (or a recognised equivalent qualification) with a 60% average pass mark in the final year of the Diploma, is required. Applicants must also obtain a minimum of 60% for the subjects Interior Design 3 and Interior Technology 3.",
+      "careerpathid": 14
+    },
+    {
+      "id": 14,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 5 for Mathematics and 5 for Physical Sciences.",
+      "careerpathid": 12
+    },
+    {
+      "id": 15,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, English Home Language or First Additional Language 4 Mathematics 3 or Technical Maths 4 or Maths Literacy 5",
+      "careerpathid": 15
+    },
+
+
+
+
+
+    {
+      "id": 16,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 6
+    },
+    {
+      "id": 17,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 7
+    },
+    {
+      "id": 18,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 8
+    },
+    {
+      "id": 19,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 9
+    },
+    {
+      "id": 20,
+      "requirements": "To be considered for this qualification, applicants must have an Admission Point Score (APS) of at least 23 (with Mathematics or Technical Mathematics) or 25 (with Mathematical Literacy). Life Orientation is excluded for APS calculation.  And also you can do a learnership if you have your matric and have an interest for Information Technology",
+      "careerpathid": 10
+    }
+
+
+
+
+    ,
+    {
+      "id": 21,
+      "requirements": "A National Senior Certificate, with a minimum of 45% in English ORA Senior Certificate with Higher and/or Standard Grade subjects with a minimum of 45% in English, or equivalent qualification with the minimum APS of 30",
+      "careerpathid": 21
+    },
+    {
+      "id": 22,
+      "requirements": "A National Senior Certificate, with a minimum of 40% in three subjects, one of which is an official language at Home Language level and 30% in three subjects with the minimum APS of 32",
+      "careerpathid": 22
+    },
+    {
+      "id": 23,
+      "requirements": "A National Senior Certificate, with a minimum of 45% in English ORA Senior Certificate with Higher and/or Standard Grade subjects with a minimum of 45% in English, or equivalent qualification with the minimum APS of 30",
+      "careerpathid": 23
+    },
+    {
+      "id": 24,
+      "requirements": "A National Senior Certificate, with a minimum of 40% in three subjects, one of which is an official language at Home Language level and 30% in three subjects with the minimum APS of 21",
+      "careerpathid": 24
+    },
+    {
+      "id": 25,
+      "requirements": "A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language), 4 for Life Sciences, 4 for Mathematics and 4 for Physical Sciences with the minimum APS of 32",
+      "careerpathid": 25
+    }
+  ],
+
+  "qualification":[
+    {
+      "id": 1,
+      "qualification": "Diploma",
+      "description": "Matric with Exemption Minimum APS score of 28 English level 4,Mathematics level 4,Mathematical Literacy is Not Accepted,Technical Mathematics is Not Accepted",
+      "requirementsid": 1
+    },
+    {
+      "id": 2,
+      "qualification": "Bachelor",
+      "description": "A National Senior Certificate with a bachelors degree or a diploma endorsement, or an equivalent qualification. an achievement  English level 4,Mathematics level 4,Mathematical Literacy is Not Accepted,Technical Mathematics is Not Accepted",
+      "requirementsid": 1
+    },
+    {
+      "id": 3,
+      "qualification": "Honours",
+      "description": "A BCom degree with Financial Risk Management,Financial Mathematics and Mathematical Statistics as third-year subjects.• An average mark of at least 60% for Financial Risk Management 314 and 344.",
+      "requirementsid": 1
+    },
+    {
+      "id": 4,
+      "qualification": "Masters",
+      "description": "A BComHons in Financial Risk Management from Stellenbosch University or an equivalent qualification from another recognised university.",
+      "requirementsid": 1
+    },
+    {
+      "id": 5,
+      "qualification": "Diploma",
+      "description": "A Senior Certificate or an equivalent qualification, with at least a D symbol at Higher Grade for English and a C symbol at Standard Grade for Mathematics.",
+      "requirementsid": 2
+    },
+    {
+      "id": 6,
+      "qualification": "Bachelor",
+      "description": "a SAQA Certificate of Equivalence, if they want to enrol for a Higher Certificate, Advanced Certificate, Diploma or Postgraduate qualification",
+      "requirementsid": 2
+    },
+    {
+      "id": 7,
+      "qualification": "Honours",
+      "description": "A potential student must be in possession of one of the following: NQF level 7 qualification with a minimum average of 65% obtained in the final year modules including appropriate knowledge of Financial Planning (assessed at a NQF level 7); or NQF level 7 qualification with 3 years relevant work experience, as deemed acceptable by the Department of Finance and Investment Management,in Financial Planning. Final admission requirements will from time to time be set by the department.",
+      "requirementsid": 2
+    },
+    {
+      "id": 8,
+      "qualification": "Diploma",
+      "description": "A National Senior Certificate (NSC) (Diploma endorsement) with at least 50% in the language of teaching and learning and at least 40% in Mathematics,",
+      "requirementsid": 3
+    },
+    {
+      "id": 9,
+      "qualification": "Bachelor",
+      "description": "A minimum Admissions Point Score (APS) of 28 is required for admission into this degree,with the following specifications: English with an APS of 4 Maths with an APS of 4 Mathematical Literacy is not accepted",
+      "requirementsid": 3
+    },
+    {
+      "id": 10,
+      "qualification": "Honours",
+      "description": "BCom Accounting Sciences or equivalent with an average of 57% for Auditing, Financial Accounting, Financial Management and Taxation on 3rd year level, and At least 53% for Auditing Financial Accounting Financial Management and Taxation on 3rd year level.",
+      "requirementsid": 3
+    },
+    {
+      "id": 11,
+      "qualification": "Masters",
+      "description": "A three-year undergraduate degree with a major in Accounting; A one-year Higher Diploma in Accounting or BAccSc (Honours) – only postgraduate degrees which are in the field of Accounting will be considered (At least 3 of the following subjects requirements are necessary: accounting, management accounting, auditing, finance); Professional Membership of the SAICA (or equivalent body);",
+      "requirementsid": 3
+    },
+    {
+      "id": 12,
+      "qualification": "Doctrate",
+      "description": "A candidate who is in possession of an accounting orientated masters qualification on NQF level 9 may apply for admission to this qualification",
+      "requirementsid": 3
+    },
+    {
+      "id": 13,
+      "qualification": "Diploma",
+      "description": "A minimum APS of 22 with Mathematics or 24 with Mathematical Literacy. English 4 (50%) Mathematics or Technical Mathematics 3 (40%) or Mathematical Literacy 5 (60%).",
+      "requirementsid": 4
+    },
+    {
+      "id": 14,
+      "qualification": "Bachelor",
+      "description": "A minimum APS of 25 with Mathematics or 28 with Mathematical Literacy. English 4 (50%), Mathematics or Technical Mathematics 4 (50%) or Mathematical Literacy 6 (70%).",
+      "requirementsid": 4
+    },
+    {
+      "id": 15,
+      "qualification": "Honours",
+      "description": "a Bachelors degree in Economics or an Advanced Diploma in Economics, with an average of 65% for Economics 3 (NQF level 7) and an average of 65% for either Econometrics 3 (NQF level 7) or Statistics 3 (NQF level 7), to be considered for entrance into the honours programme.",
+      "requirementsid": 4
+    },
+    {
+      "id": 16,
+      "qualification": "Masters",
+      "description": "a cognate qualification on NQF Level 8/Old NQF level 7, which is deemed applicable by the School of Economics.",
+      "requirementsid": 4
+    },
+    {
+      "id": 17,
+      "qualification": "Doctrate",
+      "description": "a relevant Masters qualification (NQF Level 9),relevance of prior experience, internal supervision constraints, the outcome of selection interviews, as well as evaluations and defences of draft research proposals",
+      "requirementsid": 4
+    },
+    {
+      "id": 18,
+      "qualification": "Diploma",
+      "description": "A National Senior Certificate with a bachelors degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language) and 5 for Mathematics or Technical Mathematics or 7 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 5
+    },
+    {
+      "id": 19,
+      "qualification": "Bachelor",
+      "description": "A National Senior Certificate with a bachelors degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 4 for English (home language or first additional language) and 5 for Mathematics or Technical Mathematics or 7 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 5
+    },
+    {
+      "id": 20,
+      "qualification": "Honours",
+      "description": "a BCom, Advanced Diploma or equivalent qualification on NQF LEVEL 7, with Business Management related modules as major modules of which Strategic Management on NQF LEVEL 7 must have been a module.",
+      "requirementsid": 5
+    },
+    {
+      "id": 21,
+      "qualification": "Masters",
+      "description": "an undergraduate and postgraduate degree or diploma (NQF Level 8). A minimum of four years work experience, preferably some in management. A demonstrated level of mathematics literacy: an NQF Level 4 matriculation pass in maths or equivalent",
+      "requirementsid": 5
+    },
+    {
+      "id": 22,
+      "qualification":"Diploma",
+      "description": "Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 6
+    },
+    {
+      "id": 23,
+      "qualification":"Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics or at least 5 (60-69%) for Technical Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science or at least 4 (50-59%) for Technical Sciences. Applicants with an Admission Points Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme. Applicants who have passed Technical Mathematics with the required level as indicated may be referred to the Centre for Access Assessment and Research (CAAR) for testing before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 6
+    },
+    {
+      "id": 24,
+      "qualification": "Masters",
+      "description": "Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 6
+    },
+    {
+      "id": 25,
+      "qualification": "Doctrate",
+      "description": "Master of Technology: Engineering: Electrical or an equivalent qualification. A detailed CV must be presented in the case of equivalent qualifications",
+      "requirementsid": 6
+    },
+    {
+      "id": 26,
+      "qualification": "Diploma",
+      "description": "Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 7
+    },
+    {
+      "id": 27,
+      "qualification":"Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least a level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science. Applicants with an Admissions Point Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 28,
+      "qualification":"Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 29,
+      "qualification":"Doctrate",
+      "description":"Master of Technology: Engineering: Mechanical or an equivalent qualification.",
+      "requirementsid": 7
+    }
+    ,
+    {
+      "id": 30,
+      "qualification":"Diploma",
+      "description":"Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 8
+    }
+    ,
+    {
+      "id": 31,
+      "qualification":"Bachelor",
+      "description":"Admissions Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least a level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science. Applicants with an Admissions Point Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 8
+    },
+    {
+      "id": 32,
+      "qualification":"Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 8
+    },
+    {
+      "id": 33,
+      "qualification": "Diploma",
+      "description":"Admission Points Score of 34. Minimum NSC requirements for diploma entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 3 (40-49%). NSC achievement rating of at least 4 (50-59%) for Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Sciences. Applicants with an Admission Points Score between 26 and 33 may be referred to write the Access Assessment Battery before a decision is made on whether or not to admit the applicant to the course. Or An N3 Certificate with a minimum of 60% in Mathematics and Engineering Science and two languages at senior certificate level.",
+      "requirementsid": 9
+    },
+    {
+      "id": 34,
+      "qualification": "Bachelor",
+      "description":"Admission Points Score of 36. Minimum NSC requirements for degree entry must be met. English, Afrikaans or isiXhosa (home language or first additional language) on at least level 4 (50-59%). NSC achievement rating of at least 5 (60-69%) for Mathematics or at least 5 (60-69%) for Technical Mathematics. NSC achievement rating of at least 4 (50-59%) for Physical Science or at least 4 (50-59%) for Technical Sciences. Applicants with an Admission Points Score of between 30 and 35 may be referred to write the Access Assessment Test before a decision is made on whether or not to admit the applicant to the programme. Applicants who have passed Technical Mathematics with the required level as indicated may be referred to the Centre for Access Assessment and Research (CAAR) for testing before a decision is made on whether or not to admit the applicant to the programme.",
+      "requirementsid": 9
+    },
+    {
+      "id": 35,
+      "qualification": "Masters",
+      "description":"Students must have a 65% average for the Bachelor of Technology: Engineering: Civil or equivalent. The research proposal should preferably be aligned with the faculty research themes.",
+      "requirementsid": 9
+    },
+    {
+      "id": 36,
+      "qualification":"Diploma",
+      "description":"Qualifications Applicable three-year BSc degree Applicable BTech degree Minimum academic requirements SA candidates with BSc qualification: 60% average for degree completed in three years, 65% average for degree completed in more than three years, although preference will be given to candidates with an average of 70% and above. SA candidates with a BTech qualification: 65% average. Preference will be given to applicants with average of 70% and above. International candidates: 65% average / Second Class Upper Division pass for an applicable degree completed in minimum time. Preference will be given to applicants with a First Class pass.",
+      "requirementsid": 10
+    },
+    {
+      "id": 37,
+      "qualification":"Bachelor",
+      "description":" SA candidates with BSc qualification: 60% average for degree completed in three years, 65% average for degree completed in more than three years, although preference will be given to candidates with an average of 70% and above. SA candidates with a BTech qualification: 65% average. Preference will be given to applicants with average of 70% and above. International candidates: 65% average / Second Class Upper Division pass for an applicable degree completed in minimum time. Preference will be given to applicants with a First Class pass.",
+      "requirementsid": 10
+    },
+    {
+      "id": 38,
+      "qualification":"Masters",
+      "description":"Applicable Master’s degree with minimum average of 65% Suitable research topic",
+      "requirementsid": 10
+    },
+    {
+      "id": 39,
+      "qualification":"Diploma",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score Online entrance selection process A minimum APS of 20 with Mathematics or 21 with Mathematical Literacy is required to apply for the programme English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 11
+    },
+    {
+      "id": 40,
+      "qualification":"Bachelor",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programme.",
+      "requirementsid": 11
+    },
+    {
+      "id": 41,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelors degree with a recommended minimum of 60% for all final year modules. Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 11
+    },
+    {
+      "id": 42,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional”  Bachelor’s Degree, or relevant  Postgraduate Diploma,with sufficient preparation to conduct research witha recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Fashion degree, with an average mark of at least 65% combined with a research methodology short learning component as recommended by a Status Committee and approved by the Faculty Board.",
+      "requirementsid": 11
+    },
+    {
+      "id": 43,
+      "qualification":"Doctrate",
+      "description":"n appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 11
+    },
+    {
+      "id": 44,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 12
+    },
+    {
+      "id": 45,
+      "qualification":"Bachelor",
+      "description":"A minimum APS of 28 is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 12
+    },
+    {
+      "id": 46,
+      "qualification":"Honours",
+      "description":"A BTech (Architectural Technology) Applied Design degree that carries SACAP ‘Part 1’ and accreditation, with an average mark of 60% and at least 60% for the modules Applied Design 4 and Theory of Design 4. For internal (UJ) candidates who have achieved the minimum admission requirements, no interview is required, although this may be requested",
+      "requirementsid": 12
+    },
+    {
+      "id": 47,
+      "qualification":"Masters",
+      "description":"A Bachelor of Architecture Honours (BArchHons) degree, or Bachelor of Architectural Studies Honours (BASHons) degree, or an equivalent qualification at an equivalent standard, as recommended by a Status Committee and approved by the Faculty Board and who meet the selection criteria described below",
+      "requirementsid": 12
+    },
+    {
+      "id": 48,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 12
+    },
+    {
+      "id": 49,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 13
+    },
+    {
+      "id": 50,
+      "qualification":"Bachelor",
+      "description":"A National Senior Certificate with requirements as outlined below orAn equivalent qualification at an equivalent standard as determined by a Status Committee. A National Certificate (Vocational) would not be considered.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programmeLanguage of teaching and learning *: 4 Other recognised language **: 4 Mathematics (Maths) only: 4 OR Mathematical Literacy: 5",
+      "requirementsid": 13
+    },
+    {
+      "id": 51,
+      "qualification":"Honours",
+      "description":"An accredited Bachelor’s degree or equivalent in Interior Design, with a recommended average mark of 60% for all final year modules.Minimum duration: one year full-time or two years part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 52,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional” Bachelor’s Degree, or relevant Postgraduate Diploma, with sufficient preparation to conduct research with a recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Interior Design degree, with an average mark of at least 65% Minimum duration: One year full-time/two years part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 53,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 13
+    },
+    {
+      "id": 54,
+      "qualification":"Diploma",
+      "description":"Senior Certificate or equivalent qualification with a minimum APS or M-score (as below) and degree admission.A minimum APS of 23 with Mathematics OR 24 with Technical Maths is required to apply for the programme. Mathematical Literacy is not accepted for this programme.English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 14
+    },
+    {
+      "id": 55,
+      "qualification":"Bachelor",
+      "description":"A Bachelor of Arts in Digital Media Design prepares students to meet the needs of the digital age as designers of content, systems and products, where text, image, video, audio, graphics and animation converge. Starting from a generalised approach, students learn specialisations in interaction design or digital video",
+      "requirementsid": 14
+    },
+    {
+      "id": 56,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelor’s degree with a recommended minimum of 60% for all final year modules.  Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 14
+    },
+    {
+      "id": 57,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional” Bachelor’s Degree, or relevant Postgraduate Diploma, with sufficient preparation to conduct research with a recommended minimum of 60% for all final-year modules. A relevant Baccalaureus degree in Design, with an average mark of at least 65% Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 14
+    },
+    {
+      "id": 58,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 14
+    },
+    {
+      "id": 59,
+      "qualification":"Diploma",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score Online entrance selection process A minimum APS of 20 with Mathematics or 21 with Mathematical Literacy is required to apply for the programme English, Home Language or English First Additional Language Home Language or English First Additional Language",
+      "requirementsid": 15
+    },
+    {
+      "id": 60,
+      "qualification":"Bachelor",
+      "description":"Senior certificate or equivalent qualification with a minimum APS or M-score.A minimum APS of 23 with Mathematics or 24 with Mathematical Literacy is required to apply for the programme.",
+      "requirementsid": 15
+    },
+    {
+      "id": 61,
+      "qualification":"Honours",
+      "description":"An appropriate Bachelors degree with a recommended minimum of 60% for all final year modules. Minimum duration: One year full-time/two years part-time",
+      "requirementsid": 15
+    },
+    {
+      "id": 62,
+      "qualification":"Masters",
+      "description":"A relevant Bachelor Honours Degree a “professional”  Bachelor’s Degree, or relevant  Postgraduate Diploma,with sufficient preparation to conduct research witha recommended minimum of 60% for all final-year modules. A relevant Baccalaureus Technologiae: Fashion degree, with an average mark of at least 65% combined with a research methodology short learning component as recommended by a Status Committee and approved by the Faculty Board.",
+      "requirementsid": 15
+    },
+    {
+      "id": 63,
+      "qualification":"Doctrate",
+      "description":"An appropriate Master’s Degree or equivalent with a minimum final mark of 65% The purpose of the programme is to enable candidates to undertake research at the most advanced academic level culminating in the submission, assessment and acceptance of a thesis. Minimum duration: Two years full-time or part-time.",
+      "requirementsid": 15
+    }
+
+
+
+
+
+
+
+    ,
+    {
+      "id": 64,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 16
+    },
+    {
+      "id": 65,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 16
+    },
+    {
+      "id": 66,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 16
+    },
+    {
+      "id": 67,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 16
+    },
+    {
+      "id": 68,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 16
+    }
+
+
+
+
+
+    ,
+    {
+      "id": 69,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 17
+    },
+    {
+      "id": 70,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 17
+    },
+    {
+      "id": 71,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 17
+    },
+    {
+      "id": 72,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 17
+    },
+    {
+      "id": 73,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 17
+    }
+
+
+
+
+
+
+    ,
+    {
+      "id": 74,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 18
+    },
+    {
+      "id": 75,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 18
+    },
+    {
+      "id": 76,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 18
+    },
+    {
+      "id": 77,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 18
+    },
+    {
+      "id": 78,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 18
+    }
+
+
+
+
+
+    ,
+    {
+      "id": 79,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 19
+    },
+    {
+      "id": 80,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 19
+    },
+    {
+      "id": 81,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 19
+    },
+    {
+      "id": 82,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 19
+    },
+    {
+      "id": 83,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 19
+    }
+
+
+
+
+
+    ,
+    {
+      "id": 84,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate with a bachelor's degree or a diploma endorsement, or an equivalent qualification, with an achievement level of at least 3 for English (home language or first additional language) and 4 for Mathematics or Technical Mathematics or 6 for Mathematical Literacy and 3 for Physical Science or Technical Science.",
+      "requirementsid": 20
+    },
+    {
+      "id": 85,
+      "qualification":"Advanced Diploma/ Bachelor",
+      "description":"A National Diploma Information Technology in the field of Communication Networks or Support Services or a Diploma in Information Technology or a relevant Bachelors' Degree, or an equivalent qualification at NQF level of 6 with 360 credits.",
+      "requirementsid": 20
+    },
+    {
+      "id": 86,
+      "qualification":"Honours",
+      "description":"An Advanced Diploma in Information Technology in the field of Computer Networks or Cyber Security, or a Baccalaureus Technologiae: Information Technology in the field of Communication Networks or Support Services, or a relevant bachelor's degree, or an equivalent qualification at NQF Level 7 with specialisation in Computer Networks or Cyber Security",
+      "requirementsid": 20
+    },
+    {
+      "id": 87,
+      "qualification":"Master's Degree",
+      "description":"An honours degree, or a postgraduate diploma in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 20
+    },
+    {
+      "id": 88,
+      "qualification":"Doctorate",
+      "description":"A master's degree in Information Technology in the fields of Communication Networks or Cyber Security or in a closely related field in Computing. Candidates should have achieved an average of 60% in the previous qualification, if not, special permission must be obtained from the Department.",
+      "requirementsid": 20
+    }
+    
+    
+    
+    
+    ,
+    {
+      "id": 89,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate (Diploma Pass), with a minimum of 45% in English, together with an achievement rating of 3 or lbetter in four designated subjects (including Life Orientation), or equivalent qualification",
+      "requirementsid": 21
+    },
+    {
+      "id": 90,
+      "qualification":"Bachelors",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 21
+    }
+    
+    
+    ,
+    {
+      "id": 91,
+      "qualification":"Diploma",
+      "description":"Achieve 40% in three subjects, one of which is an official language at Home Language level and 30% in three subjects.",
+      "requirementsid": 22
+    },
+    {
+      "id": 92,
+      "qualification":"Bachelors",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 22
+    }
+    
+    
+    
+    ,
+    {
+      "id": 93,
+      "qualification":"Diploma",
+      "description":"A Senior Certificate or an equivalent qualification, with an E symbol at Higher Grade or a D symbol at Standard Grade for English and Mathematics.",
+      "requirementsid": 23
+    },
+    {
+      "id": 94,
+      "qualification":"Masters",
+      "description":"A Postgraduate Diploma in Agriculture, or a Baccalaureus Technologiae: Agriculture, or a Bachelor Honours degree in Agriculture from a South African university in the related or envisaged field of study of the applicant",
+      "requirementsid": 23
+    },
+    {
+      "id": 95,
+      "qualification":"Doctorate",
+      "description":"Any master's degree, or any magister technologiae from an accredited South African university in the related or envisaged field of study of the applicant.",
+      "requirementsid": 23
+    }
+    
+    
+    
+    ,
+    {
+      "id": 96,
+      "qualification":"Bachelor",
+      "description":"An applicant with NSC Grade 12 Mathematics requires an Admission Point Score (APS) of at least 21. NSC achievement rating of at least 60% for Mathematics",
+      "requirementsid": 24
+    },
+    {
+      "id": 97,
+      "qualification":"Masters",
+      "description":"The General Rules for Masters' degrees are applicable. A candidate must also comply with the requirements in the departmental policy document regarding studies towards a Master's degree. The research project for the dissertation must be approved by the Faculty Postgraduate Studies Committee (Science). BSc Honours: Geology or equivalent",
+      "requirementsid": 24
+    }
+    
+    
+    
+    ,
+    {
+      "id": 98,
+      "qualification":"Diploma",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 25
+    },
+    {
+      "id": 99,
+      "qualification":"Bachelors",
+      "description":"A National Senior Certificate or National Certificate (Vocational) with an achievement rating of 4(Adequate Achievement 50-59%) or better in four designated subjects (including Life Orientation)",
+      "requirementsid": 25
+    }
+  ]
+}

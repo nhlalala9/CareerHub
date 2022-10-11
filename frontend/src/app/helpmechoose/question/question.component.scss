@@ -1,0 +1,105 @@
+.move {
+  margin-top: 80px;
+}
+
+.pushdown {
+  margin-top: 65px;
+  margin-bottom: 90px;
+}
+
+.bb {
+  margin-top: 30px;
+}
+
+h3 {
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.push {
+  // margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.b {
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.single {
+  border-radius: 10px 10px 10px 10px !important;
+  width: 100%;
+}
+
+.sh {
+  box-shadow: 0 8px 8px rgba(77, 188, 184, 0.286);
+  margin-bottom: 30px !important;
+}
+
+.c {
+  display: flex;
+  justify-self: start;
+}
+.small {
+  width: 100% !important;
+}
+
+.move {
+  margin-top: 55px;
+  width: 100% !important;
+}
+
+// .sh:hover{
+//     cursor: pointer;
+//   transform: scale(1.1);
+// }
+.label-text {
+  padding-left: 2%;
+}
+
+.space {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tt {
+  margin-top: 15px;
+}
+.quizz {
+  width: 380px;
+}
+
+.quiz {
+  border-radius: 10px 10px 10px 10px !important;
+}
+
+.multi {
+  border-radius: 10px 10px 0px 0px !important;
+  width: 100%;
+}
+
+.quiz:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.b:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.rm {
+  margin: 10px;
+}
+
+label {
+  justify-content: start !important;
+}
+
+span {
+  margin-left: 10px;
+}
+
+img{
+  max-height: 384px !important;
+}

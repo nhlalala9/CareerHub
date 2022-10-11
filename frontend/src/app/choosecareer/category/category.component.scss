@@ -1,0 +1,37 @@
+.push {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+img {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.sh {
+  box-shadow: 0 4px 4px rgb(77, 188, 184);
+  margin-bottom: 30px !important;
+  background-color: white !important;
+}
+
+.names {
+  border: 2px solid #000;
+  border-radius: 5px;
+min-width: 350px;
+  padding: 5px 7px 5px 7px;
+  margin: 10px;
+}
+
+.small {
+  width: 100% !important;
+}
+
+.move {
+  margin-top: 55px;
+  width: 100% !important;
+}
+
+.sh:hover {
+  color: #56aca8;
+  cursor: pointer;
+  transform: scale(1.1);
+}
