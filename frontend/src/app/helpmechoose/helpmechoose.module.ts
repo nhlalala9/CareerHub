@@ -6,8 +6,6 @@ import { QuestionComponent } from './question/question.component';
 import { MultiComponent } from './question/multi/multi.component';
 import { SingleComponent } from './question/single/single.component';
 import { SuggestionComponent } from './suggestion/suggestion.component';
-import { SummaryComponent } from './summary/summary.component';
-import { RequirementsComponent } from './requirements/requirements.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { NgHttpLoaderModule } from 'ng-http-loader';
@@ -18,8 +16,6 @@ const routes: Routes = [
   {path: 'help', component: HelpmechooseComponent, children:[
     {path: 'question/:id', component: QuestionComponent},
     {path: 'category', component: CategoryComponent},
-    {path: 'requirements', component: RequirementsComponent},
-    {path: 'summary', component: SummaryComponent},
     {path: 'suggestion/:careerId/:careerIdTwo', component: SuggestionComponent},
     {path: '**', component: NotfoundComponent}
   ]}
@@ -33,8 +29,6 @@ const routes: Routes = [
     MultiComponent,
     SingleComponent,
     SuggestionComponent,
-    SummaryComponent,
-    RequirementsComponent,
     LoaderComponent,
   ],
   imports: [

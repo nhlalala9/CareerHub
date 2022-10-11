@@ -1,8 +1,11 @@
+const db = require("../configs/db.config");
+
+
 exports.getsuggested = (req, res) => {
     const careerpathId = req.params.id;
     try {
       db.query(
-        "SELECT * FROM careerpath WHERE careerpathid = $1",
+        "SELECT * FROM careerpath WHERE id = $1",
         [careerpathId],
         (err, results) => {
           if (err) {
