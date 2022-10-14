@@ -15,6 +15,10 @@ describe("testing the search component", () => {
 
     it('mounts', () => {
         cy.mount(SearchComponent)
-        cy.get('Input')
+        cy.get('Input') 
     });
+    it("mounts", ()=>{
+        cy.mount(SearchComponent)
+       cy.get('button').click()
+    })
 })
