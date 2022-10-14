@@ -1,4 +1,56 @@
-// Arrange - setup initial app state // Act - take an action // Assert - make an assertion
+describe('HomePage testing', () => {
+
+    it('Goes to the homepage', () => {
+      cy.visit('/public/home')
+    });
+  
+    it('It has welcome message', () =>{
+       // contains is case sensitive
+       cy.contains('Welcome')
+    });
+
+    it('check if help me choose button is clickable and navigates to next page', () =>{
+        cy.contains('me').click()
+      });
+  
+    it('check if choose button is clickable and navigates to next page', () =>{
+      cy.contains('career').click()
+    });
+  
+    it('url after click', () =>{
+      cy.url().should('include', '/choose/search')
+    });
+  
+});
+
+describe('Search page', () => {
+
+    it('goes to search page', () => {
+        cy.visit('choose/search')
+    });
+
+    it('finds search input bar', () =>{
+        cy.get('Input')
+    });
+
+    it('search career on input bar', () =>{
+        cy.get('Input').type('business Consultant').should('have.value', 'business Consultant')
+    });
+
+    it('searched career is clickable', () => {
+        cy.contains('Consultant').click()
+    });
+
+    it('URL endpoint correct after click', () =>{
+        cy.url().should('contain', '/choose/summary/5/Business%20Consultant')
+        cy.go('back')
+    });
+
+    it('has browse career button', () => {
+        cy.get('button')
+    });
+
+});
 
 describe('Browse category page', () => {
     it('goes to browse category page', () =>{

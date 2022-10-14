@@ -25,4 +25,4 @@ describe('Search page', () => {
         cy.get('button')
     });
 
-})
+});

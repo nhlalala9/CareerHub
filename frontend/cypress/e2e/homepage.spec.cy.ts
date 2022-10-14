@@ -25,4 +25,4 @@ describe('HomePage testing', () => {
     cy.contains('me').click()
   });
 
-})
+});
