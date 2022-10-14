@@ -8,7 +8,7 @@ describe('Browse category page', () => {
 
 describe('Test categories, clickable, correct url navigation', () =>{
 
-    it('Has Art category', () => {
+    it('Has Art category clickable, correct url navigation', () => {
         cy.contains('Art').click()
         cy.url().should('include', 'choose/career/1/Art,%20Design%20and%20Architecture')
         cy.go('back')
