@@ -52,7 +52,7 @@ describe('Search page', () => {
 
 });
 
-describe('Browse category page', () => {
+describe('Browse category page/careers page', () => {
     it('goes to browse category page', () =>{
         cy.visit('/choose/category')
     });
@@ -63,30 +63,60 @@ describe('Test categories, clickable, correct url navigation', () =>{
     it('Has Art category clickable, correct url navigation', () => {
         cy.contains('Art').click()
         cy.url().should('include', 'choose/career/1/Art,%20Design%20and%20Architecture')
+        cy.contains('ART GRAPHIC').click()
+        cy.contains('DUTIES')
+        cy.get('button').contains('Requirements').click()
+        cy.get('input')
+        cy.go('back')
+        cy.go('back')
         cy.go('back')
     });
 
     it('Has Business category, clickable, correct url navigation', () => {
         cy.contains('Business').click()
         cy.url().should('include','/choose/career/2/Business,%20Economics')
+        cy.contains('FINANCIAL PLANNER').click()
+        cy.contains('DUTIES')
+        cy.get('button').contains('Requirements').click()
+        cy.get('input')
+        cy.go('back')
+        cy.go('back')
         cy.go('back')
     });
 
     it('Has Engineering category , clickable, correct url navigation', () => {
         cy.contains('Engineering').click()
         cy.url().should('include','choose/career/3/Engineering')
+        cy.contains('CIVIL ENGINEER').click()
+        cy.contains('DUTIES')
+        cy.get('button').contains('Requirements').click()
+        cy.get('input')
+        cy.go('back')
+        cy.go('back')
         cy.go('back')
     });
 
     it('Has Science category , clickable, correct url navigation', () => {
         cy.contains('Science').click()
         cy.url().should('include','/choose/career/4/Science')
+        cy.contains('PSYCHOLOGIST').click()
+        cy.contains('DUTIES')
+        cy.get('button').contains('Requirements').click()
+        cy.get('input')
+        cy.go('back')
+        cy.go('back')
         cy.go('back')
     });
 
     it('Has Technology category , clickable, correct url navigation', () => {
         cy.contains('Technology').click()
         cy.url().should('include','/choose/career/5/Information%20Technology')
+        cy.contains('WEB DEVELOPER').click()
+        cy.contains('DUTIES')
+        cy.get('button').contains('Requirements').click()
+        cy.get('input')
+        cy.go('back')
+        cy.go('back')
         cy.go('back')
     });
 });
