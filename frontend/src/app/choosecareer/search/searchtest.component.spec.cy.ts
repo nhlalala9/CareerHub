@@ -5,19 +5,29 @@ import { RoutingService } from "src/app/services/routing.service";
 import { SearchComponent } from "./search.component";
 import { HttpClientTestingModule} from '@angular/common/http/testing';
 import { Input } from "@angular/core";
+import { SearchfilterPipe } from "src/app/pipes/searchfilter.pipe";
 
 describe("testing the search component", () => {
 
     beforeEach(() => TestBed.configureTestingModule({
-        imports: [HttpClientTestingModule], 
+        imports: [HttpClientTestingModule],
+        declarations: [
+            SearchfilterPipe,
+          ],
         providers: [RoutingService, CategoryService, GetcareerService]
       }));
 
-    it('mounts', () => {
+    it('finds search bar', () => {
         cy.mount(SearchComponent)
-        cy.get('Input') 
+        cy.get('Input')
     });
-    it("mounts", ()=>{
+
+    it('type in search bar', () => {
+        cy.mount(SearchComponent)
+        cy.get('Input').type('design').should('have.value','design')
+    });
+
+    it("find browse button and click", ()=>{
         cy.mount(SearchComponent)
        cy.get('button').click()
     })
