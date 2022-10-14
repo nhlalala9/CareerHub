@@ -31,4 +31,9 @@ describe("testing the search component", () => {
         cy.mount(SearchComponent)
        cy.get('button').click()
     })
+    
+    it('click',()=>{
+        cy.mount(SearchComponent)
+        cy.get('button').contains('Browse').click()
+    })
 })
