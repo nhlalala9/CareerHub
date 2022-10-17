@@ -15,6 +15,8 @@
       </figure>
     </div>
   </div>
+  <!-- end of salary hmtl -->
+  
   <!-- heading of summary -->
   <div class="flex justify-center">
     <div class="font-bold bg-base-200 named">
@@ -32,6 +34,7 @@
         class="card card-compact w-96 bg-base-100 shadow-xl sh"
         *ngFor="let item of summary$ | async"
       >
+      <!-- takes data  -->
         <div class="flex justify-center">
           <div class="flex justify-center names">
             {{ item.description }}
@@ -43,13 +46,13 @@
       </div>
     </div>
   </div>
-  <!--end of summary heading-->
+  <!--ending card  for description-->
 
   <!-- button for requirements -->
   <div class="flex justify-center sep">
     <button
       class="btn btn-primary shadow-xl w-96 buttons"
-      routerLink="/choose/requirements/{{ careerpathId }}/{{ careerpathName }}"
+      routerLink="/choose/requirements/{{ careerpathId }}/{{ careerpathName }}" 
     >
       Requirements
     </button>
@@ -62,3 +65,5 @@
 
 
 <app-loader></app-loader>
+
+<!-- ending for loading -->
