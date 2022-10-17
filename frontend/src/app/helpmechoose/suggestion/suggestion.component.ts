@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
-import { values } from 'cypress/types/lodash';
+import { ActivatedRoute } from '@angular/router';
 import { switchMap } from 'rxjs';
 import { CategoryService } from 'src/app/services/category.service';
 import { RoutingService } from 'src/app/services/routing.service';
