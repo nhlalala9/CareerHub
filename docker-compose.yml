@@ -13,11 +13,11 @@ services:
   database:
     image: postgres:10.4
     ports:
-      - 5433:5432
+      - 5435:5432
     volumes:
       - ./db/data:/var/lib/postgresql/data
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: pass
       POSTGRES_DB: db
-      DATABASE_URL: postgres://user:pass@postgres:5432/db
+      DATABASE_URL: postgres://postgres:pass@postgres:5435/db
