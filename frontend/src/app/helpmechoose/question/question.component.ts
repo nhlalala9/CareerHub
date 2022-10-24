@@ -99,7 +99,7 @@ export class QuestionComponent implements OnInit {
     setTimeout(() => {
       this.currentQuiz++;
       this.answerSelected = false;
-    }, 2000);
+    }, 500);
     this.calculate();
   }
 
