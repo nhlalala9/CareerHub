@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:8080"
+  backend:
+    build: ./backend
+    environment:
+      - PORT=8081
+    ports:
+      - "8081:8081"
+  database:
+    image: postgres:10.4
+    ports:
+      - 5435:5432
+    volumes:
+      - ./db/data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: db
+      DATABASE_URL: postgres://postgres:pass@postgres:5435/db
