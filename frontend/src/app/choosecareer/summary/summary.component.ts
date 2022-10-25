@@ -11,10 +11,11 @@ import { shareReplay, switchMap } from 'rxjs';
   styleUrls: ['./summary.component.scss'],
 })
 export class SummaryComponent implements OnInit {
+  // subscribe and unsubscribe
   public summary$= this.route.paramMap.pipe(
     switchMap((params)=>this.summary.summary([params.get('id')]).pipe(shareReplay(1)))
   );
-
+// subscribe and unsubscribe
   public salary$ = this.route.paramMap.pipe(
     switchMap((params)=>this.summary.salary([params.get('id')]).pipe(shareReplay(1)))
   )

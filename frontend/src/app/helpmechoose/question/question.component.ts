@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { shareReplay, switchMap } from 'rxjs';
 import { Questions } from 'src/app/model/questions';
-import { Score } from 'src/app/model/score';
 import { CategoryService } from 'src/app/services/category.service';
 import { QuestionService } from 'src/app/services/question.service';
 import { RoutingService } from 'src/app/services/routing.service';
