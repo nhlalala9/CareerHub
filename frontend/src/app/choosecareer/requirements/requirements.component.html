@@ -1,12 +1,9 @@
 <ng-container *ngIf="(requirements$ | async)?.length != 0; else loading">
   <h1 class="flex justify-center font-bold text-3xl heading">
-    These are the minimum requirements for a {{ careerpathName }}:
+    These are the minimum requirements for {{title}} {{ careerpathName }}:
   </h1>
   <div class="flex justify-center container mx-auto push">
-    <div
-      class="card card-compact w-96 bg-base-100 shadow-xl sh"
-      *ngFor="let item of requirements$ | async"
-    >
+    <div class="card card-compact w-96 bg-base-100 shadow-xl sh" *ngFor="let item of requirements$ | async">
       <div class="flex justify-center">
         <div class="flex justify-center font-bold bg-base-200 names">
           Minimun Requirements
@@ -27,15 +24,17 @@
     <p class="font-bold">Qualifications you can acquire:</p>
   </div>
 
+  <div class="flex justify-center">
+    <div class="max-w-xs text-sm breadcrumbs">
+      <ul>
+        <li *ngFor="let item of qualification$ | async">{{item.qualification}}</li>
+      </ul>
+    </div>
+  </div>
+
   <div class="ppa">
-    <div
-      class="flex justify-center space"
-      *ngFor="let item of qualification$ | async"
-    >
-      <div
-        tabindex="0"
-        class="collapse collapse-arrow border w-96 border-base-300 bg-base-100 rounded-box ff"
-      >
+    <div class="flex justify-center space" *ngFor="let item of qualification$ | async">
+      <div tabindex="0" class="collapse collapse-arrow border w-96 border-base-300 bg-base-100 rounded-box ff">
         <input type="checkbox" />
         <div class="collapse-title text-xl font-medium">
           {{ item.qualification }}
